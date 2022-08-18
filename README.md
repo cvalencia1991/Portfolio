@@ -2,11 +2,11 @@
 
 # Hello Microverse
 
-> I create my first proyect to microverse
+> I create my first Portfolio the set up and mobile first
 
 ## Author
 
-👤 **Author1**
+👤 **Autor1**
 
 - GitHub: [https://github.com/cvalencia1991](https://github.com/cvalencia1991)
 - Twitter: [@cvalenciaguilar](@cvalenciaguilar)
