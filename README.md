@@ -2,7 +2,7 @@
 
 # Hello Microverse
 
-> I create my first proyect to microverse
+> I create my first portafolio Proyect with Microverse
 
 ## Author
 
