@@ -71,7 +71,7 @@ a {
 h1 {
   width: 327px;
   height: 124px;
-  font-family: 'Crete Round';
+  font-family: 'Crete Round', sans-serif;
   font-weight: 400;
   font-size: 56px;
   line-height: 64px;
