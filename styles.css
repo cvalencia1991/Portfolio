@@ -1,4 +1,9 @@
 
+@font-face {
+  font-family: 'Crete Round';
+  src: url(Font\ families/crete-round.ttf);
+}
+
 .home {
   background: #fff;
   z-index: 10px;
@@ -67,7 +72,7 @@ a {
 h1 {
   width: 327px;
   height: 124px;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Crete Round';
   font-style: normal;
   font-weight: 400;
   font-size: 56px;
