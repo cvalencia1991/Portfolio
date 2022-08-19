@@ -4,6 +4,12 @@
   z-index: 10px;
 }
 
+a {
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+  color:#fff
+}
+
 .cover {
   display: flex;
   flex-direction: column;
@@ -89,11 +95,7 @@ h2 {
   flex-grow: 0;
 }
 
-h3 {
-  font-family: 'Roboto', sans-serif;
-  color: #ff6b00;
-  font-style: oblique;
-}
+
 
 p {
   width: 327px;
@@ -140,7 +142,4 @@ body {
   margin: 1px;
 }
 
-a {
-  color: white;
-  font-family: 'Roboto', sans-serif;
-}
+
