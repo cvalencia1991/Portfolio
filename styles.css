@@ -1,7 +1,7 @@
 
 @font-face {
   font-family: 'Crete Round';
-  src: url(Font\ families/crete-round.ttf);
+  src: url(Fontfamilies/crete-round.ttf);
 }
 
 .home {
@@ -12,7 +12,7 @@
 a {
   font-family: 'Roboto', sans-serif;
   text-decoration: none;
-  color:#fff
+  color: #fff;
 }
 
 .cover {
@@ -63,7 +63,6 @@ a {
   width: 100%;
   height: 100%;
   top: 1px;
-  align-items: baseline;
   background: #3c3a39;
   color: white;
   padding: 18px 10px;
@@ -73,7 +72,6 @@ h1 {
   width: 327px;
   height: 124px;
   font-family: 'Crete Round';
-  font-style: normal;
   font-weight: 400;
   font-size: 56px;
   line-height: 64px;
@@ -82,7 +80,7 @@ h1 {
   flex: none;
   order: 0;
   flex-grow: 0;
-  border: 1px solid #ff6b00 ;
+  border: 1px solid #ff6b00;
 }
 
 h2 {
@@ -100,6 +98,7 @@ h2 {
   order: 1;
   flex-grow: 0;
 }
+
 p {
   width: 327px;
   height: 123px;
@@ -137,19 +136,17 @@ p {
   padding-right: 40px;
 }
 
-ul{
+ul {
   position: absolute;
-    align-items: center;
-    padding: initial;
-    display: inline-flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: space-around;
-    list-style: none;
+  align-items: center;
+  padding: initial;
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  list-style: none;
 }
 
 body {
   margin: 1px;
 }
-
-
