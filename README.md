@@ -5,7 +5,6 @@
 > I create my first Portfolio the set up and mobile first
 
 
-## Author
 
 👤 **Cesar Valencia**
 
