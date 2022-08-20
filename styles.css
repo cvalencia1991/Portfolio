@@ -1,5 +1,5 @@
 
-body{
+body {
   max-width: 375px;
   margin: auto;
 }
@@ -62,7 +62,7 @@ a {
 }
 
 h1,
-h11 {
+h6 {
   height: 100px;
   font-family: 'Crete Round', serif;
   font-weight: 400;
@@ -140,6 +140,7 @@ ul {
   list-style: none;
   margin: 10px;
 }
+
 .proyects {
   background: #fff;
   flex-direction: column;
@@ -364,10 +365,9 @@ ul {
   left: 1px;
   top: 4137px;
   background: #1c1a19;
- position: absolute;
   flex-direction: column;
   align-content: center;
-  display:flex;
+  display: flex;
 }
 
 .white {
@@ -451,18 +451,16 @@ ul {
   flex-wrap: nowrap;
 }
 
-.fontaboutmeskills{
-
-width: 162px;
-height: 24px;
-font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 22px;
-line-height: 43px;
-display: flex;
-align-items: center;
-text-align: center;
-
-color: #FFFFFF;
+.fontaboutmeskills {
+  width: 162px;
+  height: 24px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 43px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #fff;
 }
