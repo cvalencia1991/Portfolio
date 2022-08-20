@@ -1,12 +1,7 @@
 
-@font-face {
-  font-family: 'Crete Round';
-  src: url(Fontfamilies/IntelClear_Bd.ttf);
-}
-
-@font-face {
-  font-family: 'Inter';
-  src: url(Fontfamilies/IntelClear_Rg.ttf);
+body{
+  max-width: 375px;
+  margin: auto;
 }
 
 a {
@@ -21,7 +16,6 @@ a {
   align-items: flex-start;
   padding: 10px 24px;
   gap: 1px;
-  position: absolute;
   left: 1px;
   right: 1px;
   bottom: 1px;
@@ -60,7 +54,6 @@ a {
   justify-content: space-between;
   align-items: center;
   position: relative;
-  width: 100%;
   height: 100%;
   top: 1px;
   background: #3c3a39;
@@ -69,10 +62,9 @@ a {
 }
 
 h1,
-h3 {
-  width: 327px;
+h11 {
   height: 100px;
-  font-family: 'Crete Round', sans-serif;
+  font-family: 'Crete Round', serif;
   font-weight: 400;
   font-size: 56px;
   line-height: 64px;
@@ -81,6 +73,8 @@ h3 {
   flex: none;
   order: 0;
   flex-grow: 0;
+  display: flex;
+  justify-content: flex-start;
 }
 
 h2 {
@@ -144,34 +138,27 @@ ul {
   flex-wrap: nowrap;
   justify-content: space-around;
   list-style: none;
+  margin: 10px;
 }
-
-body {
-  margin: 1px;
-}
-
 .proyects {
   background: #fff;
   flex-direction: column;
   align-items: center;
-  padding: 120px 1px;
-  gap: 80px;
-  position: absolute;
-  width: 100%;
+  display: flex;
   height: 3455px;
   left: 1px;
   top: 682px;
 }
 
 .imgprincipal {
-  padding-left: 24px;
+  padding: 24px;
 }
 
 .fontstitles {
   margin-left: 24px;
   width: 327px;
   height: 83px;
-  font-family: 'Crete Round', sans-serif;
+  font-family: 'Crete Round', serif;
   font-style: normal;
   font-weight: 400;
   font-size: 40px;
@@ -204,7 +191,7 @@ body {
 .head1 {
   width: 327px;
   height: 36px;
-  font-family: 'Crete Round', sans-serif;
+  font-family: 'Crete Round', serif;
   font-style: normal;
   font-weight: 400;
   font-size: 32px;
@@ -220,7 +207,7 @@ body {
 .letter1 {
   width: 327px;
   height: 36px;
-  font-family: 'Crete Round', sans-serif;
+  font-family: 'Crete Round', serif;
   font-style: normal;
   font-weight: 400;
   font-size: 32px;
@@ -368,18 +355,19 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 24px;
-  grid-template-rows: 24px 162px 15px auto;
+  grid-template-rows: 24px 220px 20px 100px;
 }
 
 .aboutme {
-  position: absolute;
   width: 100%;
   height: 1901px;
   left: 1px;
   top: 4137px;
   background: #1c1a19;
+ position: absolute;
   flex-direction: column;
-  align-items: center;
+  align-content: center;
+  display:flex;
 }
 
 .white {
@@ -421,7 +409,7 @@ body {
 .aboutmeskills {
   width: 164px;
   height: 24px;
-  font-family: 'InaiMathi', sans-serif;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
@@ -461,4 +449,20 @@ body {
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
+}
+
+.fontaboutmeskills{
+
+width: 162px;
+height: 24px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 43px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #FFFFFF;
 }
