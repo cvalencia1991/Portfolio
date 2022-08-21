@@ -1,13 +1,19 @@
 
-body {
-  max-width: 375px;
-  margin: auto;
-}
-
 a {
   font-family: 'Roboto', sans-serif;
   text-decoration: none;
   color: #fff;
+  transition: black 1s;
+}
+
+a:hover {
+  color: black;
+}
+
+ol {
+  list-style-type: none;
+  display: flex;
+  padding: 1px;
 }
 
 .cover {
@@ -61,8 +67,7 @@ a {
   padding: 18px 10px;
 }
 
-h1,
-h6 {
+h1 {
   height: 100px;
   font-family: 'Crete Round', serif;
   font-weight: 400;
@@ -139,20 +144,23 @@ ul {
   justify-content: space-around;
   list-style: none;
   margin: 10px;
+  list-style-image: url(imgs/Rectangle\ 55.jpg);
+  list-style-type: auto;
 }
 
 .proyects {
   background: #fff;
   flex-direction: column;
-  align-items: center;
   display: flex;
   height: 3455px;
   left: 1px;
   top: 682px;
+  padding: 24px;
 }
 
 .imgprincipal {
-  padding: 24px;
+  display: flex;
+  align-items: center;
 }
 
 .fontstitles {
@@ -189,6 +197,36 @@ ul {
   border: 1px solid black;
 }
 
+.letter {
+  width: 327px;
+  height: 36px;
+  font-family: 'Crete Round', serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 44px;
+  display: flex;
+  align-items: center;
+  color: #091e42;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.intro1 {
+  width: 327px;
+  height: 147px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  display: flex;
+  order: 0;
+  flex-grow: 0;
+  color: #091e42;
+}
+
 .head1 {
   width: 327px;
   height: 36px;
@@ -214,8 +252,9 @@ ul {
   font-size: 32px;
   line-height: 44px;
   display: flex;
+  background: transparent;
   align-items: center;
-  color: #091e42;
+  color: #fff;
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -229,7 +268,8 @@ ul {
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  color: #091e42;
+  color: #fff;
+  background: transparent;
   flex: none;
   order: 1;
   flex-grow: 0;
@@ -243,16 +283,34 @@ ul {
   font-weight: 500;
   font-size: 15px;
   line-height: 20px;
-  color: #091e42;
+  color: #fff;
   flex: none;
   order: 0;
   flex-grow: 0;
   border: 1px solid #8993a4;
+  background: transparent;
   display: flex;
   justify-content: center;
   flex-direction: row;
   flex-wrap: nowrap;
   align-items: center;
+}
+
+.css2 {
+  width: 32px;
+  height: 20px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  color: #091e42;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border: 1px solid #8993a4;
+  background: transparent;
+  padding: 10px 12px;
 }
 
 .html {
@@ -263,16 +321,32 @@ ul {
   font-weight: 500;
   font-size: 15px;
   line-height: 20px;
-  color: #091e42;
+  color: #fff;
   flex: none;
   order: 0;
   flex-grow: 0;
   border: 1px solid #8993a4;
+  background: transparent;
   display: flex;
   justify-content: center;
   flex-direction: row;
   flex-wrap: nowrap;
   align-items: center;
+}
+
+.html2 {
+  width: 32px;
+  height: 20px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  display: flex;
+  color: #091e42;
+  padding: 10px 12px;
+  background: #fff;
+  border: 1px solid #8993a4;
 }
 
 .boostrap {
@@ -283,7 +357,8 @@ ul {
   font-weight: 500;
   font-size: 15px;
   line-height: 20px;
-  color: #091e42;
+  color: #fff;
+  background: transparent;
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -293,6 +368,23 @@ ul {
   flex-direction: row;
   flex-wrap: nowrap;
   align-items: center;
+}
+
+.boostrap2 {
+  width: 95px;
+  height: 40px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  color: #091e42;
+  border: 1px solid #8993a4;
 }
 
 .ruby {
@@ -303,7 +395,7 @@ ul {
   font-weight: 500;
   font-size: 15px;
   line-height: 20px;
-  color: #091e42;
+  color: #fff;
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -315,26 +407,21 @@ ul {
   align-items: center;
 }
 
-.seeproyect {
+.ruby2 {
+  display: flex;
+  width: 37px;
+  height: 20px;
   font-family: 'Inter', sans-serif;
   font-style: normal;
-  font-weight: 700;
-  font-size: 17px;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  width: 124px;
-  height: 48px;
-  background: #ff6b00;
-  flex: none;
-  order: 3;
-  flex-grow: 0;
-  justify-content: center;
-  flex-wrap: nowrap;
-  color: #fff;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  color: #091e42;
+  border: 1px solid #8993a4;
+  padding: 10px 12px;
 }
 
-.seeproyect2 {
+.btnseeproyect {
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -342,7 +429,7 @@ ul {
   display: flex;
   flex-direction: row;
   align-items: center;
-  width: 328px;
+  width: 127px;
   height: 48px;
   background: #ff6b00;
   flex: none;
@@ -351,6 +438,39 @@ ul {
   justify-content: center;
   flex-wrap: nowrap;
   color: #fff;
+  border: 1px solid transparent;
+  cursor: pointer;
+  transition: black 1s;
+}
+
+.btnseeproyect:hover {
+  color: black;
+}
+
+.btnseeproyect2 {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 327px;
+  height: 48px;
+  background: #ff6b00;
+  flex: none;
+  order: 3;
+  flex-grow: 0;
+  justify-content: center;
+  flex-wrap: nowrap;
+  color: #fff;
+  border: 1px solid transparent;
+  cursor: pointer;
+  transition: black 1s;
+}
+
+.btnseeproyect2 :hover {
+  color: black;
 }
 
 .grid {
@@ -370,11 +490,6 @@ ul {
   flex-direction: column;
   align-content: center;
   display: flex;
-}
-
-.white {
-  color: #fff !important;
-  background: rgba(255, 255, 255, 0.24);
 }
 
 .grid2 {
@@ -451,6 +566,8 @@ ul {
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
+  flex-wrap: wrap;
+  gap: 44px;
 }
 
 .fontaboutmeskills {
@@ -465,4 +582,23 @@ ul {
   align-items: center;
   text-align: center;
   color: #fff;
+}
+
+h6 {
+  font-family: 'Crete Round', serif;
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 64px;
+  letter-spacing: 0.37px;
+  color: #ff6b00;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 10px;
+}
+
+.contend2 {
+  display: flex;
 }
