@@ -466,7 +466,6 @@ ul {
   color: #fff;
   border: 1px solid transparent;
   cursor: pointer;
-  transition: black 1s;
 }
 
 .btnseeproyect2 :hover {
@@ -601,4 +600,7 @@ h6 {
 
 .contend2 {
   display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: flex-start;
 }
