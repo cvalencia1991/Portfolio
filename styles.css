@@ -102,7 +102,7 @@ p {
   flex: none;
   order: 2;
   flex-grow: 0;
-  text-align: justify;
+  text-align: inherit;
 }
 
 .name {
@@ -146,12 +146,11 @@ ul {
 
 .imgprincipal {
   display: flex;
-  align-items: center;
+  width: 327px;
+  height: 237px;
 }
 
 .fontstitles {
-  width: 327px;
-  height: 83px;
   font-family: 'Crete Round', serif;
   font-style: normal;
   font-weight: 400;
@@ -194,6 +193,8 @@ ul {
   flex: none;
   order: 0;
   flex-grow: 0;
+  margin-bottom: 12px;
+  margin-top: 24px;
 }
 
 .intro1 {
@@ -235,7 +236,6 @@ ul {
   font-size: 32px;
   line-height: 44px;
   display: flex;
-  background: transparent;
   align-items: center;
   color: #fff;
   flex: none;
@@ -473,10 +473,6 @@ ul {
   bottom: 1px;
   top: 60px;
   background-color: #1c1a19;
-  background-image: url(imgs/backgimage2.png);
-  background-repeat: no-repeat;
-  background-position: right;
-  background-position-y: 384px;
 }
 
 .aboutme {
@@ -609,4 +605,15 @@ h6 {
 
 .texthead {
   top: 24px;
+}
+
+.imgcontact {
+  display: flex;
+  left: 99.94%;
+  right: 99.81%;
+  top: 0.13%;
+  bottom: 0.07%;
+  flex-direction: row-reverse;
+  justify-content: flex-start;
+  flex-wrap: nowrap;
 }
