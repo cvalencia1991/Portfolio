@@ -2,7 +2,7 @@
 
 # Portafolio
 
-> I create my first Portfolio the set up and mobile first
+first template mobile desktop portafolio for my web desings
 
 
 
