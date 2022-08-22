@@ -20,29 +20,22 @@ ol {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 10px 24px;
+  padding: 24px;
+  height: 590px;
   gap: 1px;
   left: 1px;
   right: 1px;
   bottom: 1px;
   top: 60px;
   background-color: #1c1a19;
+  background-image: url(imgs/backgimage.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-position-y: bottom;
 }
 
-.time {
-  position: absolute;
-  width: 54px;
-  height: 16px;
-  left: 1px;
-  top: calc(50% - 16px / 2 + 0.5px);
-  font-family: 'Roboto', sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 16px;
-  text-align: center;
-  letter-spacing: -0.28px;
-  color: #fff;
+.links {
+  list-style: none;
 }
 
 .status-mobile {
@@ -60,7 +53,6 @@ ol {
   justify-content: space-between;
   align-items: center;
   position: relative;
-  height: 100%;
   top: 1px;
   background: #3c3a39;
   color: white;
@@ -131,19 +123,14 @@ p {
   padding-left: 20px;
 }
 
-.menu {
-  padding-right: 40px;
-}
-
 ul {
   align-items: center;
   padding: initial;
-  display: inline-flex;
+  display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: space-around;
   list-style: none;
-  margin: 10px;
   list-style-image: url(imgs/Rectangle\ 55.jpg);
   list-style-type: auto;
 }
@@ -151,11 +138,10 @@ ul {
 .proyects {
   background: #fff;
   flex-direction: column;
-  display: flex;
+  display: grid;
   height: 3455px;
-  left: 1px;
-  top: 682px;
   padding: 24px;
+  gap: 24px;
 }
 
 .imgprincipal {
@@ -164,7 +150,6 @@ ul {
 }
 
 .fontstitles {
-  margin-left: 24px;
   width: 327px;
   height: 83px;
   font-family: 'Crete Round', serif;
@@ -198,8 +183,6 @@ ul {
 }
 
 .letter {
-  width: 327px;
-  height: 36px;
   font-family: 'Crete Round', serif;
   font-style: normal;
   font-weight: 400;
@@ -476,8 +459,24 @@ ul {
   display: grid;
   justify-content: space-between;
   align-items: center;
-  padding: 24px;
   grid-template-rows: 24px 220px 20px 100px;
+}
+
+.cover2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 24px;
+  gap: 1px;
+  left: 1px;
+  right: 1px;
+  bottom: 1px;
+  top: 60px;
+  background-color: #1c1a19;
+  background-image: url(imgs/backgimage2.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-position-y: 384px;
 }
 
 .aboutme {
@@ -494,7 +493,6 @@ ul {
 .grid2 {
   background-image: url(imgs/imagebackground.jpg);
   background-repeat: no-repeat;
-  margin-left: 24px;
   display: grid;
   align-items: flex-end;
   justify-content: center;
@@ -536,6 +534,7 @@ ul {
   flex: none;
   order: 0;
   flex-grow: 0;
+  justify-content: center;
 }
 
 .contactme {
@@ -555,10 +554,6 @@ ul {
   display: flex;
   flex-direction: column;
   align-content: center;
-}
-
-.texthead {
-  margin: 10px;
 }
 
 .grid3 {
@@ -581,6 +576,7 @@ ul {
   align-items: center;
   text-align: center;
   color: #fff;
+  justify-content: center;
 }
 
 h6 {
@@ -603,4 +599,14 @@ h6 {
   flex-direction: column;
   flex-wrap: nowrap;
   align-content: flex-start;
+  padding: 24px;
+  height: 24px;
+}
+
+.containerfloat {
+  list-style-image: none;
+}
+
+.texthead {
+  top: 24px;
 }
