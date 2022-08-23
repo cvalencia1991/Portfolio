@@ -628,6 +628,7 @@ footer {
   flex-direction: column;
   justify-content: center;
   padding-inline: 1em;
+  margin-bottom: 7em;
 }
 
 footer input, textarea {
@@ -639,4 +640,10 @@ footer input, textarea {
 textarea {
   background-color: #FBF8F7;
   margin-bottom: 1em;
+}
+
+/* footer social media styles */
+.footer-social-media {
+  border-top: 1px solid lightgray;
+  margin-inline: -1em;
 }
