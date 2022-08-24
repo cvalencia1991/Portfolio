@@ -81,8 +81,6 @@ h1 {
 
 h2:not([class]) {
 
-/* h2 {
-
   width: 327px;
   height: 27px;
   font-family: 'Roboto', sans-serif;
@@ -96,7 +94,7 @@ h2:not([class]) {
   flex: none;
   order: 1;
   flex-grow: 0;
-} */
+}
 
 p {
   width: 327px;
@@ -464,7 +462,7 @@ ul {
   align-content: center;
   display: flex;
   padding: 24px;
-
+}
 .about-me {
   padding: 2em 1em;
   background: #1c1a19;
@@ -725,7 +723,7 @@ textarea {
   border-top: 1px solid #dfe1e6;
   margin-inline: -1.4em;
   padding-top: 1em;
-
+}
 .contact-form {
   display: flex;
   gap: 1em;
