@@ -653,7 +653,7 @@ position: sticky;
 }
 
 footer.contact {
-  padding: 5em 1em;
+  padding: 5em 1em 0 1em;
 }
 
 .secondary-header {
@@ -698,4 +698,10 @@ textarea {
   background-color: #FF6B00;
   width: 140PX;
   margin-inline: auto;
-}  
+}
+
+.contact .links {
+  border-top: 1px solid #DFE1E6;
+  margin-inline: -1.4em;
+  padding-top: 1em;
+}
