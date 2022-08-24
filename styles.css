@@ -78,7 +78,11 @@ h1 {
   flex-grow: 0;
 }
 
+
 h2:not([class]) {
+
+/* h2 {
+
   width: 327px;
   height: 27px;
   font-family: 'Roboto', sans-serif;
@@ -92,7 +96,7 @@ h2:not([class]) {
   flex: none;
   order: 1;
   flex-grow: 0;
-}
+} */
 
 p {
   width: 327px;
@@ -460,8 +464,27 @@ ul {
   align-content: center;
   display: flex;
   padding: 24px;
+
+.about-me {
+  padding: 2em 1em;
+  background: #1c1a19;
+
 }
 
+.about-me > h6,
+.about-me > p
+  {
+  margin-bottom: 0.4em;
+}
+
+.about-me > p {
+  background-color: #8993a4;
+}
+
+.btn {
+  background-color: #FF6B00;
+  padding: 1em 0.2em;
+}
 .grid2 {
   background-image: url('imgs/imagebackground.jpg');
   background-repeat: no-repeat;
@@ -598,19 +621,27 @@ h6 {
 .contend2 {
   display: flex;
   flex-direction: column;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   align-content: flex-start;
   padding: 24px;
   height: 24px;
 }
 
-.containerfloat {
-  list-style-image: none;
+
+/* footer section styles */
+
+* {
+  font-family: 'Roboto', sans-serif;
+}
+footer {
+  margin-top: 9em;
+}
+.secondary-header {
+  font-size: 32px;
+  color: #172B4D;
+  text-align: center;
 }
 
-.texthead {
-  top: 24px;
-}
 
 .imgcontact {
   position: sticky;
@@ -694,4 +725,29 @@ textarea {
   border-top: 1px solid #dfe1e6;
   margin-inline: -1.4em;
   padding-top: 1em;
+
+.contact-form {
+  display: flex;
+  gap: 1em;
+  flex-direction: column;
+  justify-content: center;
+  padding-inline: 1em;
+  margin-bottom: 7em;
+}
+
+footer input, textarea {
+  border: none;
+  padding: 0.7em ;
+  border-bottom: 1px solid lightgray ;
+}
+
+textarea {
+  background-color: #FBF8F7;
+  margin-bottom: 1em;
+}
+
+/* footer social media styles */
+.footer-social-media {
+  border-top: 1px solid lightgray;
+  margin-inline: -1em;
 }
