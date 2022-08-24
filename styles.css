@@ -508,7 +508,7 @@ ul {
 }
 
 .aboutmeskills2 {
-  width: 164px;
+  width: 227px;
   height: 24px;
   font-family: 'InaiMathi';
   font-style: normal;
@@ -525,7 +525,7 @@ ul {
 }
 
 .aboutmeskills3 {
-  width: 164px;
+  width: 115px;
   height: 24px;
   font-family: 'InaiMathi';
   font-style: normal;
@@ -562,11 +562,11 @@ ul {
 
 .grid3 {
   display: flex;
-  flex-direction: column;
-  flex-wrap: nowrap;
-  flex-wrap: wrap;
+  justify-items: center;
   gap: 44px;
-  padding: 0px;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
 }
 
 .fontaboutmeskills {
