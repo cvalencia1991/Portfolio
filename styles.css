@@ -78,9 +78,7 @@ h1 {
   flex-grow: 0;
 }
 
-
 h2:not([class]) {
-
   width: 327px;
   height: 27px;
   font-family: 'Roboto', sans-serif;
@@ -463,15 +461,14 @@ ul {
   display: flex;
   padding: 24px;
 }
+
 .about-me {
   padding: 2em 1em;
   background: #1c1a19;
-
 }
 
 .about-me > h6,
-.about-me > p
-  {
+.about-me > p {
   margin-bottom: 0.4em;
 }
 
@@ -479,10 +476,6 @@ ul {
   background-color: #8993a4;
 }
 
-.btn {
-  background-color: #FF6B00;
-  padding: 1em 0.2em;
-}
 .grid2 {
   background-image: url('imgs/imagebackground.jpg');
   background-repeat: no-repeat;
@@ -604,7 +597,7 @@ ul {
   list-style: none;
 }
 
-h6 {
+.h6 {
   font-weight: 400;
   font-size: 56px;
   line-height: 64px;
@@ -625,21 +618,15 @@ h6 {
   height: 24px;
 }
 
-
 /* footer section styles */
 
 * {
   font-family: 'Roboto', sans-serif;
 }
+
 footer {
   margin-top: 9em;
 }
-.secondary-header {
-  font-size: 32px;
-  color: #172B4D;
-  text-align: center;
-}
-
 
 .imgcontact {
   position: sticky;
@@ -683,14 +670,6 @@ footer.contact {
 }
 
 /* contact form styles */
-.contact-form {
-  margin-top: 4em;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  gap: 2em;
-  margin-bottom: 7em;
-}
 
 input,
 textarea {
@@ -698,12 +677,6 @@ textarea {
   border-bottom: 1px solid #dbd8d7;
   padding: 1em;
   outline: none;
-}
-
-textarea {
-  background-color: #fbf8f7;
-  font-size: 15px;
-  font-weight: 400;
 }
 
 :placeholder {
@@ -724,6 +697,7 @@ textarea {
   margin-inline: -1.4em;
   padding-top: 1em;
 }
+
 .contact-form {
   display: flex;
   gap: 1em;
@@ -733,14 +707,15 @@ textarea {
   margin-bottom: 7em;
 }
 
-footer input, textarea {
+footer input,
+textarea {
   border: none;
-  padding: 0.7em ;
-  border-bottom: 1px solid lightgray ;
+  padding: 0.7em;
+  border-bottom: 1px solid lightgray;
 }
 
 textarea {
-  background-color: #FBF8F7;
+  background-color: #fbf8f7;
   margin-bottom: 1em;
 }
 
