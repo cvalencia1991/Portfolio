@@ -1,8 +1,7 @@
 @font-face {
   font-family: 'InaiMathi';
-  src: url(fonts/InaiMathi.ttf);
+  src: url(InaiMathi.ttf) format('truetype');
 }
-
 
 a {
   font-family: 'Roboto', sans-serif;
@@ -11,11 +10,10 @@ a {
   transition: black 1s;
 }
 
-.content{
+.content {
   display: flex;
   flex-direction: column;
 }
-
 
 a:hover {
   color: black;
@@ -36,6 +34,8 @@ a:hover {
 
 .links {
   list-style: none;
+  display: flex;
+  gap: 0.3em;
 }
 
 .status-mobile {
@@ -97,7 +97,7 @@ h2:not([class]) {
 p {
   width: 327px;
   height: 123px;
-  font-family: 'inter';
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -129,7 +129,7 @@ ul {
   align-items: center;
   display: flex;
   gap: 10px;
-  padding: 0px;
+  padding: 1px;
   flex-wrap: nowrap;
   justify-content: center;
 }
@@ -149,7 +149,6 @@ ul {
 }
 
 .fontstitles {
-
   font-style: normal;
   font-weight: 400;
   font-size: 40px;
@@ -174,7 +173,6 @@ ul {
 }
 
 .letter {
-
   font-style: normal;
   font-weight: 400;
   font-size: 32px;
@@ -206,7 +204,6 @@ ul {
 .head1 {
   width: 327px;
   height: 36px;
-
   font-style: normal;
   font-weight: 400;
   font-size: 32px;
@@ -222,7 +219,6 @@ ul {
 .letter1 {
   width: 327px;
   height: 36px;
-
   font-style: normal;
   font-weight: 400;
   font-size: 32px;
@@ -356,7 +352,6 @@ ul {
   flex-direction: row;
   color: #091e42;
   border: 1px solid #8993a4;
-  justify-content: center;
   align-items: center;
   padding: 10px 12px;
 }
@@ -403,7 +398,7 @@ ul {
   display: flex;
   flex-direction: row;
   align-items: center;
-  width: 127px;
+  width: 161px;
   height: 48px;
   background: #ff6b00;
   flex: none;
@@ -500,7 +495,7 @@ ul {
 .aboutmeskills1 {
   width: 164px;
   height: 24px;
-  font-family: 'InaiMathi';
+  font-family: 'InaiMathi', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
@@ -517,7 +512,7 @@ ul {
 .aboutmeskills2 {
   width: 227px;
   height: 24px;
-  font-family: 'InaiMathi';
+  font-family: 'InaiMathi', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
@@ -534,7 +529,7 @@ ul {
 .aboutmeskills3 {
   width: 115px;
   height: 24px;
-  font-family: 'InaiMathi';
+  font-family: 'InaiMathi', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
@@ -545,7 +540,7 @@ ul {
   order: 0;
   flex-grow: 0;
   justify-content: center;
- list-style-image: url('./imgs/Circle57.png');
+  list-style-image: url('./imgs/Circle57.png');
 }
 
 .contactme {
@@ -584,15 +579,11 @@ ul {
   font-weight: 400;
   font-size: 22px;
   line-height: 43px;
-  align-items: center;
-  text-align: center;
   color: #fff;
-  justify-content: center;
   list-style: none;
 }
 
 h6 {
-
   font-weight: 400;
   font-size: 56px;
   line-height: 64px;
@@ -601,9 +592,7 @@ h6 {
   flex: none;
   display: flex;
   margin-top: 120px;
-  margin-bottom: 0px;
-  display: inline-flex;
-
+  margin-bottom: 1px;
 }
 
 .contend2 {
@@ -624,32 +613,32 @@ h6 {
 }
 
 .imgcontact {
-position: sticky;
+  position: sticky;
 }
 
-.name-touch{
-  color:black;
+.name-touch {
+  color: black;
 }
 
 /* footer section styles */
 
 /* general button style */
 .btn {
-  background-color: #F55800;
+  background-color: #f55800;
   color: hsl(0, 0%, 100%);
-  border: 1px solid #F55800;
+  border: 1px solid #f55800;
   padding: 0.9em;
   font-size: 17px;
   font-weight: 700;
 }
 
 .btn:hover {
-  background-color: #FFF5E1;
-  color: #F55800;
+  background-color: #fff5e1;
+  color: #f55800;
 }
 
 .btn:focus {
-  background-color: #E05304;
+  background-color: #e05304;
 }
 
 footer.contact {
@@ -659,9 +648,9 @@ footer.contact {
 .secondary-header {
   font-size: 32px;
   font-weight: 700;
-  color: #172B4D;
+  color: #172b4d;
   text-align: center;
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
 }
 
 /* contact form styles */
@@ -677,12 +666,13 @@ footer.contact {
 input,
 textarea {
   border: none;
-  border-bottom: 1px solid #DBD8D7;
+  border-bottom: 1px solid #dbd8d7;
   padding: 1em;
   outline: none;
 }
+
 textarea {
-  background-color: #FBF8F7;
+  background-color: #fbf8f7;
   font-size: 15px;
   font-weight: 400;
 }
@@ -695,18 +685,13 @@ textarea {
 
 .contact-form button {
   display: inline-block;
-  background-color: #FF6B00;
-  width: 140PX;
+  background-color: #ff6b00;
+  width: 140px;
   margin-inline: auto;
 }
 
 .contact .links {
-  border-top: 1px solid #DFE1E6;
+  border-top: 1px solid #dfe1e6;
   margin-inline: -1.4em;
   padding-top: 1em;
-}
-
-.links{
-  display: flex;
-  gap: 0.3em;
 }
