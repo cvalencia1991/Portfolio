@@ -669,6 +669,7 @@ footer.contact {
   margin-top: 4em;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   gap: 2em;
   margin-bottom: 7em;
 }
@@ -691,3 +692,10 @@ textarea {
   font-weight: 400;
   color: #979493;
 }
+
+.contact-form button {
+  display: inline-block;
+  background-color: #FF6B00;
+  width: 140PX;
+  margin-inline: auto;
+}  
