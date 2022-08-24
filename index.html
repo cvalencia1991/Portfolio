@@ -18,6 +18,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
     <title>Portafolio</title>
 </head>
 
@@ -33,31 +36,30 @@
     <section class="cover">
         <div class="content">
             <h1>Hey there,<br>I´m cesar</h1>
-            <h2> I'am a software engineer and mecatronic engineer</h2>
-            <p><br><em>can help you build a product,featurse or website Look
+
+            <div><h2> I'am a software engineer and mecatronic engineer</h2></div>
+            <p>can help you build a product,featurse or website Look
                     through some of my work and experience!If you like what you
                     see and have a project you need coded, don’t hestiate to
-                    contact me.</em><br></p>
+                    contact me.</p>
         </div>
-        <div>
-            <ul class="links">
-                <li>
-                    <a href="#githublink"><img src="imgs/githubimg.png" alt="githubimage"></a>
-                </li>
-                <li>
-                    <a href="#linkeinlink"><img src="imgs/linkeinimg.png" alt="linkedinimage"></a>
-                </li>
-                <li>
-                    <a href="#angelistlink"><img src="imgs/Angelistimg.png" alt="angelistimage"></a>
-                </li>
-                <li>
-                    <a href="#twitterinlink"><img src="imgs/twitter.png" alt="twitterimg"></a>
-                </li>
-                <li>
-                    <a href="#mediumlink"><img src="imgs/Mediumimg.png" alt="mediumimg"></a>
-                </li>
-            </ul>
-        </div>
+        <ul class="links">
+            <li>
+                <a href="#githublink"><img src="imgs/githubimg.png" alt="githubimage"></a>
+            </li>
+            <li>
+                <a href="#linkeinlink"><img src="imgs/linkeinimg.png" alt="linkedinimage"></a>
+            </li>
+            <li>
+                <a href="#angelistlink"><img src="imgs/Angelistimg.png" alt="angelistimage"></a>
+            </li>
+            <li>
+                <a href="#twitterinlink"><img src="imgs/twitter.png" alt="twitterimg"></a>
+            </li>
+            <li>
+                <a href="#mediumlink"><img src="imgs/Mediumimg.png" alt="mediumimg"></a>
+            </li>
+        </ul>
     </section>
     <section class="proyects">
         <h3 class="fontstitles">My Recent Works</h3>
@@ -113,15 +115,15 @@
             <div class="nested-grid"><button type="button" class="btnseeproyect2">See Project</button></div>
         </div>
         <div class="grid2">
-            <div class="letter1">
-                <h5>Profesional Art Printing Data</h5>
+            <div>
+                <h5 class="letter1">Profesional Art Printing Data</h5>
             </div>
             <div>
                 <p class="letter2">A daily selection of privately personalized reads;
                     no accounts or sign-ups required. has been the industry's standard</p>
             </div>
             <ul>
-                <li class="html ">html</li>
+                <li class="html">html</li>
                 <li class="boostrap">boostrap</li>
                 <li class="ruby">ruby</li>
             </ul>
@@ -175,92 +177,68 @@
             </div>
         </div>
     </section>
-    <section class="about-me">
-            <h6>About Me</h6>
-            <p>
-                Hello I’m a software developer! I can help you build a product ,
+    <section class="aboutme">
+        <div class="content">
+            <h1>About Me</h1>
+            <p>Hello I’m a software developer! I can help you build a product ,
                 feature or website Look through some of my work and experience!
                 If you like what you see and have a project you need coded,
-                don’t hestiate to contact me.
-            </p>
-        <a href="#" class="btn">Get My Resume</a>
-
-
-        <!-- <div class="imgcontact">
-                <img src="imgs/backgimage2.png" alt="imagcontact">
-            </div> -->
-        <div class="">
-            <div>
-                <ul class="">
-                    <li>
-                        <p>languajes</p>
-                    </li>
-                    <li>css</li>
-                    <li>html</li>
-                    <li>boostrap</li>
-                    <li>ruby</li>
-                </ul>
-            </div>
-            <div>
-                <ul class="">
-                    <li>
-                        <p>frameworks</p>
-                    </li>
-                    <li>boostrap</li>
-                    <li>ruby on rails</li>
-                    <li>RSpec</li>
-                    <li>Capybara</li>
-                </ul>
-            </div>
-            <div>
-                <ul class="">
-                    <li>
-                        <p>Skills</p>
-                    </li>
-                    <li>Codekit</li>
-                    <li>Gitihub</li>
-                    <li>Codepen</li>
-                    <li>Gitlab</li>
-                    <li>Terminal</li>
-                </ul>
-            </div>
+                don’t hestiate to contact me.</p>
+            <br>
         </div>
+        <div>
+            <a class="btnseeproyect">Get My Resume</a>
+        </div>
+        <div>
+            <img src="imgs/backgimage2.png" alt="aboutmeimgs" class="aboutimgs">
+        </div>
+        <ul class="grid3">
+            <li class="aboutmeskills1">Languajes</li>
+            <li class="fontaboutmeskills">css</li>
+            <li class="fontaboutmeskills">html</li>
+            <li class="fontaboutmeskills">boostrap</li>
+            <li class="fontaboutmeskills">ruby</li>
+        </ul>
+        <ul class="grid3">
+            <li class="aboutmeskills2">Frameworks</li>
+            <li class="fontaboutmeskills">Boostrap</li>
+            <li class="fontaboutmeskills">Ruby on rails</li>
+            <li class="fontaboutmeskills">RSpec</li>
+            <li class="fontaboutmeskills">Capybara</li>
+        </ul>
+        <ul class="grid3">
+            <li class="aboutmeskills3">Skils</li>
+            <li class="fontaboutmeskills">Codekit</li>
+            <li class="fontaboutmeskills">Github</li>
+            <li class="fontaboutmeskills">Codepen</li>
+            <li class="fontaboutmeskills">Gitlab</li>
+            <li class="fontaboutmeskills">Gitlab</li>
+        </ul>
     </section>
-    <div class="clear-fix"></div>
-    <!-- Start footer section -->
-    <footer>
-        <section class="wrapper">
-            <h2 class="secondary-header">I'm always interested in hearing about new projects, so if you'd like to chat
-                please get in touch.
-            </h2>
-            <form class="contact-form" action="">
-                <input type="text" name="name" id="name" maxlength="30" placeholder="Full name" required>
-                <input type="email" name="email" id="email" placeholder="Email address" required>
-                <textarea name="message" id="message" rows="7" placeholder="Enter text here" required></textarea>
-                <button type="submit">Get in touch</button>
-            </form>
-            <div class="footer-social-media">
-                <ul class="links">
-                    <li>
-                        <a href="#githublink"><img src="imgs/githubimg.png" alt="githubimage"></a>
-                    </li>
-                    <li>
-                        <a href="#linkeinlink"><img src="imgs/linkeinimg.png" alt="linkedinimage"></a>
-                    </li>
-                    <li>
-                        <a href="#angelistlink"><img src="imgs/Angelistimg.png" alt="angelistimage"></a>
-                    </li>
-                    <li>
-                        <a href="#twitterinlink"><img src="imgs/twitter.png" alt="twitterimg"></a>
-                    </li>
-                    <li>
-                        <a href="#mediumlink"><img src="imgs/Mediumimg.png" alt="mediumimg"></a>
-                    </li>
-                </ul>
-            </div>
-        </section>
+    <footer class="contact">
+        <h2 class="secondary-header">I'm always interested in hearing about new projects, so if you'd like to chat
+            please get in touch.</h2>
+        <form class="contact-form" action="https://formspree.io/f/xayknejl" method="post">
+            <input name="name" type="text" maxlength="30" placeholder="Full Name" required>
+            <input name="email" type="email" placeholder="Email address" required>
+            <textarea name="message" placeholder="Enter text here" rows="7" maxlength="500" required></textarea>
+            <button type="submit" class="btn">Get in touch</button>
+        </form>
+        <ul class="links">
+            <li>
+                <a href="#githublink"><img src="imgs/githubimg2.png" alt="githubimage"></a>
+            </li>
+            <li>
+                <a href="#linkeinlink"><img src="imgs/linkeinimg2.png" alt="linkedinimage"></a>
+            </li>
+            <li>
+                <a href="#angelistlink"><img src="imgs/Angelistimg2.png" alt="angelistimage"></a>
+            </li>
+            <li>
+                <a href="#twitterinlink"><img src="imgs/twitter2.png" alt="twitterimg"></a>
+            </li>
+            <li>
+                <a href="#mediumlink"><img src="imgs/Mediumimg2.png" alt="mediumimg"></a>
+            </li>
+        </ul>
     </footer>
-    <!-- End footer section -->
-</body>
-
-</html>
