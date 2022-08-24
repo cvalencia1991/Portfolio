@@ -705,3 +705,8 @@ textarea {
   margin-inline: -1.4em;
   padding-top: 1em;
 }
+
+.links{
+  display: flex;
+  gap: 0.3em;
+}
