@@ -28,7 +28,7 @@ a:hover {
   padding: 24px;
   height: 590px;
   background-color: #1c1a19;
-  background-image: url(imgs/backgimage.png);
+  background-image: url('./imgs/backgimage.png');
   background-repeat: no-repeat;
   background-position: right;
   background-position-y: bottom;
@@ -58,9 +58,16 @@ a:hover {
   padding: 18px 10px;
 }
 
+h1,
+h2,
+h3,
+h4,
+h6 {
+  font-family: 'Crete Round', serif;
+}
+
 h1 {
   height: 100px;
-  font-family: 'Crete Round', serif;
   font-weight: 400;
   font-size: 56px;
   line-height: 64px;
@@ -71,7 +78,7 @@ h1 {
   flex-grow: 0;
 }
 
-h2 {
+h2:not([class]) {
   width: 327px;
   height: 27px;
   font-family: 'Roboto', sans-serif;
@@ -142,7 +149,7 @@ ul {
 }
 
 .fontstitles {
-  font-family: 'Crete Round', serif;
+
   font-style: normal;
   font-weight: 400;
   font-size: 40px;
@@ -167,7 +174,7 @@ ul {
 }
 
 .letter {
-  font-family: 'Crete Round', serif;
+
   font-style: normal;
   font-weight: 400;
   font-size: 32px;
@@ -199,7 +206,7 @@ ul {
 .head1 {
   width: 327px;
   height: 36px;
-  font-family: 'Crete Round', serif;
+
   font-style: normal;
   font-weight: 400;
   font-size: 32px;
@@ -215,7 +222,7 @@ ul {
 .letter1 {
   width: 327px;
   height: 36px;
-  font-family: 'Crete Round', serif;
+
   font-style: normal;
   font-weight: 400;
   font-size: 32px;
@@ -461,7 +468,7 @@ ul {
 }
 
 .grid2 {
-  background-image: url(imgs/imagebackground.jpg);
+  background-image: url('imgs/imagebackground.jpg');
   background-repeat: no-repeat;
   display: grid;
   align-items: flex-end;
@@ -504,7 +511,7 @@ ul {
   order: 0;
   flex-grow: 0;
   justify-content: center;
-  list-style-image: url(imgs/Rectangle55.jpg);
+  list-style-image: url('./imgs/Rectangle55.jpg');
 }
 
 .aboutmeskills2 {
@@ -521,7 +528,7 @@ ul {
   order: 0;
   flex-grow: 0;
   justify-content: center;
-  list-style-image: url(imgs/square56.png);
+  list-style-image: url('./imgs/square56.png');
 }
 
 .aboutmeskills3 {
@@ -538,7 +545,7 @@ ul {
   order: 0;
   flex-grow: 0;
   justify-content: center;
- list-style-image: url(imgs/Circle57.png);
+ list-style-image: url('./imgs/Circle57.png');
 }
 
 .contactme {
@@ -585,7 +592,7 @@ ul {
 }
 
 h6 {
-  font-family: 'Crete Round', serif;
+
   font-weight: 400;
   font-size: 56px;
   line-height: 64px;
@@ -623,3 +630,38 @@ position: sticky;
 .name-touch{
   color:black;
 }
+
+/* footer section styles */
+
+/* general button style */
+.btn {
+  background-color: #F55800;
+  color: hsl(0, 0%, 100%);
+  border: 1px solid #F55800;
+  padding: 0.9em;
+  font-size: 17px;
+  font-weight: 700;
+}
+
+.btn:hover {
+  background-color: #FFF5E1;
+  color: #F55800;
+}
+
+.btn:focus {
+  background-color: #E05304;
+}
+
+footer.contact {
+  padding: 5em 1em;
+}
+
+.secondary-header {
+  font-size: 32px;
+  font-weight: 700;
+  color: #172B4D;
+  text-align: center;
+  font-family: 'Inter';
+}
+
+/* contact form styles */
