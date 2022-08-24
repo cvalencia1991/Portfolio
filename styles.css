@@ -665,3 +665,29 @@ footer.contact {
 }
 
 /* contact form styles */
+.contact-form {
+  margin-top: 4em;
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+  margin-bottom: 7em;
+}
+
+input,
+textarea {
+  border: none;
+  border-bottom: 1px solid #DBD8D7;
+  padding: 1em;
+  outline: none;
+}
+textarea {
+  background-color: #FBF8F7;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+:placeholder {
+  font-size: 15px;
+  font-weight: 400;
+  color: #979493;
+}
