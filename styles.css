@@ -1,3 +1,8 @@
+@font-face {
+  font-family: 'InaiMathi';
+  src: url(fonts/InaiMathi.ttf);
+}
+
 
 a {
   font-family: 'Roboto', sans-serif;
@@ -6,14 +11,14 @@ a {
   transition: black 1s;
 }
 
-a:hover {
-  color: black;
+.content{
+  display: flex;
+  flex-direction: column;
 }
 
-ol {
-  list-style-type: none;
-  display: flex;
-  padding: 1px;
+
+a:hover {
+  color: black;
 }
 
 .cover {
@@ -22,11 +27,6 @@ ol {
   align-items: flex-start;
   padding: 24px;
   height: 590px;
-  gap: 1px;
-  left: 1px;
-  right: 1px;
-  bottom: 1px;
-  top: 60px;
   background-color: #1c1a19;
   background-image: url(imgs/backgimage.png);
   background-repeat: no-repeat;
@@ -52,7 +52,6 @@ ol {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  position: relative;
   top: 1px;
   background: #3c3a39;
   color: white;
@@ -70,8 +69,6 @@ h1 {
   flex: none;
   order: 0;
   flex-grow: 0;
-  display: flex;
-  justify-content: flex-start;
 }
 
 h2 {
@@ -93,15 +90,13 @@ h2 {
 p {
   width: 327px;
   height: 123px;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'inter';
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
   color: #fff;
   flex: none;
-  order: 2;
-  flex-grow: 0;
   text-align: inherit;
 }
 
@@ -125,23 +120,19 @@ p {
 
 ul {
   align-items: center;
-  padding: initial;
   display: flex;
-  flex-direction: row;
+  gap: 10px;
+  padding: 0px;
   flex-wrap: nowrap;
-  justify-content: space-around;
-  list-style: none;
-  list-style-image: url(imgs/Rectangle\ 55.jpg);
-  list-style-type: auto;
+  justify-content: center;
 }
 
 .proyects {
   background: #fff;
   flex-direction: column;
   display: grid;
-  height: 3455px;
   padding: 24px;
-  gap: 24px;
+  justify-items: center;
 }
 
 .imgprincipal {
@@ -155,16 +146,10 @@ ul {
   font-style: normal;
   font-weight: 400;
   font-size: 40px;
-  line-height: 52px;
   display: flex;
   align-items: center;
   color: #1c1a19;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
   border-bottom: 1px groove black;
-  flex-wrap: nowrap;
-  margin-bottom: 80px;
 }
 
 .container {
@@ -354,8 +339,6 @@ ul {
 }
 
 .boostrap2 {
-  width: 95px;
-  height: 40px;
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -364,10 +347,11 @@ ul {
   display: flex;
   justify-content: center;
   flex-direction: row;
-  flex-wrap: nowrap;
-  align-items: center;
   color: #091e42;
   border: 1px solid #8993a4;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 12px;
 }
 
 .ruby {
@@ -458,8 +442,6 @@ ul {
 .grid {
   display: grid;
   justify-content: space-between;
-  align-items: center;
-  grid-template-rows: 24px 220px 20px 100px;
 }
 
 .cover2 {
@@ -467,23 +449,15 @@ ul {
   flex-direction: column;
   align-items: flex-start;
   padding: 24px;
-  gap: 1px;
-  left: 1px;
-  right: 1px;
-  bottom: 1px;
-  top: 60px;
   background-color: #1c1a19;
 }
 
 .aboutme {
-  width: 100%;
-  height: 1901px;
-  left: 1px;
-  top: 4137px;
   background: #1c1a19;
   flex-direction: column;
   align-content: center;
   display: flex;
+  padding: 24px;
 }
 
 .grid2 {
@@ -492,7 +466,7 @@ ul {
   display: grid;
   align-items: flex-end;
   justify-content: center;
-  grid-template-rows: 122px auto 50px 50px;
+  grid-template-rows: 122px 170px 50px 50px;
   height: 400px;
   width: 327px;
 }
@@ -516,21 +490,55 @@ ul {
   flex-grow: 0;
 }
 
-.aboutmeskills {
+.aboutmeskills1 {
   width: 164px;
   height: 24px;
-  font-family: 'Inter', sans-serif;
+  font-family: 'InaiMathi';
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
   line-height: 44px;
-  display: flex;
   align-items: center;
   color: #fff;
   flex: none;
   order: 0;
   flex-grow: 0;
   justify-content: center;
+  list-style-image: url(imgs/Rectangle55.jpg);
+}
+
+.aboutmeskills2 {
+  width: 164px;
+  height: 24px;
+  font-family: 'InaiMathi';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  align-items: center;
+  color: #fff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  justify-content: center;
+  list-style-image: url(imgs/square56.png);
+}
+
+.aboutmeskills3 {
+  width: 164px;
+  height: 24px;
+  font-family: 'InaiMathi';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  align-items: center;
+  color: #fff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  justify-content: center;
+ list-style-image: url(imgs/Circle57.png);
 }
 
 .contactme {
@@ -558,6 +566,7 @@ ul {
   flex-wrap: nowrap;
   flex-wrap: wrap;
   gap: 44px;
+  padding: 0px;
 }
 
 .fontaboutmeskills {
@@ -568,11 +577,11 @@ ul {
   font-weight: 400;
   font-size: 22px;
   line-height: 43px;
-  display: flex;
   align-items: center;
   text-align: center;
   color: #fff;
   justify-content: center;
+  list-style: none;
 }
 
 h6 {
@@ -583,11 +592,11 @@ h6 {
   letter-spacing: 0.37px;
   color: #ff6b00;
   flex: none;
-  order: 0;
-  flex-grow: 0;
   display: flex;
-  justify-content: flex-start;
-  margin-bottom: 10px;
+  margin-top: 120px;
+  margin-bottom: 0px;
+  display: inline-flex;
+
 }
 
 .contend2 {
@@ -608,12 +617,9 @@ h6 {
 }
 
 .imgcontact {
-  display: flex;
-  left: 99.94%;
-  right: 99.81%;
-  top: 0.13%;
-  bottom: 0.07%;
-  flex-direction: row-reverse;
-  justify-content: flex-start;
-  flex-wrap: nowrap;
+position: sticky;
+}
+
+.name-touch{
+  color:black;
 }
