@@ -612,6 +612,9 @@ ul {
   line-height: 43px;
   color: #fff;
   list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .h6 {
@@ -880,13 +883,9 @@ p {
 
 .grid4{
   display: grid;
-  background-repeat: no-repeat;
-  grid-template-columns: 33% 33% 30%;
-  row-gap: 24px;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 24px;
   margin-bottom: 130px;
-  justify-content: center;
-  align-items: center;
-
 }
 
 .letter{
@@ -987,9 +986,7 @@ p {
   color: black;
 }
 
-* {
-  border: 2px solid red;
-}
+
 
 .aboutme2{
   margin: 130px 732px 1px 142px;
@@ -1044,4 +1041,13 @@ p {
   flex-direction: row;
   flex-wrap: nowrap;
 }
+
+.wrapper2{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: space-around;
+}
+
+
 }
