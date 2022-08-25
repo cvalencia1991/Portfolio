@@ -15,6 +15,10 @@ a {
   flex-direction: column;
 }
 
+.navbardesktop{
+  display: none;
+}
+
 a:hover {
   color: black;
 }
@@ -52,7 +56,6 @@ a:hover {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  top: 1px;
   background: #3c3a39;
   color: white;
   padding: 18px 10px;
@@ -155,7 +158,7 @@ ul {
   display: flex;
   align-items: center;
   color: #1c1a19;
-  border-bottom: 1px groove black;
+
 }
 
 .container {
@@ -723,4 +726,123 @@ textarea {
 .footer-social-media {
   border-top: 1px solid lightgray;
   margin-inline: -1em;
+}
+
+/* Desktop Version  */
+
+@media screen and (min-width:768px) {
+
+.a{
+  font-family: 'Inter', sans-serif;
+}
+
+
+
+.cover{
+  display: flex;
+    align-items: flex-start;
+    height: 798px;
+    background-color: #1c1a19;
+    background-image: url('./imgs/backimagedesktop.png');
+    background-size: 40%;
+    background-repeat: no-repeat;
+    background-position: top right;
+    padding: 143px 264px;
+}
+
+.nav-bar{
+  height: 72px;
+  align-items: center;
+  padding: 1px;
+  padding: 1px 151px;
+}
+
+.navbardesktop{
+  display: inline-flex;
+  gap:33px;
+  list-style: none;
+}
+
+.menu{
+  display: none;
+}
+
+h1{
+  display: inline-flex;
+  height: 160px;
+  width: 566px;
+  font-family: 'Crete Round';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 82px;
+  margin-bottom: 24px;
+}
+
+h2:not([class]) {
+  width: 566px;
+  height: 24px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 44px;
+  display: flex;
+  color: #FFFFFF;
+}
+
+p {
+  width: 556px;
+  height: 123px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 200;
+  font-size: 20px;
+  line-height: 24px;
+  color: #fff;
+  flex: none;
+  text-align: inherit;
+}
+
+.links {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.3em;
+}
+
+.fontstitles {
+  width: 315px;
+  height: 52px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  display: flex;
+  align-items: center;
+  color: #1c1a19;
+  margin-left: 153.5px;
+  margin-right: 24px;
+}
+
+.line{
+  width: 794px;
+  height: 0px;
+  line-height: 52px;
+  border: 1px solid #212121;
+  background: black;
+}
+
+.tittleworksproyects{
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.imgprincipal {
+  display: flex;
+ width: 684px;
+height: 448px;
+
+}
+
 }
