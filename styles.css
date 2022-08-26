@@ -1027,15 +1027,17 @@ textarea {
   }
 
   @keyframes scaleImage {
-    0%{
+    0% {
       width: 100%;
       height: 100%;
     }
+
     50% {
       width: 105%;
       height: 105%;
     }
-    100%{
+
+    100% {
       width: 100%;
       height: 100%;
     }
@@ -1043,11 +1045,12 @@ textarea {
 
   .lay-on-top {
     position: absolute;
-    background-image: linear-gradient(
-      to bottom,
-      rgba(38, 37, 37, 0.358) 10%,
-      rgba(38, 37, 37, 1)
-    );
+    background-image:
+      linear-gradient(
+        to bottom,
+        rgba(38, 37, 37, 0.358) 10%,
+        rgba(38, 37, 37, 1)
+      );
     inset: 0;
     padding: 16px;
     padding-top: 140px;
@@ -1222,7 +1225,8 @@ textarea {
     height: 330px;
   }
 
-  .contact-form input:focus, textarea:focus {
+  .contact-form input:focus,
+  textarea:focus {
     border-bottom: 1px solid #f55800;
   }
 
@@ -1232,15 +1236,12 @@ textarea {
     top: 290px;
   }
 
-  .logo:hover{
-   font-size: 20px;
-   color:#f55800
+  .logo:hover {
+    font-size: 20px;
+    color: #f55800;
   }
 
-  .logo{
-    transition:0.3s ease-in-out;
-
+  .logo {
+    transition: 0.3s ease-in-out;
   }
-
 }
-
