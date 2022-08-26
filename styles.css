@@ -477,6 +477,7 @@ ul {
 
 .btnseeproyect2:hover {
   background-color: #fff5e1;
+  display: none;
   color: #f55800;
   border: 1px solid #f55800;
 }
