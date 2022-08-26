@@ -515,10 +515,6 @@ ul {
   background: #1c1a19;
 }
 
-.about-me > h6,
-.about-me > p {
-}
-
 .about-me > p {
   background-color: #8993a4;
 }
@@ -799,6 +795,15 @@ textarea {
 /* Desktop Version  */
 
 @media screen and (min-width: 768px) {
+  .logo {
+    transition: 0.3s ease-in-out;
+  }
+
+  .logo:hover {
+    font-size: 20px;
+    color: #f55800;
+  }
+
   .a {
     font-family: "Inter", sans-serif;
   }
@@ -1059,7 +1064,7 @@ textarea {
   .card-header {
     font-size: 32px;
     font-weight: 400;
-    font-family: "Crete Round";
+    font-family: "Crete Round", sans-serif;
     color: white;
     margin: 0 !important;
   }
@@ -1234,14 +1239,5 @@ textarea {
     display: flex;
     position: absolute;
     top: 290px;
-  }
-
-  .logo:hover {
-    font-size: 20px;
-    color: #f55800;
-  }
-
-  .logo {
-    transition: 0.3s ease-in-out;
   }
 }
