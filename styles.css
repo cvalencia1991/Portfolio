@@ -729,6 +729,7 @@ textarea {
   border-bottom: 1px solid #dbd8d7;
   padding: 1em;
   outline: none;
+  transition: border-bottom 0.3s ease-in-out;
 }
 
 :placeholder {
@@ -1219,6 +1220,10 @@ textarea {
     margin-bottom: 7em;
     width: 684px;
     height: 330px;
+  }
+
+  .contact-form input:focus, textarea:focus {
+    border-bottom: 1px solid #f55800;
   }
 
   .buttontouch {
