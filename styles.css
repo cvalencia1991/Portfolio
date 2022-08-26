@@ -1136,6 +1136,7 @@ textarea {
     font-family: 'Inter', sans-serif;
     width: 455px;
     height: 256px;
+    text-align: left;
   }
 
   .contact-form {
