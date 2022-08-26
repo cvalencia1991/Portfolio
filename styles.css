@@ -1231,4 +1231,16 @@ textarea {
     position: absolute;
     top: 290px;
   }
+
+  .logo:hover{
+   font-size: 20px;
+   color:#f55800
+  }
+
+  .logo{
+    transition:0.3s ease-in-out;
+
+  }
+
 }
+
