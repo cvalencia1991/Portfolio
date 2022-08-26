@@ -1,13 +1,12 @@
 @font-face {
-  font-family: 'InaiMathi';
-  src: url(InaiMathi.ttf) format('truetype');
+  font-family: "InaiMathi";
+  src: url(InaiMathi.ttf) format("truetype");
 }
 
 a {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   text-decoration: none;
   color: #fff;
-  transition: black 1s;
 }
 
 .content {
@@ -30,7 +29,7 @@ a:hover {
   padding: 24px;
   height: 590px;
   background-color: #1c1a19;
-  background-image: url('./imgs/backgimage.png');
+  background-image: url("./imgs/backgimage.png");
   background-repeat: no-repeat;
   background-position: right;
   background-position-y: bottom;
@@ -65,7 +64,7 @@ h2,
 h3,
 h4,
 h6 {
-  font-family: 'Crete Round', serif;
+  font-family: "Crete Round", serif;
 }
 
 h1 {
@@ -83,7 +82,7 @@ h1 {
 h2:not([class]) {
   width: 327px;
   height: 27px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
@@ -100,7 +99,7 @@ h2:not([class]) {
 p {
   width: 327px;
   height: 123px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -113,7 +112,7 @@ p {
 .name {
   width: 200px;
   height: 24px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
@@ -157,7 +156,7 @@ ul {
   display: flex;
   width: 327px;
   height: 237px;
-  background-image: url('./imgs/ImgPlaceholder.jpg');
+  background-image: url("./imgs/ImgPlaceholder.jpg");
   background-repeat: no-repeat;
 }
 
@@ -202,7 +201,7 @@ ul {
 .intro1 {
   width: 327px;
   height: 147px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -267,7 +266,7 @@ ul {
 
 .letter2 {
   width: 327px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -282,7 +281,7 @@ ul {
 .css {
   width: 49px;
   height: 40px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
@@ -303,7 +302,7 @@ ul {
 .css2 {
   width: 32px;
   height: 20px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
@@ -320,7 +319,7 @@ ul {
 .html {
   width: 56px;
   height: 40px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
@@ -341,7 +340,7 @@ ul {
 .html2 {
   width: 32px;
   height: 20px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
@@ -356,7 +355,7 @@ ul {
 .boostrap {
   width: 95px;
   height: 40px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
@@ -375,7 +374,7 @@ ul {
 }
 
 .boostrap2 {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
@@ -392,7 +391,7 @@ ul {
 .ruby {
   width: 61px;
   height: 40px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
@@ -413,7 +412,7 @@ ul {
   display: flex;
   width: 37px;
   height: 20px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
@@ -424,7 +423,7 @@ ul {
 }
 
 .btnseeproyect {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 17px;
@@ -455,7 +454,7 @@ ul {
 }
 
 .btnseeproyect2 {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 17px;
@@ -505,7 +504,7 @@ ul {
   align-content: center;
   display: flex;
   padding: 24px;
-  background-image: url('./imgs/backgimage2.png');
+  background-image: url("./imgs/backgimage2.png");
   background-repeat: no-repeat;
   background-position: right;
   background-position-y: 400px;
@@ -518,7 +517,6 @@ ul {
 
 .about-me > h6,
 .about-me > p {
-  margin-bottom: 0.4em;
 }
 
 .about-me > p {
@@ -526,7 +524,6 @@ ul {
 }
 
 .grid2 {
-  background-image: url('./imgs/imagebackground.jpg');
   background-repeat: no-repeat;
   justify-items: center;
   background-size: 100%;
@@ -546,7 +543,7 @@ ul {
 .tittleaboutme {
   width: 327px;
   height: 79px;
-  font-family: 'Crete Round', sans-serif;
+  font-family: "Crete Round", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 72px;
@@ -561,7 +558,7 @@ ul {
 .aboutmeskills1 {
   width: 164px;
   height: 24px;
-  font-family: 'InaiMathi', sans-serif;
+  font-family: "InaiMathi", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
@@ -572,13 +569,13 @@ ul {
   order: 0;
   flex-grow: 0;
   justify-content: center;
-  list-style-image: url('./imgs/Rectangle55.jpg');
+  list-style-image: url("./imgs/Rectangle55.jpg");
 }
 
 .aboutmeskills2 {
   width: 227px;
   height: 24px;
-  font-family: 'InaiMathi', sans-serif;
+  font-family: "InaiMathi", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
@@ -589,13 +586,13 @@ ul {
   order: 0;
   flex-grow: 0;
   justify-content: center;
-  list-style-image: url('./imgs/square56.png');
+  list-style-image: url("./imgs/square56.png");
 }
 
 .aboutmeskills3 {
   width: 115px;
   height: 24px;
-  font-family: 'InaiMathi', sans-serif;
+  font-family: "InaiMathi", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
@@ -606,7 +603,7 @@ ul {
   order: 0;
   flex-grow: 0;
   justify-content: center;
-  list-style-image: url('./imgs/Circle57.png');
+  list-style-image: url("./imgs/Circle57.png");
 }
 
 .contactme {
@@ -640,7 +637,7 @@ ul {
 .fontaboutmeskills {
   width: 162px;
   height: 24px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 22px;
@@ -676,7 +673,7 @@ ul {
 /* footer section styles */
 
 * {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 footer {
@@ -721,7 +718,7 @@ footer.contact {
   font-weight: 700;
   color: #172b4d;
   text-align: center;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 /* contact form styles */
@@ -748,7 +745,7 @@ textarea {
 }
 
 .btnseeproyect3 {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 17px;
@@ -764,7 +761,6 @@ textarea {
   color: #fff;
   border: transparent;
   cursor: pointer;
-  transition: black 1s;
 }
 
 .contact {
@@ -803,7 +799,7 @@ textarea {
 
 @media screen and (min-width: 768px) {
   .a {
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
   }
 
   .cover {
@@ -811,7 +807,7 @@ textarea {
     align-items: flex-start;
     height: 798px;
     background-color: #1c1a19;
-    background-image: url('./imgs/backimagedesktop.png');
+    background-image: url("./imgs/backimagedesktop.png");
     background-size: 40%;
     background-repeat: no-repeat;
     background-position: top right;
@@ -839,7 +835,7 @@ textarea {
   h1 {
     display: inline-flex;
     height: 160px;
-    font-family: 'Crete Round', sans-serif;
+    font-family: "Crete Round", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 72px;
@@ -850,7 +846,7 @@ textarea {
   h2:not([class]) {
     width: 566px;
     height: 24px;
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 32px;
@@ -862,7 +858,7 @@ textarea {
   p {
     width: 580px;
     height: 123px;
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     font-weight: 200;
     font-size: 20px;
     line-height: 24px;
@@ -928,7 +924,7 @@ textarea {
     display: flex;
     width: 684px;
     height: 448px;
-    background-image: url('./imgs/ImgPlaceholder2.png');
+    background-image: url("./imgs/ImgPlaceholder2.png");
     background-repeat: no-repeat;
     background-size: 100%;
   }
@@ -957,7 +953,7 @@ textarea {
   .letter {
     width: 448px;
     height: 40px;
-    font-family: 'Crete Round', sans-serif;
+    font-family: "Crete Round", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 40px;
@@ -971,7 +967,7 @@ textarea {
   .intro1 {
     width: 456px;
     height: 140px;
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -993,7 +989,7 @@ textarea {
   }
 
   .btnseeproyect {
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 17px;
@@ -1017,23 +1013,97 @@ textarea {
   }
 
   .grid2 {
-    background-image: url(imgs/imagebackground.jpg);
-    background-repeat: no-repeat;
-    justify-items: center;
-    background-size: 100%;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    align-items: center;
+    position: relative;
     width: 369px;
     height: 405px;
-    justify-content: space-between;
+    overflow: hidden;
+    cursor: pointer;
+  }
+
+  .grid2 img {
+    width: 100%;
+    height: 100%;
+  }
+
+  @keyframes scaleImage {
+    0%{
+      width: 100%;
+      height: 100%;
+    }
+    50% {
+      width: 105%;
+      height: 105%;
+    }
+    100%{
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  .lay-on-top {
+    position: absolute;
+    background-image: linear-gradient(
+      to bottom,
+      rgba(38, 37, 37, 0.358) 10%,
+      rgba(38, 37, 37, 1)
+    );
+    inset: 0;
+    padding: 16px;
+    padding-top: 140px;
+  }
+
+  .card-header {
+    font-size: 32px;
+    font-weight: 400;
+    font-family: "Crete Round";
+    color: white;
+    margin: 0 !important;
+  }
+
+  .description {
+    font-size: 17px;
+    font-weight: 400;
+    color: white;
+    max-width: 32ch;
+    height: min-content !important;
+  }
+
+  .technology {
+    float: left;
+  }
+
+  .card-btn {
+    display: none;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: #f55800;
+    color: hsl(0, 0%, 100%);
+    border: 1px solid #f55800;
+    padding: 0.9em;
+    font-size: 17px;
+    font-weight: 700;
+    z-index: 6;
+  }
+
+  .grid2:is(:hover, :focus) {
+    border: 1px solid black;
+  }
+
+  .grid2:is(:hover, :focus) > img {
+    z-index: 3;
+    animation: scaleImage 1s;
+  }
+
+  .grid2:is(:hover, :focus) .card-btn {
+    display: block !important;
   }
 
   .proyects2 {
     width: 370px;
     height: 72px;
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 17px;
@@ -1050,7 +1120,7 @@ textarea {
     align-content: center;
     display: flex;
     padding: 24px;
-    background-image: url('./imgs/backgimage4.png');
+    background-image: url("./imgs/backgimage4.png");
     background-repeat: no-repeat;
     background-position: top right;
     background-size: 40%;
@@ -1067,7 +1137,7 @@ textarea {
   .aboutme3 {
     width: 566px;
     height: 148px;
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -1083,7 +1153,7 @@ textarea {
   }
 
   .btnseeproyect3 {
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 17px;
@@ -1133,7 +1203,7 @@ textarea {
     font-weight: 700;
     color: #172b4d;
     display: flex;
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     width: 455px;
     height: 256px;
     text-align: left;
