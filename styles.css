@@ -94,6 +94,7 @@ h2:not([class]) {
   flex: none;
   order: 1;
   flex-grow: 0;
+  text-align: left;
 }
 
 p {
@@ -441,11 +442,15 @@ ul {
   color: #fff;
   border: 1px solid transparent;
   cursor: pointer;
-  transition: black 1s;
+}
+.btnseeproyect:hover {
+  background-color: #fff5e1;
+  border: 1px solid #f55800;
+  color: #f55800;
 }
 
-.btnseeproyect:hover {
-  color: black;
+.btnseeproyect:focus {
+  border: 1px solid #f55800;
 }
 
 .btnseeproyect2 {
@@ -458,19 +463,26 @@ ul {
   align-items: center;
   width: 369px;
   height: 58px;
-  background: #ff6b00;
+ background-color: #f55800;
   flex: none;
   order: 3;
   flex-grow: 0;
   justify-content: center;
   flex-wrap: nowrap;
-  color: #fff;
+  color: hsl(0, 0%, 100%);
   border: 1px solid transparent;
   cursor: pointer;
 }
 
-.btnseeproyect2 :hover {
-  color: black;
+
+.btnseeproyect2:hover {
+  background-color: #fff5e1;
+  color: #f55800;
+  border: 1px solid #f55800;
+}
+
+.btnseeproyect2:focus {
+  background-color: #e05304;
 }
 
 .grid {
@@ -802,7 +814,7 @@ textarea {
     background-size: 40%;
     background-repeat: no-repeat;
     background-position: top right;
-    padding: 143px 264px;
+    padding: 151px 151px;
   }
 
   .nav-bar {
@@ -860,9 +872,10 @@ textarea {
 
   .links1 {
     list-style: none;
-    display: flex;
-    flex-direction: row;
-    gap: 0.3em;
+    flex-direction: column;
+    position: absolute;
+    left: -120px;
+    top: 100px;
   }
 
   .links2 {
@@ -870,6 +883,11 @@ textarea {
     display: flex;
     flex-direction: row;
     gap: 0.3em;
+  }
+  .content {
+    display: flex;
+    flex-direction: column;
+    position: relative;
   }
 
   .proyects {
@@ -988,8 +1006,6 @@ textarea {
     justify-content: center;
     color: #fff;
     border: transparent;
-    cursor: pointer;
-    transition: black 1s;
   }
 
   .grid {
@@ -1026,9 +1042,7 @@ textarea {
     text-align: inherit;
   }
 
-  .btnseeproyect:hover {
-    color: black;
-  }
+
 
   .aboutme {
     background: #1c1a19;
@@ -1080,13 +1094,25 @@ textarea {
     margin: 1px 732px 24px 142px;
     width: 140px;
     height: 48px;
-    background: #ff6b00;
+    background-color: #f55800;
+    color: hsl(0, 0%, 100%);
+    border: 1px solid #f55800;
+    padding: 0.9em;
     flex: none;
     justify-content: center;
     color: #fff;
     border: transparent;
     cursor: pointer;
-    transition: black 1s;
+  }
+
+  .btnseeproyect3:hover {
+    background-color: #fff5e1;
+    border: 1px solid #f55800;
+    color: #f55800;
+  }
+
+  .btnseeproyect3:focus {
+    background-color: #e05304;
   }
 
   .wrapper {
@@ -1106,17 +1132,20 @@ textarea {
   }
 
   .secondary-header {
-    font-size: 32px;
+    font-size: 39px;
     font-weight: 700;
     color: #172b4d;
     text-align: center;
+    display: flex;
     font-family: 'Inter', sans-serif;
     width: 455px;
     height: 256px;
+    text-align: left;
   }
 
   .contact-form {
     display: flex;
+    position: relative;
     gap: 1em;
     flex-direction: column;
     justify-content: center;
@@ -1125,4 +1154,10 @@ textarea {
     width: 684px;
     height: 330px;
   }
+  .buttontouch{
+    display: flex;
+    position: absolute;
+    top: 290px;
+  }
+
 }
