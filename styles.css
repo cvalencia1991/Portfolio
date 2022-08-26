@@ -443,6 +443,7 @@ ul {
   border: 1px solid transparent;
   cursor: pointer;
 }
+
 .btnseeproyect:hover {
   background-color: #fff5e1;
   border: 1px solid #f55800;
@@ -463,7 +464,7 @@ ul {
   align-items: center;
   width: 369px;
   height: 58px;
- background-color: #f55800;
+  background-color: #f55800;
   flex: none;
   order: 3;
   flex-grow: 0;
@@ -473,7 +474,6 @@ ul {
   border: 1px solid transparent;
   cursor: pointer;
 }
-
 
 .btnseeproyect2:hover {
   background-color: #fff5e1;
@@ -884,6 +884,7 @@ textarea {
     flex-direction: row;
     gap: 0.3em;
   }
+
   .content {
     display: flex;
     flex-direction: column;
@@ -1042,8 +1043,6 @@ textarea {
     text-align: inherit;
   }
 
-
-
   .aboutme {
     background: #1c1a19;
     flex-direction: column;
@@ -1095,13 +1094,10 @@ textarea {
     width: 140px;
     height: 48px;
     background-color: #f55800;
-    color: hsl(0, 0%, 100%);
-    border: 1px solid #f55800;
     padding: 0.9em;
     flex: none;
     justify-content: center;
     color: #fff;
-    border: transparent;
     cursor: pointer;
   }
 
@@ -1140,7 +1136,6 @@ textarea {
     font-family: 'Inter', sans-serif;
     width: 455px;
     height: 256px;
-    text-align: left;
   }
 
   .contact-form {
@@ -1154,10 +1149,10 @@ textarea {
     width: 684px;
     height: 330px;
   }
-  .buttontouch{
+
+  .buttontouch {
     display: flex;
     position: absolute;
     top: 290px;
   }
-
 }
