@@ -5,9 +5,13 @@
 first template mobile desktop portafolio for my web desings
 
 # In this milestone, I did the following activities:
+
  -Updated HTML file with resposive design to fit desktop version
+ 
  -Updated CSS file with responsive design to fit desktop version
+ 
  -Added extra vector images for the desktop version
+ 
  -Added linters file to lint my html and css file
 
 
