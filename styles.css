@@ -9,11 +9,6 @@ a {
   color: #fff;
 }
 
-.content {
-  display: flex;
-  flex-direction: column;
-}
-
 .navbardesktop {
   display: none;
 }
@@ -26,7 +21,6 @@ a:hover {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 24px;
   height: 590px;
   background-color: #1c1a19;
   background-image: url("./imgs/backgimage.png");
@@ -136,12 +130,19 @@ ul {
   justify-content: center;
   list-style: none;
 }
+.programs{
+  align-items: center;
+  display: flex;
+  gap: 10px;
+  padding: 1px;
+  justify-content: flex-start;
+}
+
 
 .proyects {
   background: #fff;
   flex-direction: column;
   display: grid;
-  padding: 24px;
 }
 
 .links1 {
@@ -158,8 +159,11 @@ ul {
   height: 237px;
   background-image: url("./imgs/ImgPlaceholder.jpg");
   background-repeat: no-repeat;
+  margin-left: 20px;
 }
-
+*{
+  border:2px solid red;
+}
 .fontstitles {
   font-style: normal;
   font-weight: 400;
@@ -167,6 +171,13 @@ ul {
   display: flex;
   align-items: center;
   color: #1c1a19;
+}
+
+.grid4 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 24px;
 }
 
 .container {
@@ -260,7 +271,6 @@ ul {
   gap: 24px;
   flex-wrap: nowrap;
   justify-content: space-evenly;
-  margin-left: 20px;
   margin-top: 80px;
 }
 
@@ -486,8 +496,18 @@ ul {
 }
 
 .grid {
-  display: grid;
+  display: flex;
   justify-content: space-between;
+  margin-left: 20px;
+  flex-direction: column;
+}
+
+.links1 {
+  list-style: none;
+  flex-direction: column;
+  Display:flex;
+  flex-direction: row;
+  display: flex;
 }
 
 .cover2 {
@@ -508,6 +528,7 @@ ul {
   background-repeat: no-repeat;
   background-position: right;
   background-position-y: 400px;
+  margin-top: 120px;
 }
 
 .about-me {
@@ -559,13 +580,14 @@ ul {
   font-weight: 700;
   font-size: 32px;
   line-height: 44px;
-  align-items: center;
   color: #fff;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-  justify-content: center;
   list-style-image: url("./imgs/Rectangle55.jpg");
+  position: relative;
+  top: -10px;
+}
+
+.picturecard{
+ display: none;
 }
 
 .aboutmeskills2 {
@@ -576,13 +598,13 @@ ul {
   font-weight: 700;
   font-size: 32px;
   line-height: 44px;
-  align-items: center;
   color: #fff;
   flex: none;
   order: 0;
   flex-grow: 0;
-  justify-content: center;
   list-style-image: url("./imgs/square56.png");
+  position: relative;
+  top: -10px;
 }
 
 .aboutmeskills3 {
@@ -593,13 +615,10 @@ ul {
   font-weight: 700;
   font-size: 32px;
   line-height: 44px;
-  align-items: center;
   color: #fff;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-  justify-content: center;
   list-style-image: url("./imgs/Circle57.png");
+  position: relative;
+  top: -10px;
 }
 
 .contactme {
@@ -709,6 +728,13 @@ footer.contact {
   padding: 5em 1em 0 1em;
 }
 
+.card-header {
+  font-size: 32px;
+  font-weight: 400;
+  font-family: "Crete Round", sans-serif;
+  color: white;
+  margin: 0 !important;
+}
 .secondary-header {
   font-size: 32px;
   font-weight: 700;
@@ -758,6 +784,7 @@ textarea {
   color: #fff;
   border: transparent;
   cursor: pointer;
+  margin-bottom: 345px;
 }
 
 .contact {
@@ -820,6 +847,10 @@ textarea {
     padding: 151px 151px;
   }
 
+.styleimg{
+  width: 200px;
+}
+
   .nav-bar {
     height: 72px;
     display: flex;
@@ -839,14 +870,14 @@ textarea {
   }
 
   h1 {
-    display: inline-flex;
-    height: 160px;
     font-family: "Crete Round", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 72px;
     line-height: 82px;
     margin-bottom: 24px;
+    display: flex;
+    align-items: center;
   }
 
   h2:not([class]) {
@@ -886,6 +917,9 @@ textarea {
     display: flex;
     flex-direction: row;
     gap: 0.3em;
+    align-items: center;
+    justify-content: center;
+    gap: 0.3em;
   }
 
   .content {
@@ -924,6 +958,7 @@ textarea {
     align-items: center;
     gap: 24px;
     flex-direction: row;
+    margin-left: 24px;
   }
 
   .imgprincipal {
@@ -1076,6 +1111,21 @@ textarea {
     max-width: 32ch;
     height: min-content !important;
   }
+
+  .aboutmeskills1 {
+    width: 164px;
+    height: 24px;
+    font-family: "InaiMathi", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+    color: #fff;
+    list-style-image: url(./imgs/Rectangle55.jpg);
+    position: relative;
+    top: -10px;
+}
+
 
   .technology {
     float: left;
