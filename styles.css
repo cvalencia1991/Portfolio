@@ -269,6 +269,7 @@ ul {
   flex-wrap: nowrap;
   justify-content: space-evenly;
   margin-top: 80px;
+  margin-bottom: 24px;
 }
 
 .letter2 {
@@ -954,8 +955,7 @@ textarea {
     display: flex;
     align-items: center;
     gap: 24px;
-    flex-direction: row;
-    margin-left: 24px;
+    flex-direction: column;
   }
 
   .imgprincipal {
