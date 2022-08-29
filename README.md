@@ -2,7 +2,7 @@
 
 # Portafolio
 
-First Portfolio with responsive Mobile and mobile version
+First Portfolio with responsive Desktop and Mobile version
 
 
  
