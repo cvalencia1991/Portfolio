@@ -130,7 +130,8 @@ ul {
   justify-content: center;
   list-style: none;
 }
-.programs{
+
+.programs {
   align-items: center;
   display: flex;
   gap: 10px;
@@ -138,19 +139,10 @@ ul {
   justify-content: flex-start;
 }
 
-
 .proyects {
   background: #fff;
   flex-direction: column;
   display: grid;
-}
-
-.links1 {
-  list-style: none;
-  display: flex;
-  flex-direction: row;
-  gap: 0.3em;
-  justify-content: flex-start;
 }
 
 .imgprincipal {
@@ -161,6 +153,7 @@ ul {
   background-repeat: no-repeat;
   margin-left: 20px;
 }
+
 .fontstitles {
   font-style: normal;
   font-weight: 400;
@@ -503,7 +496,6 @@ ul {
 .links1 {
   list-style: none;
   flex-direction: column;
-  Display:flex;
   flex-direction: row;
   display: flex;
 }
@@ -536,19 +528,6 @@ ul {
 
 .about-me > p {
   background-color: #8993a4;
-}
-
-.grid2 {
-  background-repeat: no-repeat;
-  justify-items: center;
-  background-size: 100%;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: nowrap;
-  align-items: center;
-  width: 369px;
-  height: 405px;
-  justify-content: space-between;
 }
 
 .nested-grid {
@@ -584,8 +563,8 @@ ul {
   top: -10px;
 }
 
-.picturecard{
- display: none;
+.picturecard {
+  display: none;
 }
 
 .aboutmeskills2 {
@@ -726,13 +705,6 @@ footer.contact {
   padding: 5em 1em 0 1em;
 }
 
-.card-header {
-  font-size: 32px;
-  font-weight: 400;
-  font-family: "Crete Round", sans-serif;
-  color: white;
-  margin: 0 !important;
-}
 .secondary-header {
   font-size: 32px;
   font-weight: 700;
@@ -845,9 +817,9 @@ textarea {
     padding: 151px 151px;
   }
 
-.styleimg{
-  width: 200px;
-}
+  .styleimg {
+    width: 200px;
+  }
 
   .nav-bar {
     height: 72px;
@@ -917,7 +889,6 @@ textarea {
     gap: 0.3em;
     align-items: center;
     justify-content: center;
-    gap: 0.3em;
   }
 
   .content {
@@ -1121,8 +1092,7 @@ textarea {
     list-style-image: url(./imgs/Rectangle55.jpg);
     position: relative;
     top: -10px;
-}
-
+  }
 
   .technology {
     float: left;
@@ -1288,6 +1258,7 @@ textarea {
     top: 290px;
   }
 }
+
 .grid2 {
   position: relative;
   width: 369px;
