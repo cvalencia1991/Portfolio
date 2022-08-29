@@ -15,7 +15,7 @@ first template mobile desktop portafolio for my web desings
  -Added linters file to lint my html and css file
  
  ## Live Demo 
-- [live portfolio demo](https://cvalencia1991.github.io/Portafolio/)
+
 
 
 👤 **Cesar Valencia**
