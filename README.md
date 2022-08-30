@@ -2,7 +2,7 @@
 
 # Portafolio
 
-first template mobile desktop portafolio for my web desings
+first mobile desktop portfolio accessibility for my web desings 
 
 
  
