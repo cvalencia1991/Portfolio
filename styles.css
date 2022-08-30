@@ -3,12 +3,10 @@
   src: url(InaiMathi.ttf) format("truetype");
 }
 
-
-
 a {
   font-family: "Roboto", sans-serif;
   text-decoration: none;
-  color: hsl(0,0%,100%);
+  color: hsl(0, 0%, 100%);
 }
 
 .navbardesktop {
@@ -51,7 +49,7 @@ a:hover {
   justify-content: space-between;
   align-items: center;
   background: #3c3a39;
-  color: hsl(0,0%,100%);
+  color: hsl(0, 0%, 100%);
   padding: 18px 10px;
 }
 
@@ -63,18 +61,18 @@ h6 {
   font-family: "Crete Round", serif;
 }
 
-h1,h4 {
+h1,
+h4 {
   height: 100px;
   font-weight: 400;
   font-size: 56px;
   line-height: 64px;
   letter-spacing: 0.37px;
-  color: hsl(25.2,100%,50%);
+  color: hsl(25.2, 100%, 50%);
   flex: none;
   order: 0;
   flex-grow: 0;
 }
-
 
 h2:not([class]) {
   width: 327px;
@@ -86,7 +84,7 @@ h2:not([class]) {
   line-height: 32px;
   display: flex;
   align-items: center;
-  color:hsl(40,100%,94.1%);
+  color: hsl(40, 100%, 94.1%);
   flex: none;
   order: 1;
   flex-grow: 0;
@@ -103,7 +101,7 @@ p {
   line-height: 24px;
   flex: none;
   text-align: inherit;
-  color: hsl(0,0%,100%);
+  color: hsl(0, 0%, 100%);
 }
 
 .name {
@@ -117,7 +115,7 @@ p {
   display: flex;
   align-items: center;
   text-align: center;
-  color: hsl(0,0%,100%);
+  color: hsl(0, 0%, 100%);
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -143,7 +141,7 @@ ul {
 }
 
 .proyects {
-  background: hsl(0,0%,100%);
+  background: hsl(0, 0%, 100%);
   flex-direction: column;
   display: grid;
 }
@@ -238,7 +236,7 @@ ul {
   line-height: 44px;
   display: flex;
   align-items: center;
-  color: hsl(0,0%,100%);
+  color: hsl(0, 0%, 100%);
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -275,7 +273,7 @@ ul {
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  color: hsl(0,0%,100%);
+  color: hsl(0, 0%, 100%);
   background: transparent;
   flex: none;
   order: 1;
@@ -290,7 +288,7 @@ ul {
   font-weight: 500;
   font-size: 15px;
   line-height: 20px;
-  color: hsl(0,0%,100%);
+  color: hsl(0, 0%, 100%);
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -328,7 +326,7 @@ ul {
   font-weight: 500;
   font-size: 15px;
   line-height: 20px;
-  color: hsl(0,0%,100%);
+  color: hsl(0, 0%, 100%);
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -352,7 +350,7 @@ ul {
   display: flex;
   color: #091e42;
   padding: 10px 12px;
-  background: hsl(0,0%,100%);
+  background: hsl(0, 0%, 100%);
   border: 1px solid hsl(218, 13%, 59%);
 }
 
@@ -364,7 +362,7 @@ ul {
   font-weight: 500;
   font-size: 15px;
   line-height: 20px;
-  color: hsl(0,0%,100%);
+  color: hsl(0, 0%, 100%);
   background: transparent;
   flex: none;
   order: 0;
@@ -400,7 +398,7 @@ ul {
   font-weight: 500;
   font-size: 15px;
   line-height: 20px;
-  color: hsl(0,0%,100%);
+  color: hsl(0, 0%, 100%);
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -442,19 +440,19 @@ ul {
   flex-grow: 0;
   justify-content: center;
   flex-wrap: nowrap;
-  color: hsl(0,0%,100%);
+  color: hsl(0, 0%, 100%);
   border: 1px solid transparent;
   cursor: pointer;
 }
 
 .btnseeproyect:hover {
-  background-color: hsl(0,0%,100%)5e1;
+  background-color: hsl(0, 0%, 100%) 5e1;
   border: 1px solid hsl(22, 100%, 48%);
   color: hsl(22, 100%, 48%);
 }
 
 .btnseeproyect:focus {
-  background-color: hsl(0,0%,100%)5e1;
+  background-color: hsl(0, 0%, 100%) 5e1;
   border: 1px solid hsl(22, 100%, 48%);
 }
 
@@ -480,7 +478,7 @@ ul {
 }
 
 .btnseeproyect2:hover {
-  background-color: hsl(0,0%,100%)5e1;
+  background-color: hsl(0, 0%, 100%) 5e1;
   display: none;
   color: hsl(22, 100%, 48%);
   border: 1px solid hsl(22, 100%, 48%);
@@ -561,7 +559,7 @@ ul {
   font-weight: 700;
   font-size: 32px;
   line-height: 44px;
-  color: hsl(0,0%,100%);
+  color: hsl(0, 0%, 100%);
   list-style-image: url("./imgs/Rectangle55.jpg");
   position: relative;
   top: -10px;
@@ -579,7 +577,7 @@ ul {
   font-weight: 700;
   font-size: 32px;
   line-height: 44px;
-  color: hsl(0,0%,100%);
+  color: hsl(0, 0%, 100%);
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -596,7 +594,7 @@ ul {
   font-weight: 700;
   font-size: 32px;
   line-height: 44px;
-  color: hsl(0,0%,100%);
+  color: hsl(0, 0%, 100%);
   list-style-image: url("./imgs/Circle57.png");
   position: relative;
   top: -10px;
@@ -606,7 +604,7 @@ ul {
   position: relative;
   width: 375px;
   height: 6968px;
-  background: hsl(0,0%,100%);
+  background: hsl(0, 0%, 100%);
 }
 
 .inner {
@@ -638,7 +636,7 @@ ul {
   font-weight: 400;
   font-size: 22px;
   line-height: 43px;
-  color: hsl(0,0%,100%);
+  color: hsl(0, 0%, 100%);
   list-style: none;
   display: flex;
   flex-direction: column;
@@ -697,7 +695,7 @@ footer {
 }
 
 .btn:hover {
-  background-color: hsl(0,0%,100%);
+  background-color: hsl(0, 0%, 100%);
   color: hsl(22, 100%, 48%);
 }
 
@@ -722,7 +720,7 @@ footer.contact {
 input,
 textarea {
   border: none;
-  border-bottom: 1px solid hsl(15,5.3%,85.1%);
+  border-bottom: 1px solid hsl(15, 5.3%, 85.1%);
   padding: 1em;
   outline: none;
   transition: border-bottom 0.3s ease-in-out;
@@ -731,7 +729,7 @@ textarea {
 :placeholder {
   font-size: 15px;
   font-weight: 400;
-  color: hsl(15,1.9%,58.4%);
+  color: hsl(15, 1.9%, 58.4%);
 }
 
 .contact-form button {
@@ -770,17 +768,17 @@ footer input,
 textarea {
   border: none;
   padding: 0.7em;
-  border-bottom: 1px solid hsl(0,0%,50.2%);
+  border-bottom: 1px solid hsl(0, 0%, 50.2%);
 }
 
 textarea {
-  background-color: hsl(15,33.3%,97.6%);
+  background-color: hsl(15, 33.3%, 97.6%);
   margin-bottom: 1em;
 }
 
 /* footer social media styles */
 .footer-social-media {
-  border-top: 1px solid hsl(0,0%,50.2%);
+  border-top: 1px solid hsl(0, 0%, 50.2%);
   margin-inline: -1em;
 }
 
@@ -854,7 +852,7 @@ textarea {
     font-size: 32px;
     line-height: 44px;
     display: flex;
-    color: hsl(0,0%,100%);
+    color: hsl(0, 0%, 100%);
   }
 
   p {
@@ -864,7 +862,7 @@ textarea {
     font-weight: 200;
     font-size: 20px;
     line-height: 24px;
-    color: hsl(0,0%,100%);
+    color: hsl(0, 0%, 100%);
     flex: none;
     text-align: inherit;
   }
@@ -1050,7 +1048,7 @@ textarea {
     background-image:
       linear-gradient(
         to bottom,
-        hsl(0,1.6%,37.5%),
+        hsl(0, 1.6%, 37.5%),
         hsl(0, 0%, 15%)
       );
     inset: 0;
@@ -1082,7 +1080,7 @@ textarea {
     font-weight: 700;
     font-size: 32px;
     line-height: 44px;
-    color: hsl(0,0%,100%);
+    color: hsl(0, 0%, 100%);
     list-style-image: url(./imgs/Rectangle55.jpg);
     position: relative;
     top: -10px;
@@ -1129,7 +1127,7 @@ textarea {
     font-size: 17px;
     line-height: 24px;
     display: flex;
-    color: hsl(0,0%,100%);
+    color: hsl(0, 0%, 100%);
     flex: none;
     text-align: inherit;
   }
@@ -1167,8 +1165,8 @@ textarea {
   }
 
   .line2 {
-    border: 1px solid hsl(0,0%,100%);
-    background: hsl(0,0%,100%);
+    border: 1px solid hsl(0, 0%, 100%);
+    background: hsl(0, 0%, 100%);
     margin-top: 139px;
   }
 
@@ -1188,12 +1186,12 @@ textarea {
     padding: 0.9em;
     flex: none;
     justify-content: center;
-    color: hsl(0,0%,100%);
+    color: hsl(0, 0%, 100%);
     cursor: pointer;
   }
 
   .btnseeproyect3:hover {
-    background-color: hsl(0,0%,100%)5e1;
+    background-color: hsl(0, 0%, 100%) 5e1;
     border: 1px solid hsl(22, 100%, 48%);
     color: hsl(0, 0%, 100%);
   }
