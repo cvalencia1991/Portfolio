@@ -3,6 +3,8 @@
   src: url(InaiMathi.ttf) format("truetype");
 }
 
+
+
 a {
   font-family: "Roboto", sans-serif;
   text-decoration: none;
@@ -61,7 +63,7 @@ h6 {
   font-family: "Crete Round", serif;
 }
 
-h1 {
+h1,h4 {
   height: 100px;
   font-weight: 400;
   font-size: 56px;
@@ -72,6 +74,7 @@ h1 {
   order: 0;
   flex-grow: 0;
 }
+
 
 h2:not([class]) {
   width: 327px;
