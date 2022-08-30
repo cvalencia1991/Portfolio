@@ -6,7 +6,7 @@
 a {
   font-family: "Roboto", sans-serif;
   text-decoration: none;
-  color: #fff;
+  color: hsl(0, 0%, 100%);
 }
 
 .navbardesktop {
@@ -49,7 +49,7 @@ a:hover {
   justify-content: space-between;
   align-items: center;
   background: #3c3a39;
-  color: white;
+  color: hsl(0, 0%, 100%);
   padding: 18px 10px;
 }
 
@@ -61,13 +61,14 @@ h6 {
   font-family: "Crete Round", serif;
 }
 
-h1 {
+h1,
+h4 {
   height: 100px;
   font-weight: 400;
   font-size: 56px;
   line-height: 64px;
   letter-spacing: 0.37px;
-  color: #ff6b00;
+  color: hsl(25.2, 100%, 50%);
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -83,7 +84,7 @@ h2:not([class]) {
   line-height: 32px;
   display: flex;
   align-items: center;
-  color: #fff5e1;
+  color: hsl(40, 100%, 94.1%);
   flex: none;
   order: 1;
   flex-grow: 0;
@@ -98,9 +99,9 @@ p {
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  color: #fff;
   flex: none;
   text-align: inherit;
+  color: hsl(0, 0%, 100%);
 }
 
 .name {
@@ -114,7 +115,7 @@ p {
   display: flex;
   align-items: center;
   text-align: center;
-  color: #fff;
+  color: hsl(0, 0%, 100%);
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -140,7 +141,7 @@ ul {
 }
 
 .proyects {
-  background: #fff;
+  background: hsl(0, 0%, 100%);
   flex-direction: column;
   display: grid;
 }
@@ -160,7 +161,7 @@ ul {
   font-size: 40px;
   display: flex;
   align-items: center;
-  color: #1c1a19;
+  color: hsl(20, 6%, 10%);
 }
 
 .grid4 {
@@ -181,7 +182,7 @@ ul {
   flex: none;
   order: 1;
   flex-grow: 0;
-  border: 1px solid black;
+  border: 1px solid hsl(0, 0%, 0%);
 }
 
 .letter {
@@ -191,7 +192,7 @@ ul {
   line-height: 44px;
   display: flex;
   align-items: center;
-  color: #091e42;
+  color: hsl(218, 76%, 15%);
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -210,7 +211,7 @@ ul {
   display: flex;
   order: 0;
   flex-grow: 0;
-  color: #091e42;
+  color: hsl(218, 76%, 15%);
 }
 
 .head1 {
@@ -222,7 +223,7 @@ ul {
   line-height: 44px;
   display: flex;
   align-items: center;
-  color: #091e42;
+  color: hsl(218, 76%, 15%);
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -235,7 +236,7 @@ ul {
   line-height: 44px;
   display: flex;
   align-items: center;
-  color: #fff;
+  color: hsl(0, 0%, 100%);
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -245,8 +246,8 @@ ul {
 .line {
   width: 327px;
   line-height: 52px;
-  border: 1px solid #212121;
-  background: black;
+  border: 1px solid hsl(0, 0%, 13%);
+  background: hsl(0, 0%, 0%);
 }
 
 .tittleworksproyects {
@@ -272,7 +273,7 @@ ul {
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  color: #fff;
+  color: hsl(0, 0%, 100%);
   background: transparent;
   flex: none;
   order: 1;
@@ -287,11 +288,11 @@ ul {
   font-weight: 500;
   font-size: 15px;
   line-height: 20px;
-  color: #fff;
+  color: hsl(0, 0%, 100%);
   flex: none;
   order: 0;
   flex-grow: 0;
-  border: 1px solid #8993a4;
+  border: 1px solid hsl(218, 13%, 59%);
   background: transparent;
   display: flex;
   justify-content: center;
@@ -308,11 +309,11 @@ ul {
   font-weight: 500;
   font-size: 15px;
   line-height: 20px;
-  color: #091e42;
+  color: hsl(218, 76%, 15%);
   display: flex;
   flex-direction: row;
   align-items: center;
-  border: 1px solid #8993a4;
+  border: 1px solid hsl(218, 13%, 59%);
   background: transparent;
   padding: 10px 12px;
 }
@@ -325,11 +326,11 @@ ul {
   font-weight: 500;
   font-size: 15px;
   line-height: 20px;
-  color: #fff;
+  color: hsl(0, 0%, 100%);
   flex: none;
   order: 0;
   flex-grow: 0;
-  border: 1px solid #8993a4;
+  border: 1px solid hsl(218, 13%, 59%);
   background: transparent;
   display: flex;
   justify-content: center;
@@ -349,8 +350,8 @@ ul {
   display: flex;
   color: #091e42;
   padding: 10px 12px;
-  background: #fff;
-  border: 1px solid #8993a4;
+  background: hsl(0, 0%, 100%);
+  border: 1px solid hsl(218, 13%, 59%);
 }
 
 .boostrap {
@@ -361,12 +362,12 @@ ul {
   font-weight: 500;
   font-size: 15px;
   line-height: 20px;
-  color: #fff;
+  color: hsl(0, 0%, 100%);
   background: transparent;
   flex: none;
   order: 0;
   flex-grow: 0;
-  border: 1px solid #8993a4;
+  border: 1px solid hsl(218, 13%, 59%);
   display: flex;
   justify-content: center;
   flex-direction: row;
@@ -383,8 +384,8 @@ ul {
   display: flex;
   justify-content: center;
   flex-direction: row;
-  color: #091e42;
-  border: 1px solid #8993a4;
+  color: hsl(218, 76%, 15%);
+  border: 1px solid hsl(218, 13%, 59%);
   align-items: center;
   padding: 10px 12px;
 }
@@ -397,7 +398,7 @@ ul {
   font-weight: 500;
   font-size: 15px;
   line-height: 20px;
-  color: #fff;
+  color: hsl(0, 0%, 100%);
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -418,8 +419,8 @@ ul {
   font-weight: 500;
   font-size: 15px;
   line-height: 20px;
-  color: #091e42;
-  border: 1px solid #8993a4;
+  color: hsl(218, 76%, 15%);
+  border: 1px solid hsl(218, 13%, 59%);
   padding: 10px 12px;
 }
 
@@ -433,25 +434,26 @@ ul {
   align-items: center;
   width: 161px;
   height: 48px;
-  background: #ff6b00;
+  background: hsl(25, 100%, 50%);
   flex: none;
   order: 3;
   flex-grow: 0;
   justify-content: center;
   flex-wrap: nowrap;
-  color: #fff;
+  color: hsl(0, 0%, 100%);
   border: 1px solid transparent;
   cursor: pointer;
 }
 
 .btnseeproyect:hover {
-  background-color: #fff5e1;
-  border: 1px solid #f55800;
-  color: #f55800;
+  background-color: hsl(0, 0%, 100%) 5e1;
+  border: 1px solid hsl(22, 100%, 48%);
+  color: hsl(22, 100%, 48%);
 }
 
 .btnseeproyect:focus {
-  border: 1px solid #f55800;
+  background-color: hsl(0, 0%, 100%) 5e1;
+  border: 1px solid hsl(22, 100%, 48%);
 }
 
 .btnseeproyect2 {
@@ -464,7 +466,7 @@ ul {
   align-items: center;
   width: 369px;
   height: 58px;
-  background-color: #f55800;
+  background-color: hsl(22, 100%, 48%);
   flex: none;
   order: 3;
   flex-grow: 0;
@@ -476,14 +478,14 @@ ul {
 }
 
 .btnseeproyect2:hover {
-  background-color: #fff5e1;
+  background-color: hsl(0, 0%, 100%) 5e1;
   display: none;
-  color: #f55800;
-  border: 1px solid #f55800;
+  color: hsl(22, 100%, 48%);
+  border: 1px solid hsl(22, 100%, 48%);
 }
 
 .btnseeproyect2:focus {
-  background-color: #e05304;
+  background-color: hsl(22, 96%, 45%);
 }
 
 .grid {
@@ -523,11 +525,11 @@ ul {
 
 .about-me {
   padding: 2em 1em;
-  background: #1c1a19;
+  background: hsl(20, 6%, 10%);
 }
 
 .about-me > p {
-  background-color: #8993a4;
+  background-color: hsl(218, 13%, 59%);
 }
 
 .nested-grid {
@@ -543,7 +545,7 @@ ul {
   font-size: 72px;
   line-height: 88px;
   letter-spacing: 0.37px;
-  color: #ff6b00;
+  color: hsl(25, 100%, 50%);
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -557,7 +559,7 @@ ul {
   font-weight: 700;
   font-size: 32px;
   line-height: 44px;
-  color: #fff;
+  color: hsl(0, 0%, 100%);
   list-style-image: url("./imgs/Rectangle55.jpg");
   position: relative;
   top: -10px;
@@ -575,7 +577,7 @@ ul {
   font-weight: 700;
   font-size: 32px;
   line-height: 44px;
-  color: #fff;
+  color: hsl(0, 0%, 100%);
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -592,7 +594,7 @@ ul {
   font-weight: 700;
   font-size: 32px;
   line-height: 44px;
-  color: #fff;
+  color: hsl(0, 0%, 100%);
   list-style-image: url("./imgs/Circle57.png");
   position: relative;
   top: -10px;
@@ -602,7 +604,7 @@ ul {
   position: relative;
   width: 375px;
   height: 6968px;
-  background: #fff;
+  background: hsl(0, 0%, 100%);
 }
 
 .inner {
@@ -634,7 +636,7 @@ ul {
   font-weight: 400;
   font-size: 22px;
   line-height: 43px;
-  color: #fff;
+  color: hsl(0, 0%, 100%);
   list-style: none;
   display: flex;
   flex-direction: column;
@@ -646,7 +648,7 @@ ul {
   font-size: 56px;
   line-height: 64px;
   letter-spacing: 0.37px;
-  color: #ff6b00;
+  color: hsl(25, 100%, 50%);
   flex: none;
   display: flex;
   margin-top: 120px;
@@ -677,28 +679,28 @@ footer {
 }
 
 .name-touch {
-  color: black;
+  color: hsl(0, 0%, 0%);
 }
 
 /* footer section styles */
 
 /* general button style */
 .btn {
-  background-color: #f55800;
+  background-color: hsl(22, 100%, 48%);
   color: hsl(0, 0%, 100%);
-  border: 1px solid #f55800;
+  border: 1px solid hsl(22, 100%, 48%);
   padding: 0.9em;
   font-size: 17px;
   font-weight: 700;
 }
 
 .btn:hover {
-  background-color: #fff5e1;
-  color: #f55800;
+  background-color: hsl(0, 0%, 100%);
+  color: hsl(22, 100%, 48%);
 }
 
 .btn:focus {
-  background-color: #e05304;
+  background-color: hsl(22, 96%, 45%);
 }
 
 footer.contact {
@@ -708,7 +710,7 @@ footer.contact {
 .secondary-header {
   font-size: 32px;
   font-weight: 700;
-  color: #172b4d;
+  color: hsl(218, 54%, 20%);
   text-align: center;
   font-family: "Inter", sans-serif;
 }
@@ -718,7 +720,7 @@ footer.contact {
 input,
 textarea {
   border: none;
-  border-bottom: 1px solid #dbd8d7;
+  border-bottom: 1px solid hsl(15, 5.3%, 85.1%);
   padding: 1em;
   outline: none;
   transition: border-bottom 0.3s ease-in-out;
@@ -727,38 +729,29 @@ textarea {
 :placeholder {
   font-size: 15px;
   font-weight: 400;
-  color: #979493;
+  color: hsl(15, 1.9%, 58.4%);
 }
 
 .contact-form button {
   display: inline-block;
-  background-color: #ff6b00;
+  background-color: hsl(25, 100%, 50%);
   width: 140px;
   margin-inline: auto;
 }
 
 .btnseeproyect3 {
   font-family: "Inter", sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 17px;
-  line-height: 24px;
   display: flex;
   flex-direction: row;
   align-items: center;
-  width: 161px;
+  margin: 1px 732px 24px 142px;
+  width: 140px;
   height: 48px;
-  background: #ff6b00;
-  flex: none;
-  justify-content: center;
-  color: #fff;
-  border: transparent;
-  cursor: pointer;
-  margin-bottom: 345px;
+  background-color: hsl(22, 100%, 48%);
 }
 
 .contact {
-  border-top: 1px solid #dfe1e6;
+  border-top: 1px solid hsl(223, 12%, 89%);
   padding-top: 1em;
 }
 
@@ -775,17 +768,17 @@ footer input,
 textarea {
   border: none;
   padding: 0.7em;
-  border-bottom: 1px solid lightgray;
+  border-bottom: 1px solid hsl(0, 0%, 50.2%);
 }
 
 textarea {
-  background-color: #fbf8f7;
+  background-color: hsl(15, 33.3%, 97.6%);
   margin-bottom: 1em;
 }
 
 /* footer social media styles */
 .footer-social-media {
-  border-top: 1px solid lightgray;
+  border-top: 1px solid hsl(0, 0%, 50.2%);
   margin-inline: -1em;
 }
 
@@ -798,7 +791,7 @@ textarea {
 
   .logo:hover {
     font-size: 20px;
-    color: #f55800;
+    color: hsl(22, 100%, 48%);
   }
 
   .a {
@@ -859,7 +852,7 @@ textarea {
     font-size: 32px;
     line-height: 44px;
     display: flex;
-    color: #fff;
+    color: hsl(0, 0%, 100%);
   }
 
   p {
@@ -869,7 +862,7 @@ textarea {
     font-weight: 200;
     font-size: 20px;
     line-height: 24px;
-    color: #fff;
+    color: hsl(0, 0%, 100%);
     flex: none;
     text-align: inherit;
   }
@@ -1011,7 +1004,6 @@ textarea {
     background: #ff6b00;
     flex: none;
     justify-content: center;
-    color: #fff;
     border: transparent;
   }
 
@@ -1056,8 +1048,8 @@ textarea {
     background-image:
       linear-gradient(
         to bottom,
-        rgba(38, 37, 37, 0.358) 10%,
-        rgba(38, 37, 37, 1)
+        hsl(0, 1.6%, 37.5%),
+        hsl(0, 0%, 15%)
       );
     inset: 0;
     padding: 16px;
@@ -1068,14 +1060,14 @@ textarea {
     font-size: 32px;
     font-weight: 400;
     font-family: "Crete Round", sans-serif;
-    color: white;
+    color: hsl(0, 0%, 100%);
     margin: 0 !important;
   }
 
   .description {
     font-size: 17px;
     font-weight: 400;
-    color: white;
+    color: hsl(0, 0%, 100%);
     max-width: 32ch;
     height: min-content !important;
   }
@@ -1088,7 +1080,7 @@ textarea {
     font-weight: 700;
     font-size: 32px;
     line-height: 44px;
-    color: #fff;
+    color: hsl(0, 0%, 100%);
     list-style-image: url(./imgs/Rectangle55.jpg);
     position: relative;
     top: -10px;
@@ -1104,9 +1096,9 @@ textarea {
     bottom: 0;
     right: 0;
     left: 0;
-    background-color: #f55800;
+    background-color: hsl(22, 100%, 48%);
     color: hsl(0, 0%, 100%);
-    border: 1px solid #f55800;
+    border: 1px solid hsl(22, 100%, 48%);
     padding: 0.9em;
     font-size: 17px;
     font-weight: 700;
@@ -1135,7 +1127,7 @@ textarea {
     font-size: 17px;
     line-height: 24px;
     display: flex;
-    color: #fff;
+    color: hsl(0, 0%, 100%);
     flex: none;
     text-align: inherit;
   }
@@ -1168,13 +1160,13 @@ textarea {
     font-weight: 400;
     font-size: 20px;
     line-height: 32px;
-    color: #f4f5f7;
+    color: hsl(220, 16%, 96%);
     margin: 1px 732px 24px 142px;
   }
 
   .line2 {
-    border: 1px solid #fff;
-    background: #fff;
+    border: 1px solid hsl(0, 0%, 100%);
+    background: hsl(0, 0%, 100%);
     margin-top: 139px;
   }
 
@@ -1190,22 +1182,22 @@ textarea {
     margin: 1px 732px 24px 142px;
     width: 140px;
     height: 48px;
-    background-color: #f55800;
+    background-color: hsl(22, 100%, 48%);
     padding: 0.9em;
     flex: none;
     justify-content: center;
-    color: #fff;
+    color: hsl(0, 0%, 100%);
     cursor: pointer;
   }
 
   .btnseeproyect3:hover {
-    background-color: #fff5e1;
-    border: 1px solid #f55800;
-    color: #f55800;
+    background-color: hsl(0, 0%, 100%) 5e1;
+    border: 1px solid hsl(22, 100%, 48%);
+    color: hsl(0, 0%, 100%);
   }
 
   .btnseeproyect3:focus {
-    background-color: #e05304;
+    background-color: hsl(22, 96%, 45%);
   }
 
   .wrapper {
@@ -1227,7 +1219,7 @@ textarea {
   .secondary-header {
     font-size: 39px;
     font-weight: 700;
-    color: #172b4d;
+    color: hsl(218, 54%, 20%);
     display: flex;
     font-family: "Inter", sans-serif;
     width: 455px;
@@ -1249,7 +1241,7 @@ textarea {
 
   .contact-form input:focus,
   textarea:focus {
-    border-bottom: 1px solid #f55800;
+    border-bottom: 1px solid hsl(22, 100%, 48%);
   }
 
   .buttontouch {
@@ -1294,8 +1286,8 @@ textarea {
   background-image:
     linear-gradient(
       to bottom,
-      rgba(38, 37, 37, 0.358) 10%,
-      rgba(38, 37, 37, 1)
+      hsla(0, 1%, 15%, 0.358) 10%,
+      hsl(0, 1%, 15%)
     );
   inset: 0;
   padding: 16px;
@@ -1306,14 +1298,14 @@ textarea {
   font-size: 32px;
   font-weight: 400;
   font-family: "Crete Round", sans-serif;
-  color: white;
+  color: hsl(0, 0%, 100%);
   margin: 0 !important;
 }
 
 .description {
   font-size: 17px;
   font-weight: 400;
-  color: white;
+  color: hsl(0, 0%, 100%);
   max-width: 32ch;
   height: min-content !important;
 }
@@ -1328,9 +1320,9 @@ textarea {
   bottom: 0;
   right: 0;
   left: 0;
-  background-color: #f55800;
+  background-color: hsl(22, 100%, 48%);
   color: hsl(0, 0%, 100%);
-  border: 1px solid #f55800;
+  border: 1px solid hsl(22, 100%, 48%);
   padding: 0.9em;
   font-size: 17px;
   font-weight: 700;
@@ -1338,7 +1330,7 @@ textarea {
 }
 
 .grid2:is(:hover, :focus) {
-  border: 1px solid black;
+  border: 1px solid hsl(0, 0%, 0%);
 }
 
 .grid2:is(:hover, :focus) > img {
