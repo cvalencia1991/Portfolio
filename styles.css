@@ -434,26 +434,26 @@ ul {
   align-items: center;
   width: 161px;
   height: 48px;
-  background: hsl(25, 100%, 50%);
+  background: #FF6905;
   flex: none;
   order: 3;
   flex-grow: 0;
   justify-content: center;
   flex-wrap: nowrap;
-  color: hsl(0, 0%, 100%);
+  color: black;
   border: 1px solid transparent;
   cursor: pointer;
 }
 
 .btnseeproyect:hover {
-  background-color: hsl(0, 0%, 100%) 5e1;
-  border: 1px solid hsl(22, 100%, 48%);
-  color: hsl(22, 100%, 48%);
+  background-color: hsl(0, 0%, 100%);
+  border: 1px solid #FF6905;
+  color: #FF6905;
 }
 
 .btnseeproyect:focus {
   background-color: hsl(0, 0%, 100%) 5e1;
-  border: 1px solid hsl(22, 100%, 48%);
+  border: 1px solid #FF6905;
 }
 
 .btnseeproyect2 {
@@ -466,7 +466,7 @@ ul {
   align-items: center;
   width: 369px;
   height: 58px;
-  background-color: hsl(22, 100%, 48%);
+  background-color:#FF6905;
   flex: none;
   order: 3;
   flex-grow: 0;
@@ -687,7 +687,7 @@ footer {
 /* general button style */
 .btn {
   background-color: hsl(22, 100%, 48%);
-  color: hsl(0, 0%, 100%);
+  color: hsl(0, 0%, 0%);
   border: 1px solid hsl(22, 100%, 48%);
   padding: 0.9em;
   font-size: 17px;
@@ -1001,7 +1001,6 @@ textarea {
     align-items: center;
     width: 140px;
     height: 48px;
-    background: #ff6b00;
     flex: none;
     justify-content: center;
     border: transparent;
@@ -1186,7 +1185,7 @@ textarea {
     padding: 0.9em;
     flex: none;
     justify-content: center;
-    color: hsl(0, 0%, 100%);
+    color: black;
     cursor: pointer;
   }
 
