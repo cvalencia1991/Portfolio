@@ -34,6 +34,39 @@ a:hover {
   list-style: none;
   display: flex;
 }
+#mobile-menu{
+  display: none;
+  flex-direction: column;
+  position: fixed;
+  left: 0px;
+  top: -15px;
+  gap: 24px;
+  width: 99%;
+  height: 100%;
+  background: #3C3A39;
+  padding: 40px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding-top: 108px;
+  box-sizing: border-box;
+}
+
+#close-btn{
+ display: flex;
+ flex-direction: row-reverse;
+}
+
+.line_border{
+  border-bottom: 2px solid #6F6C6B;
+  margin-bottom: 24px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  color: #FFF5E1;
+}
+
 
 .status-mobile {
   display: flex;
