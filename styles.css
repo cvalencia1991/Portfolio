@@ -1,7 +1,3 @@
-@font-face {
-  font-family: "InaiMathi";
-  src: url(InaiMathi.ttf) format("truetype");
-}
 
 html {
   scroll-behavior: smooth;
@@ -47,12 +43,12 @@ a:hover {
   display: none;
   flex-direction: column;
   position: fixed;
-  left: 0px;
+  left: 0;
   top: -15px;
   gap: 24px;
   width: 100%;
   height: 100%;
-  background: #3C3A39;
+  background: #3c3a39;
   padding: 40px;
   align-items: flex-start;
   justify-content: flex-start;
@@ -66,16 +62,15 @@ a:hover {
 }
 
 .line_border {
-  border-bottom: 2px solid #6F6C6B;
+  border-bottom: 2px solid #6f6c6b;
   margin-bottom: 24px;
-  font-family: 'Inter';
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
   line-height: 44px;
-  color: #FFF5E1;
+  color: #fff5e1;
 }
-
 
 .status-mobile {
   display: flex;
@@ -474,7 +469,7 @@ ul {
   align-items: center;
   width: 161px;
   height: 48px;
-  background: #FF6905;
+  background: #ff6905;
   flex: none;
   order: 3;
   flex-grow: 0;
@@ -487,13 +482,13 @@ ul {
 
 .btnseeproyect:hover {
   background-color: hsl(0, 0%, 100%);
-  border: 1px solid #FF6905;
-  color: #FF6905;
+  border: 1px solid #ff6905;
+  color: #ff6905;
 }
 
 .btnseeproyect:focus {
   background-color: hsl(0, 0%, 100%) 5e1;
-  border: 1px solid #FF6905;
+  border: 1px solid #ff6905;
 }
 
 .btnseeproyect2 {
@@ -506,7 +501,7 @@ ul {
   align-items: center;
   width: 369px;
   height: 58px;
-  background-color: #FF6905;
+  background-color: #ff6905;
   flex: none;
   order: 3;
   flex-grow: 0;
@@ -568,7 +563,7 @@ ul {
   background: hsl(20, 6%, 10%);
 }
 
-.about-me>p {
+.about-me > p {
   background-color: hsl(218, 13%, 59%);
 }
 
@@ -1092,9 +1087,11 @@ textarea {
   .lay-on-top {
     position: absolute;
     background-image:
-      linear-gradient(to bottom,
+      linear-gradient(
+        to bottom,
         hsl(0, 1.6%, 37.5%),
-        hsl(0, 0%, 15%));
+        hsl(0, 0%, 15%)
+      );
     inset: 0;
     padding: 16px;
     padding-top: 140px;
@@ -1153,7 +1150,7 @@ textarea {
     border: 1px solid black;
   }
 
-  .grid2:is(:hover, :focus)>img {
+  .grid2:is(:hover, :focus) > img {
     z-index: 3;
     animation: scaleImage 1s;
   }
@@ -1328,9 +1325,11 @@ textarea {
 .lay-on-top {
   position: absolute;
   background-image:
-    linear-gradient(to bottom,
+    linear-gradient(
+      to bottom,
       hsla(0, 1%, 15%, 0.358) 10%,
-      hsl(0, 1%, 15%));
+      hsl(0, 1%, 15%)
+    );
   inset: 0;
   padding: 16px;
   padding-top: 120px;
@@ -1375,7 +1374,7 @@ textarea {
   border: 1px solid hsl(0, 0%, 0%);
 }
 
-.grid2:is(:hover, :focus)>img {
+.grid2:is(:hover, :focus) > img {
   z-index: 3;
   animation: scaleImage 1s;
 }

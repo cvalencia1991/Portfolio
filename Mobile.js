@@ -1,25 +1,21 @@
-
-document.getElementById("Deploy_menu").addEventListener("click", Deploy_menu);
-function Deploy_menu(){
-    let hambuermenu = document.getElementById("mobile-menu");
-    hambuermenu.style.display="block";
-
+/* eslint-disable no-use-before-define */
+document.getElementById('Deploy_menu').addEventListener('click', deploying_menu);
+// eslint-disable-next-line camelcase
+function deploying_menu() {
+  const hambuermenu = document.getElementById('mobile-menu');
+  hambuermenu.style.display = 'block';
+}
+/* eslint-disable no-use-before-define */
+document.getElementById('close-btn').addEventListener('click', closemenu);
+// eslint-disable-next-line camelcase
+function closemenu() {
+  const hambuermenu = document.getElementById('mobile-menu');
+  hambuermenu.style.display = 'none';
 }
 
-
-document.getElementById("close-btn").addEventListener("click", Close_menu);
-function Close_menu(){
-    let hambuermenu = document.getElementById("mobile-menu");
-    hambuermenu.style.display="none";
-
-}
-
-
-const elements=document.getElementsByClassName("line_border")
-const elements_array= Array.from(elements)
-elements_array.forEach(function(Element){
-Element.addEventListener("click", Close_menu);
-})
-
-
-
+const elements = document.getElementsByClassName('line_border');
+// eslint-disable-next-line camelcase
+const elements_array = Array.from(elements);
+elements_array.forEach((Element) => {
+  Element.addEventListener('click', closemenu);
+});
