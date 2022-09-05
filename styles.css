@@ -27,6 +27,7 @@ a:hover {
   background-repeat: no-repeat;
   background-position: right;
   background-position-y: bottom;
+  padding-left: 10px;
 }
 
 .links {
@@ -63,15 +64,12 @@ h6 {
 
 h1,
 h4 {
-  height: 100px;
   font-weight: 400;
   font-size: 56px;
   line-height: 64px;
   letter-spacing: 0.37px;
   color: hsl(25.2, 100%, 50%);
-  flex: none;
-  order: 0;
-  flex-grow: 0;
+  margin-bottom: 1px;
 }
 
 h2:not([class]) {
@@ -440,7 +438,7 @@ ul {
   flex-grow: 0;
   justify-content: center;
   flex-wrap: nowrap;
-  color: black;
+  color: white;
   border: 1px solid transparent;
   cursor: pointer;
 }
@@ -497,8 +495,8 @@ ul {
 
 .links1 {
   list-style: none;
-  flex-direction: column;
   flex-direction: row;
+  justify-content: flex-start;
   display: flex;
 }
 
@@ -643,6 +641,14 @@ ul {
   justify-content: center;
 }
 
+.wrapper {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  margin-top: 30em;
+}
+
 .h6 {
   font-weight: 400;
   font-size: 56px;
@@ -687,7 +693,7 @@ footer {
 /* general button style */
 .btn {
   background-color: hsl(22, 100%, 48%);
-  color: hsl(0, 0%, 0%);
+  color: white;
   border: 1px solid hsl(22, 100%, 48%);
   padding: 0.9em;
   font-size: 17px;
@@ -744,7 +750,6 @@ textarea {
   display: flex;
   flex-direction: row;
   align-items: center;
-  margin: 1px 732px 24px 142px;
   width: 140px;
   height: 48px;
   background-color: hsl(22, 100%, 48%);
