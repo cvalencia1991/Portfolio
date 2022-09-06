@@ -1,21 +1,17 @@
-/* eslint-disable no-use-before-define */
-document.getElementById('Deploy_menu').addEventListener('click', deploying_menu);
-// eslint-disable-next-line camelcase
-function deploying_menu() {
+function deploymenu() {
   const hambuermenu = document.getElementById('mobile-menu');
   hambuermenu.style.display = 'block';
 }
-/* eslint-disable no-use-before-define */
-document.getElementById('close-btn').addEventListener('click', closemenu);
-// eslint-disable-next-line camelcase
+document.getElementById('Deploy_menu').addEventListener('click', deploymenu);
+
 function closemenu() {
   const hambuermenu = document.getElementById('mobile-menu');
   hambuermenu.style.display = 'none';
 }
+document.getElementById('close-btn').addEventListener('click', closemenu);
 
 const elements = document.getElementsByClassName('line_border');
-// eslint-disable-next-line camelcase
-const elements_array = Array.from(elements);
-elements_array.forEach((Element) => {
+const elementsarr = Array.from(elements);
+elementsarr.forEach((Element) => {
   Element.addEventListener('click', closemenu);
 });
