@@ -1,6 +1,10 @@
-@font-face {
-  font-family: "InaiMathi";
-  src: url(InaiMathi.ttf) format("truetype");
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
 }
 
 a {
@@ -13,8 +17,27 @@ a {
   display: none;
 }
 
+.closemenu {
+  position: absolute;
+  top: 19px;
+  right: 10px;
+  cursor: pointer;
+}
+
+.closemenu:hover {
+  opacity: 0.5;
+}
+
 a:hover {
   color: black;
+}
+
+#Deploy_menu {
+  cursor: pointer;
+}
+
+#Deploy_menu:hover {
+  opacity: 0.5;
 }
 
 .cover {
@@ -33,6 +56,39 @@ a:hover {
 .links {
   list-style: none;
   display: flex;
+}
+
+#mobile-menu {
+  display: none;
+  flex-direction: column;
+  position: fixed;
+  left: 0;
+  top: -15px;
+  gap: 24px;
+  width: 100%;
+  height: 100%;
+  background: #3c3a39;
+  padding: 40px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding-top: 108px;
+  box-sizing: border-box;
+}
+
+#close-btn {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.line_border {
+  border-bottom: 2px solid #6f6c6b;
+  margin-bottom: 24px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  color: #fff5e1;
 }
 
 .status-mobile {
@@ -432,7 +488,7 @@ ul {
   align-items: center;
   width: 161px;
   height: 48px;
-  background: #FF6905;
+  background: #ff6905;
   flex: none;
   order: 3;
   flex-grow: 0;
@@ -445,13 +501,13 @@ ul {
 
 .btnseeproyect:hover {
   background-color: hsl(0, 0%, 100%);
-  border: 1px solid #FF6905;
-  color: #FF6905;
+  border: 1px solid #ff6905;
+  color: #ff6905;
 }
 
 .btnseeproyect:focus {
   background-color: hsl(0, 0%, 100%) 5e1;
-  border: 1px solid #FF6905;
+  border: 1px solid #ff6905;
 }
 
 .btnseeproyect2 {
@@ -464,7 +520,7 @@ ul {
   align-items: center;
   width: 369px;
   height: 58px;
-  background-color:#FF6905;
+  background-color: #ff6905;
   flex: none;
   order: 3;
   flex-grow: 0;

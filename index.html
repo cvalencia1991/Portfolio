@@ -5,26 +5,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Crete+Round&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap" rel="stylesheet">
     <meta name="Portfolio" content="this is a portfolio by Cesar Alberto Valencia Aguilar.">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <!--Boostrap Link-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <!--Font links-->
+    <link href="https://fonts.googleapis.com/css2?family=Crete+Round&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap" rel="stylesheet">
+
     <title>Portfolio</title>
 </head>
 
@@ -33,18 +25,31 @@
         <a class="logo" href="#">Cesar Valencia</a>
         <nav>
             <ul class="navbardesktop">
-                <li>Portofolio</li>
+                <li>Portfolio</li>
                 <li>About</li>
                 <li>Contact</li>
                 <li><i class="bi bi-envelope emailsend"></i></li>
             </ul>
-            <i class="bi bi-list menu"></i>
+            <i id="Deploy_menu" class="bi bi-list menu"></i>
+            <ul id="mobile-menu">
+                <li id="close-btn" class="close-mobile-menu "><i class="bi bi-x-lg closemenu"></i></li>
+                <li class="line_border">
+                    <a href="#proyects">Portfolio</a>
+                </li>
+                <li class="line_border">
+                    <a href="#aboutme">About Me</a>
+                </li>
+                <li class="line_border">
+                    <a href="#contact">
+                        Contact Me
+                    </a>
+                </li>
+            </ul>
         </nav>
     </header>
-    <section class="cover">
+    <section class="cover" id="cover">
         <div class="content">
             <h1>Hey there,<br>I´m cesar</h1>
-
             <div>
                 <h2> I'am a Software Engineer</h2>
             </div>
@@ -77,7 +82,7 @@
             </ul>
         </div>
     </section>
-    <section class="proyects">
+    <section class="proyects" id="proyects">
         <div class="tittleworksproyects">
             <h3 class="fontstitles">My Recent Works</h3>
             <div class="line"></div>
@@ -191,7 +196,7 @@
             </div>
         </div>
     </section>
-    <section class="aboutme">
+    <section class="aboutme" id="aboutme">
         <div class="content">
             <h4 class="aboutme2">About Me</h4>
             <p class="aboutme3">Hello I’m a software developer! I can help you build a product ,
@@ -230,7 +235,7 @@
             </ul>
         </div>
     </section>
-    <footer class="contact">
+    <footer class="contact" id="contact">
         <div class="wrapper2">
             <h5 class="secondary-header">I'm always interested in hearing about new projects, so if you'd like to chat
                 please get in touch.</h5>
@@ -263,6 +268,7 @@
             </li>
         </ul>
     </footer>
+    <script src="./Mobile.js"></script>
 </body>
 
 </html>
