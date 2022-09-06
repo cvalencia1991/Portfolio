@@ -17,8 +17,27 @@ a {
   display: none;
 }
 
+.closemenu {
+  position: absolute;
+  top: 19px;
+  right: 10px;
+  cursor: pointer;
+}
+
+.closemenu:hover {
+  opacity: 0.5;
+}
+
 a:hover {
   color: black;
+}
+
+#Deploy_menu {
+  cursor: pointer;
+}
+
+#Deploy_menu:hover {
+  opacity: 0.5;
 }
 
 .cover {
