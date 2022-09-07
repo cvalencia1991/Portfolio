@@ -1501,6 +1501,7 @@ textarea {
   padding: 0.9em;
   font-size: 17px;
   font-weight: 700;
+  cursor: pointer;
 }
 
 .grid2:is(:hover, :focus) {

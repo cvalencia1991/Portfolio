@@ -7,8 +7,14 @@ First mobile desktop portfolio accessibility for my web desings
 
  ## Live Demo 
  
-- [live portfolio demo]( https://cvalencia1991.github.io/Portafolio/)
+- [live portfolio demo]( https://cvalencia1991.github.io/Portfolio/)
 
+
+## Built With
+
+- Html
+- Css
+- Javascript
 
 👤 **Cesar Valencia**
 
