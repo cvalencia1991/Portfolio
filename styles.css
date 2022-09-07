@@ -73,6 +73,7 @@ a:hover {
   justify-content: flex-start;
   padding-top: 108px;
   box-sizing: border-box;
+  z-index: 1;
 }
 
 #close-btn {
@@ -146,8 +147,6 @@ h2:not([class]) {
 }
 
 p {
-  width: 327px;
-  height: 123px;
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -156,7 +155,11 @@ p {
   flex: none;
   text-align: inherit;
   color: hsl(0, 0%, 100%);
+  margin-bottom:16px;
+  margin-top: 24px;
+  margin: 0;
 }
+
 
 .name {
   width: 200px;
@@ -175,6 +178,47 @@ p {
   flex-grow: 0;
   padding-left: 20px;
 }
+
+#popupmobile{
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 60px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0,0,0,0.5);
+}
+
+.contenidoModal {
+  background-color: white;
+  margin: auto; /* Centrada */
+  padding: 16px;
+
+  -webkit-animation-name: animarsuperior;
+  -webkit-animation-duration: 0.5s;
+  animation-name: animarsuperior;
+  animation-duration: 0.5s
+}
+
+.textoModal {
+  color: #344563;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+}
+.popupinfo{
+  display: flex;
+  flex-direction: column;
+}
+.popupimage{
+  image-rendering: auto;
+}
+
 
 ul {
   align-items: center;
@@ -486,7 +530,7 @@ ul {
   display: flex;
   flex-direction: row;
   align-items: center;
-  width: 161px;
+  width: 134px;
   height: 48px;
   background: #ff6905;
   flex: none;
@@ -497,6 +541,9 @@ ul {
   color: white;
   border: 1px solid transparent;
   cursor: pointer;
+  justify-content: center;
+    flex-wrap: nowrap;
+    align-items: center;
 }
 
 .btnseeproyect:hover {
@@ -621,6 +668,17 @@ ul {
 
 .picturecard {
   display: none;
+}
+
+.tittlepopup{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.source{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .aboutmeskills2 {
@@ -806,7 +864,7 @@ textarea {
   display: flex;
   flex-direction: row;
   align-items: center;
-  width: 140px;
+  width: 134px;
   height: 48px;
   background-color: hsl(22, 100%, 48%);
 }
@@ -1024,7 +1082,7 @@ textarea {
     display: inline-flex;
     align-items: center;
     color: #091e42;
-    margin: 1px;
+    margin: 5px;
   }
 
   .intro1 {
@@ -1065,6 +1123,7 @@ textarea {
     flex: none;
     justify-content: center;
     border: transparent;
+    background-color: #F55800;
   }
 
   .grid {
@@ -1162,7 +1221,6 @@ textarea {
     padding: 0.9em;
     font-size: 17px;
     font-weight: 700;
-    z-index: 6;
   }
 
   .grid2:is(:hover, :focus) {
@@ -1309,6 +1367,42 @@ textarea {
     position: absolute;
     top: 290px;
   }
+  .popupinfo{
+    display: flex;
+    flex-direction: row;
+    gap:25px;
+  }
+  .contenidoModal {
+    background-color: white;
+    margin: auto; /* Centrada */
+    padding: 24px;
+    -webkit-animation-name: animarsuperior;
+    -webkit-animation-duration: 0.5s;
+    animation-name: animarsuperior;
+    animation-duration: 0.5s;
+    width: 1156px;
+    height: 631px;
+  }
+  .popupdesktop{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .source {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 7px;
+}
+.tittlepopup {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.popupimage {
+  width: 55%;
+}
+
 }
 
 .grid2 {
@@ -1339,6 +1433,7 @@ textarea {
     width: 100%;
     height: 100%;
   }
+
 }
 
 .lay-on-top {
@@ -1386,7 +1481,6 @@ textarea {
   padding: 0.9em;
   font-size: 17px;
   font-weight: 700;
-  z-index: 6;
 }
 
 .grid2:is(:hover, :focus) {

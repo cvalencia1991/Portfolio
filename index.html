@@ -104,7 +104,7 @@
                         <li class="ruby2">ruby</li>
                     </ul>
                     <div>
-                        <button type="submit" class="btnseeproyect">See project</button>
+                        <button  type="submit" class="btnseeproyect">See project</button>
                     </div>
                 </div>
             </div>
@@ -121,7 +121,7 @@
                         <li class="boostrap">boostrap</li>
                         <li class="ruby">ruby</li>
                     </ul>
-                    <button type="button" class="card-btn">See Project</button>
+                    <button  type="button" class="card-btn" id="card-btn-1">Project</button>
                 </div>
             </div>
             <div class="grid2">
@@ -135,7 +135,7 @@
                         <li class="boostrap">boostrap</li>
                         <li class="ruby">ruby</li>
                     </ul>
-                    <button type="button" class="card-btn">See Project</button>
+                    <button type="button" class="card-btn" id="card-btn-2">See Project</button>
                 </div>
             </div>
             <div class="grid2">
@@ -149,7 +149,7 @@
                         <li class="boostrap">boostrap</li>
                         <li class="ruby">ruby</li>
                     </ul>
-                    <button type="button" class="card-btn">See Project</button>
+                    <button type="button" class="card-btn" id="card-btn-3">See Project</button>
                 </div>
             </div>
             <div class="grid2">
@@ -163,7 +163,7 @@
                         <li class="boostrap">boostrap</li>
                         <li class="ruby">ruby</li>
                     </ul>
-                    <button type="button" class="card-btn">See Project</button>
+                    <button type="button" class="card-btn" id="card-btn-4">See Project</button>
                 </div>
             </div>
             <div class="grid2">
@@ -178,7 +178,7 @@
                         <li class="ruby">ruby</li>
                     </ul>
                 </div>
-                <button type="button" class="card-btn">See Project</button>
+                <button type="button" class="card-btn" id="card-btn-5">See Project</button>
             </div>
             <div class="grid2">
                 <img src="./imgs/card-image.png" alt="my recent works">
@@ -192,7 +192,7 @@
                         <li class="ruby">ruby</li>
                     </ul>
                 </div>
-                <button type="button" class="card-btn">See Project</button>
+                <button type="button" class="card-btn" id="card-btn-6">See Project</button>
             </div>
         </div>
     </section>
@@ -268,7 +268,31 @@
             </li>
         </ul>
     </footer>
-    <script src="./Mobile.js"></script>
-</body>
 
+    <section id="popupmobile">
+        <div class="contenidoModal">
+            <div class="tittlepopup">
+                <h4 class="letter" id="titulo"></h4>
+                <i id="closepopup"class="bi bi-x-lg"></i>
+            </div>
+            <ul class="programs">
+                <li class="html2" id="tech1"></li>
+                <li class="boostrap2" id="tech2"></li>
+                <li class="boostrap2" id="tech3"></li>
+            </ul>
+            <div class="popupinfo">
+            <img class="popupimage" src="" alt="" id="imagen">
+            <div class="popupdesktop">
+            <p class="textoModal" id="parrafo"></p><br>
+            <div class="source">
+          <button class="btnseeproyect"><a id="live" href="#"  type="button">See Live <img src="./imgs/IconExport.png" alt=""></a></button>
+          <button class="btnseeproyect"><a id="source" href="#"  type="button">See Source<img src="./imgs/IconGitHub.png" alt=""></a></button>
+        </div>
+        </div>
+        </div>
+        </div>
+    </section>
+    <script src="./Mobile.js"></script>
+    <script src="./popup.js"></script>
+</body>
 </html>
