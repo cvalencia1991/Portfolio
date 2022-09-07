@@ -1,8 +1,7 @@
 
 # Portfolio
 
-
-First mobile desktop portfolio accessibility for my web desings 
+Mobile and Desktop Portfolio Version with Pop up's Windows
 
 
  ## Live Demo 
