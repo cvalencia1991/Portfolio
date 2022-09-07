@@ -10,7 +10,7 @@ const projects = [
     linksource: '#linksource',
   },
   {
-    name: 'Multi Post Historys',
+    name: 'Multi Post Historys2',
     description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.',
     featuredimage: './imgs/Snapshoot Portfolio.png',
     tech1: 'html',
@@ -20,7 +20,7 @@ const projects = [
     linksource: '#linksource2',
   },
   {
-    name: 'Multi Post Historys',
+    name: 'Multi Post Historys3',
     description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.',
     featuredimage: './imgs/Snapshoot Portfolio.png',
     tech1: 'html',
@@ -85,15 +85,37 @@ function deploypopup(x) {
   tech3.innerHTML = projects[x].tech3;
 }
 
-document.getElementById('card-btn-1').addEventListener('click', () => { deploypopup(0); });
-document.getElementById('card-btn-2').addEventListener('click', () => { deploypopup(1); });
-document.getElementById('card-btn-3').addEventListener('click', () => { deploypopup(2); });
-document.getElementById('card-btn-4').addEventListener('click', () => { deploypopup(3); });
-document.getElementById('card-btn-5').addEventListener('click', () => { deploypopup(4); });
-document.getElementById('card-btn-6').addEventListener('click', () => { deploypopup(5); });
-
 function closemenu() {
   const buttonCard = document.getElementById('popupmobile');
   buttonCard.style.display = 'none';
 }
 document.getElementById('closepopup').addEventListener('click', closemenu);
+
+function cardworksection() {
+  // eslint-disable-next-line no-unused-vars
+  for (let project in projects) {
+    const nameproject = projects[project].name;
+    const description = projects[project].description;
+    const featuredimage= projects[project].featuredimage;
+    const tech1 = projects[project].tech1;
+    const tech2 = projects[project].tech2;
+    const tech3 = projects[project].tech3;
+    console.log(project)
+    const card = `<div class="grid2">
+    <img src="${featuredimage}" alt="" class="styleimg">
+    <div class="lay-on-top">
+        <h3 class="card-header">${nameproject}</h3>
+        <p class="description">${description}</p>
+        <ul class="technology">
+            <li class=>${tech1}</li>
+            <li class="boostrap">${tech2}</li>
+            <li class="ruby">${tech3}</li>
+        </ul>
+        <button type="button" class="card-btn" id="card-btn-1" onclick='deploypopup(${project})'> See Project</button>
+    </div>
+    `
+    document.getElementById("grid4").insertAdjacentHTML("beforeend",card)
+  }
+
+}
+cardworksection();
