@@ -549,7 +549,7 @@ ul {
 }
 
 .btnseeproyect:focus {
-  background-color: hsl(0, 0%, 100%) 5e1;
+  background-color: hsl(0, 0%, 100%);
   border: 1px solid #ff6905;
 }
 
@@ -575,7 +575,7 @@ ul {
 }
 
 .btnseeproyect2:hover {
-  background-color: hsl(0, 0%, 100%) 5e1;
+  background-color: hsl(0, 0%, 100%);
   display: none;
   color: hsl(22, 100%, 48%);
   border: 1px solid hsl(22, 100%, 48%);
@@ -1313,7 +1313,7 @@ textarea {
   }
 
   .btnseeproyect3:hover {
-    background-color: hsl(0, 0%, 100%) 5e1;
+    background-color: hsl(0, 0%, 100%);
     border: 1px solid hsl(22, 100%, 48%);
     color: hsl(0, 0%, 100%);
   }
