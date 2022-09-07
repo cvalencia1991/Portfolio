@@ -667,10 +667,11 @@ ul {
 }
 
 .tittlepopup {
-  display: inline-flex;
+  display: flex;
   align-items: center;
-  justify-content: flex-start;
-  gap: 26px;
+  align-content: center;
+  justify-content: space-between;
+
 }
 
 .source {
