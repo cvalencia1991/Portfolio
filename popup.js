@@ -22,13 +22,12 @@ function deploypopup(x) {
   }
 
 
-  document.getElementById('card-btn-1').addEventListener('click', () => { deploypopup(0); }); // boton 01
-
-  document.getElementById('card-btn-2').addEventListener('click', () => { deploypopup(1); }); // boton 02
-  document.getElementById('card-btn-3').addEventListener('click', () => { deploypopup(2); }); // boton 03
-  document.getElementById('card-btn-4').addEventListener('click', () => { deploypopup(3); }); // boton 04
-  document.getElementById('card-btn-5').addEventListener('click', () => { deploypopup(4); }); // boton 05
-  document.getElementById('card-btn-6').addEventListener('click', () => { deploypopup(5); }); // boton 06
+  document.getElementById('card-btn-1').addEventListener('click', () => { deploypopup(0); });
+  document.getElementById('card-btn-2').addEventListener('click', () => { deploypopup(1); });
+  document.getElementById('card-btn-3').addEventListener('click', () => { deploypopup(2); });
+  document.getElementById('card-btn-4').addEventListener('click', () => { deploypopup(3); });
+  document.getElementById('card-btn-5').addEventListener('click', () => { deploypopup(4); });
+  document.getElementById('card-btn-6').addEventListener('click', () => { deploypopup(5); });
 
 
 

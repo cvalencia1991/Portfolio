@@ -194,8 +194,11 @@ p {
 
 .contenidoModal {
   background-color: white;
-  margin: auto; /* Centrada */
+  margin: auto;
   padding: 16px;
+
+  margin: 10px;
+  margin-bottom: 80px;
 
   -webkit-animation-name: animarsuperior;
   -webkit-animation-duration: 0.5s;
@@ -1381,8 +1384,18 @@ textarea {
     animation-name: animarsuperior;
     animation-duration: 0.5s;
     width: 1156px;
-    height: 631px;
+    height: 540px;
+    margin-bottom: 100px;
   }
+  .textoModal {
+    color: #344563;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    margin-top: 50px;
+}
   .popupdesktop{
     display: flex;
     flex-direction: column;
@@ -1401,6 +1414,7 @@ textarea {
 }
 .popupimage {
   width: 55%;
+  margin-top: 50px;
 }
 
 }
