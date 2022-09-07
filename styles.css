@@ -673,10 +673,9 @@ ul {
   gap: 26px;
 }
 
-
 .source {
   display: flex;
-  gap:24px;
+  gap: 24px;
   align-items: center;
 }
 
