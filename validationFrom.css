@@ -1,0 +1,13 @@
+input.success,
+textarea.success {
+  border-color: #09c372;
+}
+
+input.error,
+textarea.error {
+  border: 1px solid red;
+}
+
+span.error {
+  color: red;
+}
