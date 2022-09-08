@@ -1,15 +1,64 @@
- const form = document.getElementById('contactfinalform');
- const button = document.getElementById('submitbtn')
+const form = document.getElementById('contactfinalform');
+const nameform = document.getElementById('name')
+const email = document.getElementById('email');
+const message = document.getElementById('messageform')
 
- function check(event){
-    event.preventDefault();
-    let emailuser = form.email.value;
-    let textname = form.name.value;
-    let message = form.message.value;
-   if(emailuser!==emailuser.toLowerCase()) {
-        alert ("Edit the Email in Lower Case");
-   } else if(emailuser===emailuser.toLowerCase() &&  textname!== "" &  message!== "") {
-        alert("Success!! form sent")
-   }
+
+function check(e){
+     e.preventDefault();
+     ValidateImputs();
+}
+
+function ValidateImputs() {
+     const nameValue = nameform.value.trim();
+     const emailvalue = email.value.trim();
+     const message = form.message.value.trim();
+
+
+     if(nameValue === '') {
+          SetError(nameform,'Username is required');
+     } else {
+          SetSuccess (nameform);
+     }
+     if (emailvalue=== '') {
+          SetError(email,'Username is required');
+     } else if(!isValidEmail(emailvalue)) {
+          SetError(email,'provide a valid email adress');
+     } else {
+          SetSuccess (email);
+     }
+
+}
+
+
+function isValidEmail (email) {
+     const re = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+     return re.test(String(email).toLowerCase());
  }
- button.addEventListener('click',check)
+
+function SetError (element, message) {
+     const inputControl = element.parentElement;
+     const errorDisplay = inputControl.querySelector('.error');
+
+     errorDisplay.innerText = message;
+     inputControl.classList.add('error');
+     inputControl.classList.remove('success');
+}
+
+function SetSuccess (element) {
+     const inputControl = element.parentElement;
+     const errorDisplay = inputControl.querySelector('.error');
+
+     errorDisplay.innertext = '';
+     inputControl.classlist.add('success');
+     inputControl.classlist.remove('error');
+}
+
+
+form.addEventListener('submit', check);
+
+
+
+
+
+

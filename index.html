@@ -155,10 +155,10 @@
         <div class="wrapper2">
             <h5 class="secondary-header">I'm always interested in hearing about new projects, so if you'd like to chat
                 please get in touch.</h5>
-            <form  name="contactfinalform" class="contact-form" id="contactfinalform"  method="post">
-                <input name="name" type="text" maxlength="30" placeholder="Full Name" id="name" aria-label="name" required>
-                <input name="email" type="email" placeholder="Email address" aria-label="email address" required>
-                <textarea name="message" placeholder="Enter text here" rows="7" maxlength="500" aria-label="message" required></textarea>
+            <form  name="contactfinalform" class="contact-form" id="contactfinalform" action="/" method="post">
+                <input name="name" class="name" id="name" type="text" maxlength="30" placeholder="Full Name"  aria-label="name" required>
+                <input name="email" class="email" id="email" type="email" placeholder="Email address" aria-label="email address" required>
+                <textarea name="message" id="messageform" placeholder="Enter text here" rows="7" maxlength="500" aria-label="message" required></textarea>
                 <div class="buttontouch">
                     <button id="submitbtn" type="submit" class="btn">Get in touch</button>
                 </div>

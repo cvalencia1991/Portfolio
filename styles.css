@@ -159,24 +159,6 @@ p {
   margin-top: 24px;
 }
 
-.name {
-  width: 200px;
-  height: 24px;
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 24px;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  color: hsl(0, 0%, 100%);
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-  padding-left: 20px;
-}
-
 #popupmobile {
   display: none;
   position: fixed;
@@ -1527,4 +1509,20 @@ textarea {
 
 .grid2:is(:hover, :focus) .card-btn {
   display: block !important;
+}
+
+.name.success input{
+  border-color:#09c372;
+}
+
+.name.error input {
+  border-color: #ff3860;
+}
+
+.email.success input{
+  border-color:#09c372;
+}
+
+.email.error input {
+  border-color: #ff3860;
 }
