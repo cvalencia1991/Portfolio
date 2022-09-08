@@ -73,10 +73,7 @@ function check(e) {
   e.preventDefault();
   validationform();
   if (validationform()) {
-    // eslint-disable-next-line no-undef
     saveinfomation();
-    // eslint-disable-next-line no-alert
-    alert('submit sucessfull');
   }
 }
 form.addEventListener('submit', check);
