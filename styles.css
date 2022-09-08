@@ -1,4 +1,3 @@
-
 html {
   scroll-behavior: smooth;
 }
@@ -607,7 +606,7 @@ ul {
   background: hsl(20, 6%, 10%);
 }
 
-.about-me > p {
+.about-me>p {
   background-color: hsl(218, 13%, 59%);
 }
 
@@ -846,7 +845,6 @@ textarea {
   display: inline-block;
   background-color: hsl(25, 100%, 50%);
   width: 140px;
-  margin-inline: auto;
 }
 
 .btnseeproyect3 {
@@ -1159,11 +1157,9 @@ textarea {
   .lay-on-top {
     position: absolute;
     background-image:
-      linear-gradient(
-        to bottom,
+      linear-gradient(to bottom,
         hsl(0, 1.6%, 37.5%),
-        hsl(0, 0%, 15%)
-      );
+        hsl(0, 0%, 15%));
     inset: 0;
     padding: 16px;
     padding-top: 140px;
@@ -1222,7 +1218,7 @@ textarea {
     border: 1px solid black;
   }
 
-  .grid2:is(:hover, :focus) > img {
+  .grid2:is(:hover, :focus)>img {
     z-index: 3;
     animation: scaleImage 1s;
   }
@@ -1350,7 +1346,6 @@ textarea {
     padding-inline: 1em;
     margin-bottom: 7em;
     width: 684px;
-    height: 330px;
   }
 
   .contact-form input:focus,
@@ -1360,8 +1355,8 @@ textarea {
 
   .buttontouch {
     display: flex;
-    position: absolute;
     top: 290px;
+    justify-content: flex-start;
   }
 
   .popupinfo {
@@ -1453,11 +1448,9 @@ textarea {
 .lay-on-top {
   position: absolute;
   background-image:
-    linear-gradient(
-      to bottom,
+    linear-gradient(to bottom,
       hsla(0, 1%, 15%, 0.358) 10%,
-      hsl(0, 1%, 15%)
-    );
+      hsl(0, 1%, 15%));
   inset: 0;
   padding: 16px;
   padding-top: 120px;
@@ -1502,7 +1495,7 @@ textarea {
   border: 1px solid hsl(0, 0%, 0%);
 }
 
-.grid2:is(:hover, :focus) > img {
+.grid2:is(:hover, :focus)>img {
   z-index: 3;
   animation: scaleImage 1s;
 }
@@ -1511,16 +1504,16 @@ textarea {
   display: block !important;
 }
 
-.name.success input{
-  border-color:#09c372;
+.name.success input {
+  border-color: #09c372;
 }
 
 .name.error input {
   border-color: #ff3860;
 }
 
-.email.success input{
-  border-color:#09c372;
+.email.success input {
+  border-color: #09c372;
 }
 
 .email.error input {

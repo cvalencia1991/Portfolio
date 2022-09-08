@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="./validationFrom.css">
     <!--Boostrap Link-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
     <!--Font links-->
@@ -104,7 +105,7 @@
                         <li class="ruby2">ruby</li>
                     </ul>
                     <div>
-                        <button  type="button" class="btnseeproyect">See project</button>
+                        <button type="button" class="btnseeproyect">See project</button>
                     </div>
                 </div>
             </div>
@@ -155,10 +156,16 @@
         <div class="wrapper2">
             <h5 class="secondary-header">I'm always interested in hearing about new projects, so if you'd like to chat
                 please get in touch.</h5>
-            <form  name="contactfinalform" class="contact-form" id="contactfinalform" action="/" method="post">
-                <input name="name" class="name" id="name" type="text" maxlength="30" placeholder="Full Name"  aria-label="name" required>
-                <input name="email" class="email" id="email" type="email" placeholder="Email address" aria-label="email address" required>
-                <textarea name="message" id="messageform" placeholder="Enter text here" rows="7" maxlength="500" aria-label="message" required></textarea>
+            <form name="contactfinalform" class="contact-form" id="contactfinalform" action="/" method="post">
+                <span class="error"></span>
+                <input name="name" class="name" id="name" type="text" maxlength="30" placeholder="Full Name"
+                    aria-label="name">
+                <span class="error"></span>
+                <input name="email" class="email" id="email" type="email" placeholder="Email address"
+                    aria-label="email address">
+                <span class="error"></span>
+                <textarea name="message" id="messageform" placeholder="Enter text here" rows="7" maxlength="500"
+                    aria-label="message"></textarea>
                 <div class="buttontouch">
                     <button id="submitbtn" type="submit" class="btn">Get in touch</button>
                 </div>
@@ -194,19 +201,23 @@
                 <li class="boostrap2" id="tech3"></li>
             </ul>
             <div class="popupinfo">
-            <img class="popupimage" src="x" alt="" id="imagen">
-            <div class="popupdesktop">
-            <p class="textoModal" id="parrafo"></p><br>
-            <div class="source">
-                <a id="live" href="#" class="btn-link-source" >See Live<img src="./imgs/IconExport.png" alt=""></a>
-                <a id="source" href="#" class="btn-link-source" >See Source<img src="./imgs/IconGitHub.png" alt=""></a>
-        </div>
-        </div>
-        </div>
+                <img class="popupimage" src="x" alt="" id="imagen">
+                <div class="popupdesktop">
+                    <p class="textoModal" id="parrafo"></p><br>
+                    <div class="source">
+                        <a id="live" href="#" class="btn-link-source">See Live<img src="./imgs/IconExport.png"
+                                alt=""></a>
+                        <a id="source" href="#" class="btn-link-source">See Source<img src="./imgs/IconGitHub.png"
+                                alt=""></a>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
     <script src="./Mobile.js"></script>
     <script src="./popup.js"></script>
     <script src="./validationform.js"></script>
+    <script src="./LocalStorage.js"></script>
 </body>
+
 </html>
