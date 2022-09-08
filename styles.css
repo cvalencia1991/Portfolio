@@ -606,7 +606,7 @@ ul {
   background: hsl(20, 6%, 10%);
 }
 
-.about-me>p {
+.about-me > p {
   background-color: hsl(218, 13%, 59%);
 }
 
@@ -1157,9 +1157,11 @@ textarea {
   .lay-on-top {
     position: absolute;
     background-image:
-      linear-gradient(to bottom,
+      linear-gradient(
+        to bottom,
         hsl(0, 1.6%, 37.5%),
-        hsl(0, 0%, 15%));
+        hsl(0, 0%, 15%)
+      );
     inset: 0;
     padding: 16px;
     padding-top: 140px;
@@ -1218,7 +1220,7 @@ textarea {
     border: 1px solid black;
   }
 
-  .grid2:is(:hover, :focus)>img {
+  .grid2:is(:hover, :focus) > img {
     z-index: 3;
     animation: scaleImage 1s;
   }
@@ -1448,9 +1450,11 @@ textarea {
 .lay-on-top {
   position: absolute;
   background-image:
-    linear-gradient(to bottom,
+    linear-gradient(
+      to bottom,
       hsla(0, 1%, 15%, 0.358) 10%,
-      hsl(0, 1%, 15%));
+      hsl(0, 1%, 15%)
+    );
   inset: 0;
   padding: 16px;
   padding-top: 120px;
@@ -1495,7 +1499,7 @@ textarea {
   border: 1px solid hsl(0, 0%, 0%);
 }
 
-.grid2:is(:hover, :focus)>img {
+.grid2:is(:hover, :focus) > img {
   z-index: 3;
   animation: scaleImage 1s;
 }
