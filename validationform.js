@@ -72,9 +72,8 @@ function validationform() {
 function check(e) {
   e.preventDefault();
   validationform();
-  /* if (validationform()) {
-    // eslint-disable-next-line no-undef
-    /* saveinfomation(); */
+  if (validationform()) {
+    saveinfomation();
+  }
 }
-
 form.addEventListener('submit', check);
