@@ -104,7 +104,7 @@
                         <li class="ruby2">ruby</li>
                     </ul>
                     <div>
-                        <button  type="submit" class="btnseeproyect">See project</button>
+                        <button  type="button" class="btnseeproyect">See project</button>
                     </div>
                 </div>
             </div>
@@ -155,14 +155,12 @@
         <div class="wrapper2">
             <h5 class="secondary-header">I'm always interested in hearing about new projects, so if you'd like to chat
                 please get in touch.</h5>
-            <form class="contact-form" action="https://formspree.io/f/xayknejl" method="post">
-                <input name="name" type="text" maxlength="30" placeholder="Full Name" id="name" aria-label="name"
-                    required>
+            <form  name="contactfinalform" class="contact-form" id="contactfinalform"  method="post">
+                <input name="name" type="text" maxlength="30" placeholder="Full Name" id="name" aria-label="name" required>
                 <input name="email" type="email" placeholder="Email address" aria-label="email address" required>
-                <textarea name="message" placeholder="Enter text here" rows="7" maxlength="500" aria-label="message"
-                    required></textarea>
+                <textarea name="message" placeholder="Enter text here" rows="7" maxlength="500" aria-label="message" required></textarea>
                 <div class="buttontouch">
-                    <button type="submit" class="btn">Get in touch</button>
+                    <button id="submit-btn" type="submit" class="btn">Get in touch</button>
                 </div>
             </form>
         </div>
@@ -196,7 +194,7 @@
                 <li class="boostrap2" id="tech3"></li>
             </ul>
             <div class="popupinfo">
-            <img class="popupimage" src="***" alt="" id="imagen">
+            <img class="popupimage" src="x" alt="" id="imagen">
             <div class="popupdesktop">
             <p class="textoModal" id="parrafo"></p><br>
             <div class="source">
@@ -209,5 +207,6 @@
     </section>
     <script src="./Mobile.js"></script>
     <script src="./popup.js"></script>
+    <script src="./validationform.js"></script>
 </body>
 </html>
