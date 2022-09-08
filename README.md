@@ -1,12 +1,12 @@
 
 # Portfolio
 
-Mobile and Desktop Portfolio Version with Pop up's Windows
+Mobile and Desktop Portfolio Version Validation Form 
 
 
  ## Live Demo 
  
-- [live portfolio demo]( https://cvalencia1991.github.io/Portfolio/)
+- [Live portfolio demo]( https://cvalencia1991.github.io/Portfolio/)
 
 
 ## Built With
