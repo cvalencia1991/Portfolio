@@ -1,10 +1,61 @@
 const form = document.getElementById('contactfinalform');
-const nameform = document.getElementById('name')
-const email = document.getElementById('email');
-const message = document.getElementById('messageform')
+
+
+form.addEventListener('submit', check);
 
 
 function check(e){
+     e.preventDefault();
+   /*   validationform(); */
+     saveinfomation();
+}
+
+function validationform(){
+     let nameform = document.getElementById('name').value;
+     let email = document.getElementById('email').value;
+     let message = document.getElementById('messageform').value;
+
+
+}
+
+function saveinfomation(){
+     let nameform = document.getElementById('name').value;
+     let email = document.getElementById('email').value;
+     let message = document.getElementById('messageform').value;
+
+     const task = {
+          nameform,
+          email,
+          message
+     }
+
+     if(localStorage.getItem('information')!== null){
+          //let tasks = JSON.parse(localStorage.getItem('information'));
+          //tasks.push(task);
+          localStorage.setItem('information',JSON.stringify(task));
+     }else {
+               //let tasks = JSON.parse(localStorage.getItem('information'));
+               //tasks.push(task);
+               localStorage.setItem('information',JSON.stringify(task));
+     }
+
+
+     // if(localStorage.getItem('information')=== null){
+     //      let tasks= [];
+     //      tasks.push(task);
+     //      localStorage.setItem('information',JSON.stringify(tasks));
+     // } else {
+     //      let tasks = JSON.parse(localStorage.getItem('information'));
+     //      tasks.push(task);
+     //      localStorage.setItem('information',JSON.stringify(tasks));
+     // }
+   /*  console.log(JSON.parse(localStorage.getItem('infomation'))) convert the infomation into a string*/
+}
+
+
+
+
+/* function check(e){
      e.preventDefault();
      ValidateImputs();
 }
@@ -32,7 +83,7 @@ function ValidateImputs() {
 
 
 function isValidEmail (email) {
-     const re = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+     const re = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-z\-0-9]+\.)+[a-z]{2,}))$/;
      return re.test(String(email).toLowerCase());
  }
 
@@ -52,13 +103,4 @@ function SetSuccess (element) {
      errorDisplay.innertext = '';
      inputControl.classlist.add('success');
      inputControl.classlist.remove('error');
-}
-
-
-form.addEventListener('submit', check);
-
-
-
-
-
-
+} */
