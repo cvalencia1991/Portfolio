@@ -198,6 +198,7 @@ p {
 
 .popupimage {
   image-rendering: auto;
+  width: 21em;
 }
 
 ul {
@@ -1412,7 +1413,7 @@ textarea {
   }
 
   .popupimage {
-    width: 55%;
+    width: 30em;
     margin-top: 50px;
   }
 }

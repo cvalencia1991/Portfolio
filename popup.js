@@ -3,14 +3,14 @@
 /* eslint-disable guard-for-in */
 const projects = [
   {
-    name: 'Multi Post Historys',
-    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.',
-    featuredimage: './imgs/Snapshoot Portfolio.png',
+    name: 'Awesome Books',
+    description: 'On this page, you can save and load all the awesome books you have and save the name and the author into the local storage. this project uses Javascript to interact with the pages',
+    featuredimage: './imgs/awesomebooks.png',
     tech1: 'html',
-    tech2: 'bootstrap',
-    tech3: 'ruby on rails',
-    liveversion: '#liveversion',
-    linksource: '#linksource',
+    tech2: 'CSS',
+    tech3: 'Javascript',
+    liveversion: 'https://cvalencia1991.github.io/Awesome-Books/',
+    linksource: 'https://github.com/cvalencia1991/Awesomebooks.git',
   },
   {
     name: 'Multi Post Historys2',
@@ -98,7 +98,7 @@ function cardworksection() {
   // eslint-disable-next-line no-unused-vars, no-restricted-syntax
   for (const project in projects) {
     const nameproject = projects[project].name;
-    const description = 'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industrys standard';
+    const description = projects[project].description
     const featuredimage = projects[project].featuredimage;
     const tech1 = projects[project].tech1;
     const tech2 = projects[project].tech2;
