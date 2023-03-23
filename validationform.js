@@ -69,11 +69,12 @@ function validationform() {
   return isValid;
 }
 
-function check(e) {
+
+form.addEventListener('submit', (e) =>{
   e.preventDefault();
   validationform();
   if (validationform()) {
     saveinfomation();
+    form.submit()
   }
-}
-form.addEventListener('submit', check);
+});

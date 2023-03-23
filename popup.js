@@ -88,11 +88,10 @@ function deploypopup(x) {
   tech3.innerHTML = projects[x].tech3;
 }
 
-function closemenu() {
+document.getElementById('closepopup').addEventListener('click', ()=>{
   const buttonCard = document.getElementById('popupmobile');
   buttonCard.style.display = 'none';
-}
-document.getElementById('closepopup').addEventListener('click', closemenu);
+});
 
 function cardworksection() {
   // eslint-disable-next-line no-unused-vars, no-restricted-syntax

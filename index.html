@@ -3,32 +3,24 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="description" content="Cesar Valencia. Category: Portfolio">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="Portfolio" content="this is a portfolio by Cesar Alberto Valencia Aguilar.">
+    <link rel="icon" type="image/svg+xml" href=""/>
     <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="stylesheet" href="./validationFrom.css">
-    <!--Boostrap Link-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
-    <!--Font links-->
-    <link href="https://fonts.googleapis.com/css2?family=Crete+Round&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap" rel="stylesheet">
-
     <title>Portfolio</title>
 </head>
 
 <body>
-    <header class="nav-bar">
+    <nav class="nav-bar">
         <a class="logo" href="#">Cesar Valencia</a>
-        <nav>
             <ul class="navbardesktop">
                 <li>Portfolio</li>
-                <li>About</li>
-                <li>Contact</li>
+                <li><a href="#aboutme">About</a></li>
+                <li><a href="#contact">Contact</a></li>
                 <li><i class="bi bi-envelope emailsend"></i></li>
             </ul>
             <i id="Deploy_menu" class="bi bi-list menu"></i>
@@ -41,13 +33,10 @@
                     <a href="#aboutme">About Me</a>
                 </li>
                 <li class="line_border">
-                    <a href="#contact">
-                        Contact Me
-                    </a>
+                    <a href="#contact">Contact Me</a>
                 </li>
             </ul>
-        </nav>
-    </header>
+    </nav>
     <section class="cover" id="cover">
         <div class="content">
             <h1>Hey there,<br>I´m cesar</h1>
@@ -61,23 +50,23 @@
             </p>
             <ul class="links1">
                 <li>
-                    <a href="#githublink" aria-label="enter into the github page web"><img src="imgs/githubimg.png"
+                    <a href="https://github.com/cvalencia1991" aria-label="enter into the github page web"><img src="imgs/githubimg.png"
                             alt="github"></a>
                 </li>
                 <li>
-                    <a href="#linkeinlink" aria-label="enter into the linkein page web"><img src="imgs/linkeinimg.png"
+                    <a href="https://www.linkedin.com/in/cesar-valencia-aguilar/" aria-label="enter into the linkein page web"><img src="imgs/linkeinimg.png"
                             alt="linkedin"></a>
                 </li>
                 <li>
-                    <a href="#angelistlink" aria-label="enter into the angelist page web"><img
+                    <a href="https://wellfound.com/u/cesarvalencia1991" aria-label="enter into the angelist page web"><img
                             src="imgs/Angelistimg.png" alt="Angelist"></a>
                 </li>
                 <li>
-                    <a href="#twitterinlink" aria-label="enter into the angelist twitter page web"><img
+                    <a href="https://twitter.com/cvalenciaguilar" aria-label="enter into the angelist twitter page web"><img
                             src="imgs/twitter.png" alt="Twitter"></a>
                 </li>
                 <li>
-                    <a href="#mediumlink" aria-label="enter into the angelist Medium page web"><img
+                    <a href="https://medium.com/@cesar4a6z" aria-label="enter into the angelist Medium page web"><img
                             src="imgs/Mediumimg.png" alt="Medium"></a>
                 </li>
             </ul>
@@ -88,21 +77,18 @@
             <h3 class="fontstitles">My Recent Works</h3>
             <div class="line"></div>
             <div class="works">
-                <div class="imgprincipal">
-                </div>
+                <div class="imgprincipal"></div>
                 <div class="grid">
                     <div>
-                        <h4 class="letter">Multi-post Stories</h4>
+                        <h4 class="letter">Doctors Reservations</h4>
                     </div>
                     <p class="intro1">A daily selection of privately personalized reads;
                         no accounts or sign-ups required. has been the industry's
                         standard dummy text ever since the 1500s,when an unknown printer
                         took a standard dummy text.</p>
                     <ul class="programs">
-                        <li class="css2">css</li>
-                        <li class="html2">html</li>
-                        <li class="boostrap2">boostrap</li>
-                        <li class="ruby2">ruby</li>
+                        <li class="css2">React</li>
+                        <li class="html2">Ruby on rails</li>
                     </ul>
                     <div>
                         <button type="button" class="btnseeproyect">See project</button>
@@ -123,7 +109,7 @@
             <br>
         </div>
         <div>
-            <a class="btnseeproyect3">Get My Resume</a>
+            <a class="btnseeproyect3" href="./docs/Resume 2.0.docx.pdf" download>Get My Resume</a>
         </div>
         <div class="line2">
         </div>
@@ -131,8 +117,8 @@
             <ul class="grid3">
                 <li class="aboutmeskills1">Languajes</li>
                 <li class="fontaboutmeskills">CSS</li>
-                <li class="fontaboutmeskills">Html</li>
-                <li class="fontaboutmeskills">Boostrap</li>
+                <li class="fontaboutmeskills">Typescript</li>
+                <li class="fontaboutmeskills">Javasript</li>
                 <li class="fontaboutmeskills">Ruby</li>
             </ul>
             <ul class="grid3">
@@ -156,16 +142,13 @@
         <div class="wrapper2">
             <h5 class="secondary-header">I'm always interested in hearing about new projects, so if you'd like to chat
                 please get in touch.</h5>
-            <form name="contactfinalform" class="contact-form" id="contactfinalform" action="/" method="post">
+            <form name="contactfinalform" class="contact-form" id="contactfinalform" action="https://formspree.io/f/mjvdeaoq" method="post">
                 <span class="error"></span>
-                <input name="name" class="name" id="name" type="text" maxlength="30" placeholder="Full Name"
-                    aria-label="name">
+                <input name="name" class="name" id="name" type="text" maxlength="30" placeholder="Full Name" aria-label="name">
                 <span class="error"></span>
-                <input name="email" class="email" id="email" type="email" placeholder="Email address"
-                    aria-label="email address">
+                <input name="email" class="email" id="email" type="email" placeholder="Email address" aria-label="email address">
                 <span class="error"></span>
-                <textarea name="message" id="messageform" placeholder="Enter text here" rows="7" maxlength="500"
-                    aria-label="message"></textarea>
+                <textarea name="message" id="messageform" placeholder="Enter text here" rows="7" maxlength="500" aria-label="message"></textarea>
                 <div class="buttontouch">
                     <button id="submitbtn" type="submit" class="btn">Get in touch</button>
                 </div>
@@ -173,13 +156,13 @@
         </div>
         <ul class="links2">
             <li>
-                <a href="#githublink"><img src="imgs/githubimg2.png" alt="github"></a>
+                <a href="https://github.com/cvalencia1991"><img src="imgs/githubimg2.png" alt="github"></a>
             </li>
             <li>
-                <a href="#linkeinlink"><img src="imgs/linkeinimg2.png" alt="linkedin"></a>
+                <a href="https://www.linkedin.com/in/cesar-valencia-aguilar/"><img src="imgs/linkeinimg2.png" alt="linkedin"></a>
             </li>
             <li>
-                <a href="#angelistlink"><img src="imgs/Angelistimg2.png" alt="angelist"></a>
+                <a href="https://wellfound.com/u/cesarvalencia1991"><img src="imgs/Angelistimg2.png" alt="wellFound"></a>
             </li>
             <li>
                 <a href="#twitterinlink"><img src="imgs/twitter2.png" alt="twitter"></a>
@@ -192,7 +175,7 @@
     <section id="popupmobile">
         <div class="contenidoModal">
             <div class="tittlepopup">
-                <h4 class="letter" id="titulo">xxxxx</h4>
+                <h4 class="letter" id="titulo"></h4>
                 <i id="closepopup" class="bi bi-x-lg closepoupbtn"></i>
             </div>
             <ul class="programs">
@@ -201,7 +184,7 @@
                 <li class="boostrap2" id="tech3"></li>
             </ul>
             <div class="popupinfo">
-                <img class="popupimage" src="x" alt="" id="imagen">
+                <img class="popupimage" src="" alt="" id="imagen">
                 <div class="popupdesktop">
                     <p class="textoModal" id="parrafo"></p><br>
                     <div class="source">
@@ -216,8 +199,9 @@
     </section>
     <script src="./Mobile.js"></script>
     <script src="./popup.js"></script>
-    <script src="./validationform.js"></script>
     <script src="./LocalStorage.js"></script>
+    <script src="./validationform.js"></script>
+
 </body>
 
 </html>

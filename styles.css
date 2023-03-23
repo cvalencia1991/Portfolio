@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round&display=swap');
+
+
 html {
   scroll-behavior: smooth;
 }
@@ -18,8 +21,8 @@ a {
 
 .closemenu {
   position: absolute;
-  top: 19px;
-  right: 10px;
+  top: 29px;
+  right: 50px;
   cursor: pointer;
 }
 
@@ -28,11 +31,12 @@ a {
 }
 
 a:hover {
-  color: black;
+  color: hsl(25.2, 100%, 50%);;
 }
 
 #Deploy_menu {
   cursor: pointer;
+  margin-right: 2em;
 }
 
 #Deploy_menu:hover {
@@ -88,7 +92,7 @@ a:hover {
   font-weight: 700;
   font-size: 32px;
   line-height: 44px;
-  color: #fff5e1;
+  color: red;
 }
 
 .status-mobile {
@@ -419,8 +423,6 @@ ul {
 }
 
 .html2 {
-  width: 32px;
-  height: 20px;
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -579,6 +581,11 @@ ul {
   flex-direction: row;
   justify-content: flex-start;
   display: flex;
+}
+
+.links1 li:hover {
+  transform: scale(1.2);
+  transition: 0.5s;
 }
 
 .cover2 {
@@ -780,9 +787,6 @@ ul {
   font-family: "Roboto", sans-serif;
 }
 
-footer {
-  margin-top: 9em;
-}
 
 .imgcontact {
   position: sticky;
@@ -861,6 +865,7 @@ textarea {
 .contact {
   border-top: 1px solid hsl(223, 12%, 89%);
   padding-top: 1em;
+  margin-top: 11em;
 }
 
 .contact-form {
@@ -893,6 +898,22 @@ textarea {
   border-top: 1px solid hsl(0, 0%, 50.2%);
   margin-inline: -1em;
 }
+
+input.success,
+textarea.success {
+  border-color: #09c372;
+}
+
+input.error,
+textarea.error {
+  border: 1px solid red;
+}
+
+span.error {
+  color: red;
+}
+
+
 
 /* Desktop Version  */
 
@@ -986,6 +1007,14 @@ textarea {
     left: -120px;
     top: 100px;
   }
+
+
+.links1 li:hover {
+  transform: scale(1.2);
+  transition: 0.5s;
+  color:blue;
+}
+
 
   .links2 {
     list-style: none;
