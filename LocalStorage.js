@@ -10,24 +10,6 @@ function saveinfomation() {
     message,
   };
   localStorage.setItem('information', JSON.stringify(task));
-  // const url = 'https://formspree.io/f/mjvdeaoq';
-  // const formData = task
-
-  // fetch(url, {
-  //   method: 'POST',
-  //   body: formData,
-  //   mode: 'no-cors'
-  // })
-  // .then(response => {
-  //   console.log('Form submitted successfully:', response);
-  // })
-  // .catch(error => {
-  //   console.error('An error occurred while submitting the form:', error);
-  // });
-
-
-
-
 }
 
 function loadDataFromLocalStorage() {
