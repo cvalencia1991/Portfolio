@@ -1,6 +1,3 @@
-/* eslint-disable prefer-destructuring */
-/* eslint-disable no-unused-vars */
-/* eslint-disable guard-for-in */
 const projects = [
   {
     name: 'Awesome Books',
@@ -75,7 +72,6 @@ function deploypopup(x) {
   const tech1 = document.getElementById('tech1');
   const tech2 = document.getElementById('tech2');
   const tech3 = document.getElementById('tech3');
-
   buttonCard.style.display = 'block';
   titulo.innerHTML = projects[x].name;
   parrafo.innerHTML = projects[x].description;
@@ -94,7 +90,6 @@ document.getElementById('closepopup').addEventListener('click', ()=>{
 });
 
 function cardworksection() {
-  // eslint-disable-next-line no-unused-vars, no-restricted-syntax
   for (const project in projects) {
     const nameproject = projects[project].name;
     const description = projects[project].description
