@@ -35,7 +35,7 @@ const projects = [
   {
     name: 'Deck Of Cards',
     description: 'Deck of Cards is an application that allows users to compare two cards and simplify the items. If a level is empty, the user can proceed to the next level. The application includes a counter to keep track of the user\'s progress and a timer to add a time limit to each level.',
-    featuredimage: './imgs/Deck Of Cards.jpg',
+    featuredimage: './imgs/deckOfCards.jpg',
     tech1: 'html',
     tech2: 'CSS',
     tech3: 'Javascript',
