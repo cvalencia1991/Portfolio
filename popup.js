@@ -1,28 +1,28 @@
 const projects = [
   {
-    name: 'Awesome Books',
-    description: 'On this page, you can save and load all the awesome books you have and save the name and the author into the local storage. this project uses Javascript to interact with the pages',
-    featuredimage: './imgs/awesomebooks.png',
-    tech1: 'html',
-    tech2: 'CSS',
-    tech3: 'Javascript',
+    name: 'Space Travel Hub',
+    description: 'SpaceTravelHub is a live data from the SpaceX API. Web application development for a commercial and scientific space travel company. Rockets and space missions will be available for booking through the application.',
+    featuredimage: './imgs/spaceTravelHub.jpg',
+    tech1: 'React',
+    tech2: 'Redux',
+    tech3: 'Boostrap',
     liveversion: 'https://cvalencia1991.github.io/Awesome-Books/',
     linksource: 'https://github.com/cvalencia1991/Awesomebooks.git',
   },
   {
-    name: 'Deck of Cards',
-    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.',
-    featuredimage: './imgs/deck of cards.jpg',
-    tech1: 'html',
-    tech2: 'Javascript',
-    tech3: 'Css',
-    liveversion: 'https://cvalencia1991.github.io/deck-of-cards/',
-    linksource: 'https://github.com/cvalencia1991/deck-of-cards.git',
+    name: 'Chicago Art Gallery',
+    description: 'Page that showcases artworks from the Art Institute of Chicago using their API. It displays high-quality images of various art forms, such as paintings, sculptures, and textiles.',
+    featuredimage: './imgs/cichacoArtGallery.jpg',
+    tech1: 'React',
+    tech2: 'Redux',
+    tech3: 'Jest',
+    liveversion: 'https://chicagoartgallery.netlify.app/',
+    linksource: 'https://github.com/cvalencia1991/Chicago-Art-Gallery',
   },
   {
     name: 'Multi Post Historys3',
     description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.',
-    featuredimage: './imgs/Snapshoot Portfolio.png',
+    featuredimage: './imgs/Snapshoot-Portfolio.avif',
     tech1: 'html',
     tech2: 'bootstrap',
     tech3: 'ruby on rails',
@@ -32,7 +32,7 @@ const projects = [
   {
     name: 'Multi Post Historys',
     description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.',
-    featuredimage: './imgs/Snapshoot Portfolio.png',
+    featuredimage: './imgs/Snapshoot-Portfolio.avif',
     tech1: 'html',
     tech2: 'bootstrap',
     tech3: 'ruby on rails',
@@ -42,7 +42,7 @@ const projects = [
   {
     name: 'Multi Post Historys',
     description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.',
-    featuredimage: './imgs/Snapshoot Portfolio.png',
+    featuredimage: './imgs/Snapshoot1.avif, ./imgs/Snapshoot2.png',
     tech1: 'html',
     tech2: 'bootstrap',
     tech3: 'ruby on rails',
@@ -52,17 +52,16 @@ const projects = [
   {
     name: 'Multi Post Historys',
     description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.',
-    featuredimage: './imgs/Snapshoot Portfolio.png',
+    featuredimage: './imgs/Snapshoot1.avif, ./imgs/Snapshoot Portfolio.png',
     tech1: 'html',
     tech2: 'bootstrap',
     tech3: 'ruby on rails',
     liveversion: '#liveversion',
     linksource: '#linksource',
   },
-
 ];
 
-function deploypopup(x) {
+const deploypopup = (x) => {
   const buttonCard = document.getElementById('popupmobile');
   const titulo = document.getElementById('titulo');
   const parrafo = document.getElementById('parrafo');
@@ -83,13 +82,12 @@ function deploypopup(x) {
   tech2.innerHTML = projects[x].tech2;
   tech3.innerHTML = projects[x].tech3;
 }
-
 document.getElementById('closepopup').addEventListener('click', ()=>{
   const buttonCard = document.getElementById('popupmobile');
   buttonCard.style.display = 'none';
 });
 
-function cardworksection() {
+const cardworksection =() => {
   for (const project in projects) {
     const nameproject = projects[project].name;
     const description = projects[project].description

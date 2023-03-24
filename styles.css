@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Crete+Round&display=swap');
 
-
 html {
   scroll-behavior: smooth;
 }
@@ -41,6 +40,9 @@ a:hover {
 
 #Deploy_menu:hover {
   opacity: 0.5;
+}
+*{
+  border: 1px solid red;
 }
 
 .cover {
@@ -111,7 +113,7 @@ a:hover {
   align-items: center;
   background: #3c3a39;
   color: hsl(0, 0%, 100%);
-  padding: 18px 10px;
+  padding: 1em;
 }
 
 h1,
@@ -197,18 +199,19 @@ p {
 
 .popupinfo {
   display: flex;
+  margin-top: 1em;
   flex-direction: column;
 }
 
 .popupimage {
   image-rendering: auto;
   width: 21em;
+  margin-left: 3%;
 }
 
 ul {
   align-items: center;
   display: flex;
-  gap: 10px;
   padding: 1px;
   flex-wrap: nowrap;
   justify-content: center;
@@ -232,10 +235,11 @@ ul {
 .imgprincipal {
   display: flex;
   width: 327px;
-  height: 237px;
-  background-image: url("./imgs/ImgPlaceholder.jpg");
+  height: 179px;
+  background-image: url(./imgs/doctorsReservation.jpg);
   background-repeat: no-repeat;
-  margin-left: 20px;
+  background-image: beige;
+  background-size: cover;
 }
 
 .fontstitles {
@@ -385,7 +389,7 @@ ul {
 }
 
 .css2 {
-  width: 32px;
+  width: 3em;
   height: 20px;
   font-family: "Inter", sans-serif;
   font-style: normal;
@@ -472,7 +476,7 @@ ul {
 }
 
 .ruby {
-  width: 98px;
+  width: 5em;
   height: 40px;
   font-family: "Inter", sans-serif;
   font-style: normal;
@@ -572,7 +576,6 @@ ul {
 .grid {
   display: flex;
   justify-content: space-between;
-  margin-left: 20px;
   flex-direction: column;
 }
 
@@ -683,6 +686,7 @@ ul {
   list-style-image: url("./imgs/square56.png");
   position: relative;
   top: -10px;
+  margin-top: 1em;
 }
 
 .aboutmeskills3 {
@@ -697,6 +701,7 @@ ul {
   list-style-image: url("./imgs/Circle57.png");
   position: relative;
   top: -10px;
+  margin-top: 1em;
 }
 
 .contactme {
@@ -859,6 +864,7 @@ textarea {
   align-items: center;
   width: 134px;
   height: 48px;
+  padding-left: 1em;
   background-color: hsl(22, 100%, 48%);
 }
 
@@ -890,7 +896,7 @@ textarea {
 }
 
 .closepoupbtn {
-  padding-top: 20px;
+  cursor: pointer;
 }
 
 /* footer social media styles */
@@ -951,7 +957,6 @@ span.error {
     height: 72px;
     display: flex;
     align-items: center;
-    padding: 1px;
     padding: 1px 151px;
   }
 
@@ -1065,9 +1070,9 @@ span.error {
 
   .imgprincipal {
     display: flex;
-    width: 684px;
-    height: 448px;
-    background-image: url("./imgs/ImgPlaceholder2.png");
+    width: 47vw;
+    height: 32vw;
+    background-image: url(./imgs/doctorsReservation.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
   }
@@ -1157,9 +1162,13 @@ span.error {
   .grid2 {
     position: relative;
     width: 369px;
-    height: 405px;
+    height: 450px;
     overflow: hidden;
     cursor: pointer;
+  }
+
+  .grid2 ul {
+    gap: 1em;
   }
 
   .grid2 img {
@@ -1225,6 +1234,7 @@ span.error {
     list-style-image: url(./imgs/Rectangle55.jpg);
     position: relative;
     top: -10px;
+    margin-top: 1em;
   }
 
   .technology {
@@ -1329,6 +1339,7 @@ span.error {
     justify-content: center;
     color: white;
     cursor: pointer;
+    margin-left: 11.5%;
   }
 
   .btnseeproyect3:hover {
@@ -1405,8 +1416,8 @@ span.error {
     -webkit-animation-duration: 0.5s;
     animation-name: animarsuperior;
     animation-duration: 0.5s;
-    width: 1156px;
-    height: 540px;
+    width: 80%;
+    height: 53%;
     margin-bottom: 100px;
     border: 1px solid #ebecf0;
     box-shadow: 0 48px 48px rgba(37, 47, 137, 0.08);
@@ -1443,7 +1454,7 @@ span.error {
   }
 
   .popupimage {
-    width: 30em;
+    width: 21em;
     margin-top: 50px;
   }
 }
@@ -1451,7 +1462,7 @@ span.error {
 .grid2 {
   position: relative;
   width: 369px;
-  height: 405px;
+  height: 450px;
   overflow: hidden;
   cursor: pointer;
 }
@@ -1459,6 +1470,10 @@ span.error {
 .grid2 img {
   width: 100%;
   height: 100%;
+}
+
+.grid2 ul{
+  gap: 1em;
 }
 
 @keyframes scaleImage {

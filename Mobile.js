@@ -1,8 +1,8 @@
-function deploymenu() {
+
+document.getElementById('Deploy_menu').addEventListener('click', ()=>{
   const hambuermenu = document.getElementById('mobile-menu');
   hambuermenu.style.display = 'block';
-}
-document.getElementById('Deploy_menu').addEventListener('click', deploymenu);
+});
 
 function closemenu() {
   const hambuermenu = document.getElementById('mobile-menu');

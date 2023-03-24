@@ -5,7 +5,7 @@ function validationform() {
   const nameform = document.getElementById('name');
   const email = document.getElementById('email');
   const message = document.getElementById('messageform');
-
+  let isValid = true;
   nameform.value = nameform.value.trim();
   email.value = email.value.trim();
   message.value = message.value.trim();
@@ -14,21 +14,18 @@ function validationform() {
     const re = /^[a-z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-z0-9-]+(?:\.[a-z0-9-]+)*$/;
     return re.test(String(email).toLowerCase());
   }
-
   function SetError(element, message) {
     const errorDisplay = element.previousElementSibling;
     errorDisplay.innerText = message;
     element.classList.add('error');
     element.classList.remove('success');
   }
-
   function SetSuccess(element) {
     const errorDisplay = element.previousElementSibling;
     errorDisplay.innerText = '';
     element.classList.add('success');
     element.classList.remove('error');
   }
-
   function checkEmail() {
     const errorDisplay = emailElement.previousElementSibling;
     const str = emailElement.value;
@@ -42,34 +39,14 @@ function validationform() {
     }
   }
   emailElement.addEventListener('input', checkEmail);
-
-  if (nameform.value === '') {
-    SetError(nameform, 'Username is required');
-  } else {
-    SetSuccess(nameform);
-  }
-  if (email.value === '') {
-    SetError(email, 'email is required');
-  } else if (!isValidEmail(email.value)) {
-    SetError(email, 'provide a valid email adress');
-  } else {
-    SetSuccess(email);
-  }
-
-  if (message.value === '') {
-    SetError(message, 'message is required');
-  } else {
-    SetSuccess(message);
-  }
-
-  let isValid = true;
+  nameform.value === '' ? SetError(nameform, 'Username is required'): SetSuccess(nameform);
+  email.value === '' ? SetError(email, 'email is required') : !isValidEmail(email.value) ? SetError(email, 'provide a valid email adress') : SetSuccess(email);
+  message.value === '' ? SetError(message, 'message is required') : SetSuccess(message);
   if (nameform.classList.contains('error') || email.classList.contains('error') || message.classList.contains('error')) {
     isValid = false;
   }
   return isValid;
 }
-
-
 form.addEventListener('submit', (e) =>{
   e.preventDefault();
   validationform();
