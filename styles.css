@@ -59,7 +59,7 @@ a:hover {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  height: 590px;
+  height: 45em;
   background-color: #1c1a19;
   background-image: url("./imgs/backgimage.png");
   background-repeat: no-repeat;
