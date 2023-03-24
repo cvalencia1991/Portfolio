@@ -1,4 +1,3 @@
-
 function saveinfomation() {
   const nameform = document.getElementById('name').value;
   const email = document.getElementById('email').value;
@@ -20,5 +19,5 @@ function loadDataFromLocalStorage() {
     document.getElementById('messageform').value = tasks.message;
   }
 }
-
+saveinfomation();
 loadDataFromLocalStorage();

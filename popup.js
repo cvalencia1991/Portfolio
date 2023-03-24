@@ -1,3 +1,6 @@
+/* eslint-disable no-unused-vars */
+/* eslint-disable guard-for-in */
+/* eslint-disable no-restricted-syntax */
 const projects = [
   {
     name: 'Space Travel Hub',
@@ -6,8 +9,8 @@ const projects = [
     tech1: 'React',
     tech2: 'Redux',
     tech3: 'Boostrap',
-    liveversion: 'https://cvalencia1991.github.io/Awesome-Books/',
-    linksource: 'https://github.com/cvalencia1991/Awesomebooks.git',
+    liveversion: 'https://spacetravelhubspacex.netlify.app/',
+    linksource: 'https://github.com/cvalencia1991/SpaceTravelHub',
   },
   {
     name: 'Chicago Art Gallery',
@@ -20,44 +23,24 @@ const projects = [
     linksource: 'https://github.com/cvalencia1991/Chicago-Art-Gallery',
   },
   {
-    name: 'Multi Post Historys3',
-    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.',
-    featuredimage: './imgs/Snapshoot-Portfolio.avif',
-    tech1: 'html',
-    tech2: 'bootstrap',
-    tech3: 'ruby on rails',
-    liveversion: '#liveversion',
-    linksource: '#linksource',
+    name: 'Bookstore CMS',
+    description: 'Bookstore CMS is a system that allows users to add and remove books. It sends the information to APIs for adding and removing books. The system helps manage inventory and track book details such as author, title and categories.',
+    featuredimage: './imgs/Bookstore.jpg',
+    tech1: 'React',
+    tech2: 'Redux',
+    tech3: 'Boostrap',
+    liveversion: 'https://bookstorelibrary.netlify.app/',
+    linksource: 'https://github.com/cvalencia1991/Bookstore-React',
   },
   {
-    name: 'Multi Post Historys',
-    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.',
-    featuredimage: './imgs/Snapshoot-Portfolio.avif',
+    name: 'Deck Of Cards',
+    description: 'Deck of Cards is an application that allows users to compare two cards and simplify the items. If a level is empty, the user can proceed to the next level. The application includes a counter to keep track of the user\'s progress and a timer to add a time limit to each level.',
+    featuredimage: './imgs/Deck Of Cards.jpg',
     tech1: 'html',
-    tech2: 'bootstrap',
-    tech3: 'ruby on rails',
-    liveversion: '#liveversion',
-    linksource: '#linksource',
-  },
-  {
-    name: 'Multi Post Historys',
-    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.',
-    featuredimage: './imgs/Snapshoot1.avif, ./imgs/Snapshoot2.png',
-    tech1: 'html',
-    tech2: 'bootstrap',
-    tech3: 'ruby on rails',
-    liveversion: '#liveversion',
-    linksource: '#linksource',
-  },
-  {
-    name: 'Multi Post Historys',
-    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.',
-    featuredimage: './imgs/Snapshoot1.avif, ./imgs/Snapshoot Portfolio.png',
-    tech1: 'html',
-    tech2: 'bootstrap',
-    tech3: 'ruby on rails',
-    liveversion: '#liveversion',
-    linksource: '#linksource',
+    tech2: 'CSS',
+    tech3: 'Javascript',
+    liveversion: 'https://cvalencia1991.github.io/deck-of-cards/',
+    linksource: 'https://github.com/cvalencia1991/deck-of-cards',
   },
 ];
 
@@ -81,20 +64,20 @@ const deploypopup = (x) => {
   tech1.innerHTML = projects[x].tech1;
   tech2.innerHTML = projects[x].tech2;
   tech3.innerHTML = projects[x].tech3;
-}
-document.getElementById('closepopup').addEventListener('click', ()=>{
+};
+document.getElementById('closepopup').addEventListener('click', () => {
   const buttonCard = document.getElementById('popupmobile');
   buttonCard.style.display = 'none';
 });
 
-const cardworksection =() => {
+const cardworksection = () => {
   for (const project in projects) {
     const nameproject = projects[project].name;
-    const description = projects[project].description
-    const featuredimage = projects[project].featuredimage;
-    const tech1 = projects[project].tech1;
-    const tech2 = projects[project].tech2;
-    const tech3 = projects[project].tech3;
+    const { description } = projects[project];
+    const { featuredimage } = projects[project];
+    const { tech1 } = projects[project];
+    const { tech2 } = projects[project];
+    const { tech3 } = projects[project];
     const card = `<div class="grid2">
     <img src="${featuredimage}" alt="" class="styleimg">
     <div class="lay-on-top">
@@ -110,5 +93,5 @@ const cardworksection =() => {
     `;
     document.getElementById('grid4').insertAdjacentHTML('beforeend', card);
   }
-}
+};
 cardworksection();

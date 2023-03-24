@@ -1,5 +1,4 @@
-
-document.getElementById('Deploy_menu').addEventListener('click', ()=>{
+document.getElementById('Deploy_menu').addEventListener('click', () => {
   const hambuermenu = document.getElementById('mobile-menu');
   hambuermenu.style.display = 'block';
 });

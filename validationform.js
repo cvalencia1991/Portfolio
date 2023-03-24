@@ -1,3 +1,6 @@
+/* eslint-disable no-unused-expressions */
+/* eslint-disable no-undef */
+/* eslint-disable no-nested-ternary */
 const form = document.getElementById('contactfinalform');
 const emailElement = document.getElementById('email');
 
@@ -39,7 +42,7 @@ function validationform() {
     }
   }
   emailElement.addEventListener('input', checkEmail);
-  nameform.value === '' ? SetError(nameform, 'Username is required'): SetSuccess(nameform);
+  nameform.value === '' ? SetError(nameform, 'Username is required') : SetSuccess(nameform);
   email.value === '' ? SetError(email, 'email is required') : !isValidEmail(email.value) ? SetError(email, 'provide a valid email adress') : SetSuccess(email);
   message.value === '' ? SetError(message, 'message is required') : SetSuccess(message);
   if (nameform.classList.contains('error') || email.classList.contains('error') || message.classList.contains('error')) {
@@ -47,11 +50,11 @@ function validationform() {
   }
   return isValid;
 }
-form.addEventListener('submit', (e) =>{
+form.addEventListener('submit', (e) => {
   e.preventDefault();
   validationform();
   if (validationform()) {
     saveinfomation();
-    form.submit()
+    form.submit();
   }
 });
