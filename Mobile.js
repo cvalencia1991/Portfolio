@@ -14,3 +14,25 @@ const elementsarr = Array.from(elements);
 elementsarr.forEach((Element) => {
   Element.addEventListener('click', closemenu);
 });
+
+const contactForm = document.querySelector('.contact-form');
+const secondaryHeader = document.querySelector('.secondary-header');
+
+function isElementInViewport(element) {
+  const rect = element.getBoundingClientRect();
+  return (
+    rect.top >= 0
+    && rect.left >= 0
+    && rect.bottom <= (window.innerHeight || document.documentElement.clientHeight)
+    && rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+  );
+}
+
+window.addEventListener('scroll', () => {
+  if (isElementInViewport(contactForm)) {
+    contactForm.classList.add('slide-in');
+  }
+  if (isElementInViewport(secondaryHeader)) {
+    secondaryHeader.classList.add('slide-in');
+  }
+});

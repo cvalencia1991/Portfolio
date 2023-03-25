@@ -826,6 +826,7 @@ footer.contact {
   color: hsl(218, 54%, 20%);
   text-align: center;
   font-family: "Inter", sans-serif;
+  position: relative;
 }
 
 input,
@@ -1375,7 +1376,20 @@ span.error {
     padding-inline: 1em;
     margin-bottom: 7em;
     width: 684px;
+    left: 50px;
+    opacity: 0;
+    transition: top 1.5s ease-in-out, opacity 0.5s ease-in-out;
   }
+
+  .secondary-header.slide-in{
+    left: 50px;
+    opacity: 1;
+  }
+  .contact-form.slide-in{
+    top: 0;
+    opacity: 1;
+  }
+
 
   .contact-form input:focus,
   textarea:focus {
