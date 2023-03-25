@@ -1,23 +1,19 @@
+const contactForm = document.querySelector('.contact-form');
+const secondaryHeader = document.querySelector('.secondary-header');
 document.getElementById('Deploy_menu').addEventListener('click', () => {
   const hambuermenu = document.getElementById('mobile-menu');
   hambuermenu.style.display = 'block';
 });
-
 function closemenu() {
   const hambuermenu = document.getElementById('mobile-menu');
   hambuermenu.style.display = 'none';
 }
 document.getElementById('close-btn').addEventListener('click', closemenu);
-
 const elements = document.getElementsByClassName('line_border');
 const elementsarr = Array.from(elements);
 elementsarr.forEach((Element) => {
   Element.addEventListener('click', closemenu);
 });
-
-const contactForm = document.querySelector('.contact-form');
-const secondaryHeader = document.querySelector('.secondary-header');
-
 function isElementInViewport(element) {
   const rect = element.getBoundingClientRect();
   return (
@@ -27,7 +23,6 @@ function isElementInViewport(element) {
     && rect.right <= (window.innerWidth || document.documentElement.clientWidth)
   );
 }
-
 window.addEventListener('scroll', () => {
   if (isElementInViewport(contactForm)) {
     contactForm.classList.add('slide-in');
