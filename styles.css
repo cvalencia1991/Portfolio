@@ -1203,16 +1203,10 @@ span.error {
 
   .lay-on-top {
     position: absolute;
-    background-image:
-      linear-gradient(
-        to bottom,
-        hsl(0, 1.6%, 37.5%),
-        hsl(0, 0%, 15%)
-      );
+    background-image: linear-gradient( to bottom, hsl(0deg 0% 0% / 64%) 10%, hsl(0, 1%, 15%) );
     inset: 0;
-    border: none;
     padding: 16px;
-    padding-top: 140px;
+    padding-top: 120px;
   }
 
   .card-header {
@@ -1522,12 +1516,7 @@ span.error {
 
 .lay-on-top {
   position: absolute;
-  background-image:
-    linear-gradient(
-      to bottom,
-      hsla(0, 1%, 15%, 0.358) 10%,
-      hsl(0, 1%, 15%)
-    );
+  background-image: linear-gradient( to bottom, hsl(0deg 0% 0% / 64%) 10%, hsl(0, 1%, 15%) );
   inset: 0;
   padding: 16px;
   padding-top: 120px;
