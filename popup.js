@@ -4,7 +4,7 @@
 const projects = [
   {
     name: 'Space Travel Hub',
-    description: 'SpaceTravelHub is a live data from the SpaceX API. Web application development for a commercial and scientific space travel company. Rockets and space missions will be available for booking through the application.',
+    description: 'SpaceTravelHub is live data from the SpaceX API. This application is developed for a commercial and scientific space travel company. Rockets and space missions will be available for booking through the application.',
     featuredimage: './imgs/spaceTravelHub.jpg',
     tech1: 'React',
     tech2: 'Redux',
@@ -14,7 +14,7 @@ const projects = [
   },
   {
     name: 'Chicago Art Gallery',
-    description: 'Page that showcases artworks from the Art Institute of Chicago using their API. It displays high-quality images of various art forms, such as paintings, sculptures, and textiles.',
+    description: 'A website that showcases artworks from the Art Institute of Chicago using their API. It displays high-quality images of various art forms, such as paintings, sculptures, and textiles.',
     featuredimage: './imgs/cichacoArtGallery.jpg',
     tech1: 'React',
     tech2: 'Redux',
@@ -24,7 +24,7 @@ const projects = [
   },
   {
     name: 'Bookstore CMS',
-    description: 'Bookstore CMS is a system that allows users to add and remove books. It sends the information to APIs for adding and removing books. The system helps manage inventory and track book details such as author, title and categories.',
+    description: 'Bookstore CMS allows users to add and remove books. It sends information to APIs. The system helps manage inventory and tracks book details such as author, title, and category.',
     featuredimage: './imgs/Bookstore.jpg',
     tech1: 'React',
     tech2: 'Redux',
@@ -34,7 +34,7 @@ const projects = [
   },
   {
     name: 'Deck Of Cards',
-    description: 'Deck of Cards is an application that allows users to compare two cards and simplify the items. If a level is empty, the user can proceed to the next level. The application includes a counter to keep track of the user\'s progress and a timer to add a time limit to each level.',
+    description: 'Deck of Cards is an application that allows users to compare two cards and simplify the items. When the matches between the cards become empty, the user can proceed to the next level. The application includes a counter to keep track of the user\'s progress and a timer to add a time limit to each level.',
     featuredimage: './imgs/deckOfCards.jpg',
     tech1: 'html',
     tech2: 'CSS',
