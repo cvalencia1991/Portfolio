@@ -612,7 +612,7 @@ ul {
   background-image: url("./imgs/backgimage2.png");
   background-repeat: no-repeat;
   background-position: right;
-  background-position-y: 400px;
+  background-position-y: 35em;
   margin-top: 5em;
 }
 
@@ -756,7 +756,7 @@ ul {
   align-items: center;
   flex-direction: column;
   flex-wrap: nowrap;
-  margin-top: 30em;
+  margin-top: 7em;
 }
 
 .h6 {
@@ -920,6 +920,15 @@ textarea.error {
 
 span.error {
   color: red;
+}
+
+.line2{
+  width: 21em;
+  height: 1px;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  margin-top: 21em;
 }
 
 @media screen and (min-width: 768px) {
@@ -1321,6 +1330,7 @@ span.error {
     border: 1px solid hsl(0, 0%, 100%);
     background: hsl(0, 0%, 100%);
     margin-top: 139px;
+    width: 100%;
   }
 
   .btnseeproyect3 {
@@ -1359,8 +1369,7 @@ span.error {
     align-items: flex-start;
     justify-content: space-evenly;
     flex-direction: row;
-    flex-wrap: nowrap;
-    margin-top: 146px;
+    margin-top: 7em;
   }
 
   .wrapper2 {
