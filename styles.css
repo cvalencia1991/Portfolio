@@ -952,6 +952,17 @@ span.error {
     transition: 0.3s ease-in-out;
   }
 
+  .recentProject {
+    background: #673e26;
+    width: 7em;
+    border-radius: 4px;
+    display: flex;
+    height: 3em;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+
   .logo:hover {
     font-size: 20px;
     color: #673e26;
