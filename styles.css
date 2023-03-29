@@ -68,7 +68,7 @@ a:hover {
   padding-left: 10px;
 }
 
-.content{
+.content {
   margin-top: 5em;
 }
 
@@ -520,8 +520,8 @@ ul {
   flex: none;
   order: 3;
   flex-grow: 0;
-  background: #673E26;
-  color:white;
+  background: #673e26;
+  color: white;
   border: 1px solid transparent;
   cursor: pointer;
   justify-content: center;
@@ -529,21 +529,19 @@ ul {
   border-radius: 5px;
 }
 
-.seeProject{
+.seeProject {
   color: white;
 }
 
-
 .btnseeproyect:hover {
   background: hsl(0, 0%, 100%);
-  border: 1px solid #673E26;
-  color: #673E26;
+  border: 1px solid #673e26;
+  color: #673e26;
 }
-
 
 .btnseeproyect:focus {
   background-color: hsl(0, 0%, 100%);
-  border: 1px solid #673E26;
+  border: 1px solid #673e26;
 }
 
 .btnseeproyect2 {
@@ -556,7 +554,7 @@ ul {
   align-items: center;
   width: 369px;
   height: 58px;
-  background-color: #673E26;
+  background-color: #673e26;
   flex: none;
   order: 3;
   flex-grow: 0;
@@ -570,12 +568,12 @@ ul {
 .btnseeproyect2:hover {
   background-color: hsl(0, 0%, 100%);
   display: none;
-  color: #673E26;
-  border: 1px solid #673E26;
+  color: #673e26;
+  border: 1px solid #673e26;
 }
 
 .btnseeproyect2:focus {
-  background-color: #673E26;
+  background-color: #673e26;
 }
 
 .grid {
@@ -766,7 +764,7 @@ ul {
   font-size: 56px;
   line-height: 64px;
   letter-spacing: 0.37px;
-  color: #673E26;
+  color: #673e26;
   flex: none;
   display: flex;
   margin-top: 120px;
@@ -783,7 +781,7 @@ ul {
 }
 
 .btn-link-source {
-  background-color: #673E26;
+  background-color: #673e26;
   text-decoration: none;
   color: white;
   padding: 10px;
@@ -810,9 +808,9 @@ ul {
 
 /* general button style */
 .btn {
-  background-color: #673E26;
+  background-color: #673e26;
   color: white;
-  border: 1px solid #673E26;
+  border: 1px solid #673e26;
   padding: 0.9em;
   font-size: 17px;
   font-weight: 700;
@@ -820,12 +818,12 @@ ul {
 
 .btn:hover {
   background-color: hsl(0, 0%, 100%);
-  color: #673E26;
-  border: 2px solid #673E26;
+  color: #673e26;
+  border: 2px solid #673e26;
 }
 
 .btn:focus {
-  background-color: #673E26;
+  background-color: #673e26;
 }
 
 footer.contact {
@@ -858,7 +856,7 @@ textarea {
 
 .contact-form button {
   display: inline-block;
-  background-color: #673E26;
+  background-color: #673e26;
   width: 140px;
 }
 
@@ -870,7 +868,7 @@ textarea {
   width: 9em;
   height: 3em;
   padding-left: 1em;
-  background-color: #673E26;
+  background-color: #673e26;
   border-radius: 5px;
 }
 
@@ -931,7 +929,7 @@ span.error {
 
   .logo:hover {
     font-size: 20px;
-    color: #673E26;
+    color: #673e26;
   }
 
   .a {
@@ -1150,8 +1148,8 @@ span.error {
     flex: none;
     justify-content: center;
     border: transparent;
-    background: #673E26;
-    color:white
+    background: #673e26;
+    color: white;
   }
 
   .grid {
@@ -1203,7 +1201,7 @@ span.error {
         hsl(0, 0%, 15%)
       );
     inset: 0;
-    border:none;
+    border: none;
     padding: 16px;
     padding-top: 140px;
   }
@@ -1212,7 +1210,7 @@ span.error {
     font-size: 32px;
     font-weight: 400;
     font-family: "Crete Round", sans-serif;
-    color: #D46916;
+    color: #d46916;
     margin: 0 !important;
   }
 
@@ -1249,9 +1247,9 @@ span.error {
     bottom: 0;
     right: 0;
     left: 0;
-    background-color: #673E26;
+    background-color: #673e26;
     color: hsl(0, 0%, 100%);
-    border: 1px solid #673E26;
+    border: 1px solid #673e26;
     padding: 0.9em;
     font-size: 17px;
     font-weight: 700;
@@ -1337,7 +1335,7 @@ span.error {
     margin: 1px 732px 24px 142px;
     width: 10em;
     height: 48px;
-    background-color: #673E26;
+    background-color: #673e26;
     padding: 0.9em;
     flex: none;
     justify-content: center;
@@ -1347,7 +1345,7 @@ span.error {
 
   .btnseeproyect3:hover {
     background: white;
-    border: 1px solid #673E26;
+    border: 1px solid #673e26;
     color: black;
   }
 
@@ -1397,19 +1395,19 @@ span.error {
     transition: top 1.5s ease-in-out, opacity 0.5s ease-in-out;
   }
 
-  .secondary-header.slide-in{
+  .secondary-header.slide-in {
     left: 50px;
     opacity: 1;
   }
-  .contact-form.slide-in{
+
+  .contact-form.slide-in {
     top: 0;
     opacity: 1;
   }
 
-
   .contact-form input:focus,
   textarea:focus {
-    border-bottom: 1px solid #673E26;
+    border-bottom: 1px solid #673e26;
   }
 
   .buttontouch {
@@ -1530,7 +1528,7 @@ span.error {
   font-size: 32px;
   font-weight: 400;
   font-family: "Crete Round", sans-serif;
-  color: #D46916;
+  color: #d46916;
   background: transparent;
   margin: 0 !important;
 }
@@ -1553,9 +1551,9 @@ span.error {
   bottom: 0;
   right: 0;
   left: 0;
-  background-color: #673E26;
+  background-color: #673e26;
   color: hsl(0, 0%, 100%);
-  border: 1px solid #673E26;
+  border: 1px solid #673e26;
   padding: 0.9em;
   font-size: 17px;
   font-weight: 700;
