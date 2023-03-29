@@ -30,7 +30,7 @@ a {
 }
 
 a:hover {
-  color: #6f6c6b;
+  color: black;
 }
 
 #Deploy_menu {
@@ -929,6 +929,22 @@ span.error {
   display: flex;
   flex-direction: column;
   margin-top: 21em;
+}
+
+.recentProject{
+  background: #673e26;
+  width: 7em;
+  border-radius: 4px;
+  display: flex;
+  height: 3em;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.recentProject:hover{
+  background: white;
+  border: 2px solid #673e26;
 }
 
 @media screen and (min-width: 768px) {
