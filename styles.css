@@ -931,7 +931,7 @@ span.error {
   margin-top: 21em;
 }
 
-.recentProject{
+.recentProject {
   background: #673e26;
   width: 7em;
   border-radius: 4px;
@@ -942,7 +942,7 @@ span.error {
   justify-content: center;
 }
 
-.recentProject:hover{
+.recentProject:hover {
   background: white;
   border: 2px solid #673e26;
 }
