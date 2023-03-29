@@ -431,7 +431,7 @@ ul {
   font-size: 15px;
   line-height: 20px;
   display: flex;
-  color: #6E7487;
+  color:hsl(218, 76%, 15%);
   padding: 10px 12px;
   background: hsl(0, 0%, 100%);
   border: 1px solid hsl(218, 13%, 59%);
