@@ -923,10 +923,11 @@ span.error {
 }
 
 .line2{
-  width: 21em;
+  width: 100%;
   height: 1px;
   background: white;
   display: flex;
+
   flex-direction: column;
   margin-top: 21em;
 }
