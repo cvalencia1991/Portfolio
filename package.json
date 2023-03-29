@@ -30,7 +30,8 @@
     "stylelint-scss": "^3.21.0"
   },
   "dependencies": {
-    "bootstrap": "^5.2.0",
+    "aos": "^2.3.4",
+    "bootstrap": "^5.3.0-alpha2",
     "bootstrap-icons": "^1.10.3",
     "gsap": "^3.11.5"
   }

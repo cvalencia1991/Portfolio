@@ -9,11 +9,13 @@
     <link rel="icon" type="image/svg+xml" href="./imgs/portafolio.png"/>
     <title>Portfolio</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-    <nav class="nav-bar">
+    <nav class="navbar fixed-top nav-bar">
         <a class="logo" href="#">Cesar Valencia</a>
             <ul class="navbardesktop">
                 <li> <a href="#proyects" aria-label="Projects of my portfolio">Portfolio</a></li>
@@ -39,11 +41,11 @@
     </nav>
     <section class="cover" id="cover">
         <div class="content">
-            <h1>Hey there,<br>I´m cesar</h1>
-            <div>
-                <h2> I'am a Software Engineer</h2>
+            <h1 data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">Hey there,<br>I´m cesar</h1>
+            <div data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+                <h2 > I'am a Software Engineer</h2>
             </div>
-            <p>
+            <p data-aos="fade-right">
                 I Can help you build a product,feature or website Look
                 through some of my work and experience! If you like what
                 you see and have a project you need coded. Don’t hestiate to contact me.
@@ -77,7 +79,7 @@
             <h3 class="fontstitles">My Recent Works</h3>
             <div class="line"></div>
             <div class="works">
-                <div class="imgprincipal"></div>
+                <div  data-aos="fade-right" class="imgprincipal"></div>
                 <div class="grid">
                     <div>
                         <h4 class="letter">Doctors Reservations</h4>
@@ -102,15 +104,15 @@
     </section>
     <section class="aboutme" id="aboutme">
         <div class="content">
-            <h4 class="aboutme2">About Me</h4>
-            <p class="aboutme3">Hello I’m a software developer! I can help you build a product ,
+            <h4 data-aos="fade-down-right" class="aboutme2">About Me</h4>
+            <p data-aos="fade-down-right" class="aboutme3">Hello I’m a software developer! I can help you build a product ,
                 feature  or website Look through some of my work and experience!
                 If you like what you see and have a project you need coded,
                 don’t hestiate to contact me.</p>
             <br>
         </div>
         <div>
-            <a class="btnseeproyect3" href="./docs/Resume 2.0.docx.pdf" download>Get My Resume</a>
+            <a  data-aos="fade-down-right" class="btnseeproyect3" href="./docs/Resume 2.0.docx.pdf" download>Get My Resume</a>
         </div>
         <div class="line2">
         </div>
@@ -141,7 +143,7 @@
     </section>
     <footer class="contact" id="contact">
         <div class="wrapper2">
-            <h5 class="secondary-header">I'm always interested in hearing about new projects, so if you'd like to chat
+            <h5 class="secondary-header" aria-label="Form information">I'm always interested in hearing about new projects, so if you'd like to chat
                 please get in touch.</h5>
             <form name="contactfinalform" class="contact-form" id="contactfinalform" action="https://formspree.io/f/mjvdeaoq" method="post">
                 <span class="error"></span>
@@ -190,9 +192,9 @@
                     <p class="textoModal" id="parrafo"></p><br>
                     <div class="source">
                         <a id="live" href="#" class="btn-link-source">See Live<img src="./imgs/IconExport.png"
-                                alt=""></a>
+                                alt="see live project"></a>
                         <a id="source" href="#" class="btn-link-source">See Source<img src="./imgs/IconGitHub.png"
-                                alt=""></a>
+                                alt="see project implementation"></a>
                     </div>
                 </div>
             </div>
@@ -202,5 +204,7 @@
     <script src="./popup.js"></script>
     <script src="./LocalStorage.js"></script>
     <script src="./validationform.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>AOS.init();</script>
 </body>
 </html>

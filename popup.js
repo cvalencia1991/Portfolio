@@ -79,8 +79,8 @@ const cardworksection = () => {
     const { tech2 } = projects[project];
     const { tech3 } = projects[project];
     const card = `<div class="grid2">
-    <img src="${featuredimage}" alt="" class="styleimg">
-    <div class="lay-on-top">
+    <img src="${featuredimage}"  data-aos="flip-left" alt="" class="styleimg">
+    <div class="lay-on-top" data-aos="flip-left">
         <h3 class="card-header">${nameproject}</h3>
         <p class="description">${description}</p>
         <ul class="technology">

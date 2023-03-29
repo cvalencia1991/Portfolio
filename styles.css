@@ -30,7 +30,7 @@ a {
 }
 
 a:hover {
-  color: hsl(25.2, 100%, 50%);
+  color: #6f6c6b;
 }
 
 #Deploy_menu {
@@ -66,6 +66,10 @@ a:hover {
   background-position: right;
   background-position-y: bottom;
   padding-left: 10px;
+}
+
+.content{
+  margin-top: 5em;
 }
 
 .links {
@@ -104,7 +108,6 @@ a:hover {
   font-weight: 700;
   font-size: 32px;
   line-height: 44px;
-  color: red;
 }
 
 .status-mobile {
@@ -140,7 +143,7 @@ h4 {
   font-size: 56px;
   line-height: 64px;
   letter-spacing: 0.37px;
-  color: hsl(25.2, 100%, 50%);
+  color: #ff6b00;
   margin-bottom: 1px;
 }
 
@@ -335,6 +338,7 @@ ul {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-top: 5em;
 }
 
 .works {
@@ -383,8 +387,8 @@ ul {
 }
 
 .css2 {
-  width: 3em;
-  height: 20px;
+  width: 4em;
+  height: 3em;
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -513,7 +517,7 @@ ul {
   align-items: center;
   width: 134px;
   height: 48px;
-  background: #ff6905;
+  background: #E05E00;
   flex: none;
   order: 3;
   flex-grow: 0;
@@ -522,13 +526,15 @@ ul {
   cursor: pointer;
   justify-content: center;
   flex-wrap: nowrap;
+  border-radius: 5px;
 }
 
 .btnseeproyect:hover {
-  background-color: hsl(0, 0%, 100%);
-  border: 1px solid #ff6905;
-  color: #ff6905;
+  background: hsl(0, 0%, 100%);
+  border: 1px solid #673E26;
+  color: #673E26;
 }
+
 
 .btnseeproyect:focus {
   background-color: hsl(0, 0%, 100%);
@@ -545,7 +551,7 @@ ul {
   align-items: center;
   width: 369px;
   height: 58px;
-  background-color: #ff6905;
+  background-color: #E05E00;
   flex: none;
   order: 3;
   flex-grow: 0;
@@ -559,12 +565,12 @@ ul {
 .btnseeproyect2:hover {
   background-color: hsl(0, 0%, 100%);
   display: none;
-  color: hsl(22, 100%, 48%);
-  border: 1px solid hsl(22, 100%, 48%);
+  color: #673E26;
+  border: 1px solid #E05E00;
 }
 
 .btnseeproyect2:focus {
-  background-color: hsl(22, 96%, 45%);
+  background-color: #E05E00;
 }
 
 .grid {
@@ -755,7 +761,7 @@ ul {
   font-size: 56px;
   line-height: 64px;
   letter-spacing: 0.37px;
-  color: hsl(25, 100%, 50%);
+  color: #673E26;
   flex: none;
   display: flex;
   margin-top: 120px;
@@ -772,7 +778,7 @@ ul {
 }
 
 .btn-link-source {
-  background-color: #f55800;
+  background-color: #673E26;
   text-decoration: none;
   color: white;
   padding: 10px;
@@ -799,9 +805,9 @@ ul {
 
 /* general button style */
 .btn {
-  background-color: hsl(22, 100%, 48%);
+  background-color: #673E26;
   color: white;
-  border: 1px solid hsl(22, 100%, 48%);
+  border: 1px solid #673E26;
   padding: 0.9em;
   font-size: 17px;
   font-weight: 700;
@@ -809,11 +815,11 @@ ul {
 
 .btn:hover {
   background-color: hsl(0, 0%, 100%);
-  color: hsl(22, 100%, 48%);
+  color: #673E26;
 }
 
 .btn:focus {
-  background-color: hsl(22, 96%, 45%);
+  background-color: #673E26;
 }
 
 footer.contact {
@@ -846,7 +852,7 @@ textarea {
 
 .contact-form button {
   display: inline-block;
-  background-color: hsl(25, 100%, 50%);
+  background-color: #673E26;
   width: 140px;
 }
 
@@ -855,10 +861,11 @@ textarea {
   display: flex;
   flex-direction: row;
   align-items: center;
-  width: 134px;
-  height: 48px;
+  width: 9em;
+  height: 3em;
   padding-left: 1em;
-  background-color: hsl(22, 100%, 48%);
+  background-color: #673E26;
+  border-radius: 5px;
 }
 
 .contact {
@@ -918,7 +925,7 @@ span.error {
 
   .logo:hover {
     font-size: 20px;
-    color: hsl(22, 100%, 48%);
+    color: #673E26;
   }
 
   .a {
@@ -928,7 +935,7 @@ span.error {
   .cover {
     display: flex;
     align-items: flex-start;
-    height: 798px;
+    height: 58em;
     background-color: #1c1a19;
     background-image: url("./imgs/backimagedesktop.png");
     background-size: 40%;
@@ -964,6 +971,7 @@ span.error {
     display: inline-flex;
     gap: 33px;
     list-style: none;
+    margin: 0;
   }
 
   .menu {
@@ -1136,7 +1144,7 @@ span.error {
     flex: none;
     justify-content: center;
     border: transparent;
-    background-color: #f55800;
+    background-color: #673E26;
   }
 
   .grid {
@@ -1188,6 +1196,7 @@ span.error {
         hsl(0, 0%, 15%)
       );
     inset: 0;
+    border:none;
     padding: 16px;
     padding-top: 140px;
   }
@@ -1233,9 +1242,9 @@ span.error {
     bottom: 0;
     right: 0;
     left: 0;
-    background-color: hsl(22, 100%, 48%);
+    background-color: #673E26;
     color: hsl(0, 0%, 100%);
-    border: 1px solid hsl(22, 100%, 48%);
+    border: 1px solid #673E26;
     padding: 0.9em;
     font-size: 17px;
     font-weight: 700;
@@ -1280,7 +1289,7 @@ span.error {
     background-repeat: no-repeat;
     background-position: top right;
     background-size: 40%;
-    margin: 0;
+    background-position-y: 5em;
   }
 
   .aboutme2 {
@@ -1319,9 +1328,9 @@ span.error {
     flex-direction: row;
     align-items: center;
     margin: 1px 732px 24px 142px;
-    width: 140px;
+    width: 10em;
     height: 48px;
-    background-color: hsl(22, 100%, 48%);
+    background-color: #673E26;
     padding: 0.9em;
     flex: none;
     justify-content: center;
@@ -1330,9 +1339,9 @@ span.error {
   }
 
   .btnseeproyect3:hover {
-    background-color: hsl(0, 0%, 100%);
-    border: 1px solid #ff6905;
-    color: #ff6905;
+    background: white;
+    border: 1px solid #673E26;
+    color: black;
   }
 
   .btnseeproyect3:focus {
@@ -1393,7 +1402,7 @@ span.error {
 
   .contact-form input:focus,
   textarea:focus {
-    border-bottom: 1px solid hsl(22, 100%, 48%);
+    border-bottom: 1px solid #673E26;
   }
 
   .buttontouch {
@@ -1419,6 +1428,7 @@ span.error {
     width: 80%;
     height: 66%;
     margin-bottom: 100px;
+    margin-top: 5em;
     border: 1px solid #ebecf0;
     box-shadow: 0 48px 48px rgba(37, 47, 137, 0.08);
   }
@@ -1535,9 +1545,9 @@ span.error {
   bottom: 0;
   right: 0;
   left: 0;
-  background-color: hsl(22, 100%, 48%);
+  background-color: #673E26;
   color: hsl(0, 0%, 100%);
-  border: 1px solid hsl(22, 100%, 48%);
+  border: 1px solid #673E26;
   padding: 0.9em;
   font-size: 17px;
   font-weight: 700;
