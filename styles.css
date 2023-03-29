@@ -1211,7 +1211,7 @@ span.error {
     font-size: 32px;
     font-weight: 400;
     font-family: "Crete Round", sans-serif;
-    color: hsl(0, 0%, 100%);
+    color: #902727;
     margin: 0 !important;
   }
 
@@ -1529,7 +1529,8 @@ span.error {
   font-size: 32px;
   font-weight: 400;
   font-family: "Crete Round", sans-serif;
-  color: hsl(0, 0%, 100%);
+  color: #E94A4A;
+  background: transparent;
   margin: 0 !important;
 }
 
