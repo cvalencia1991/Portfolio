@@ -410,7 +410,7 @@ ul {
   font-weight: 500;
   font-size: 15px;
   line-height: 20px;
-  color: #6E7487;
+  color: #6e7487;
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -430,7 +430,7 @@ ul {
   font-size: 15px;
   line-height: 20px;
   display: flex;
-  color:hsl(218, 76%, 15%);
+  color: hsl(218, 76%, 15%);
   padding: 10px 12px;
   background: hsl(0, 0%, 100%);
   border: 1px solid hsl(218, 13%, 59%);
@@ -444,7 +444,7 @@ ul {
   font-weight: 500;
   font-size: 15px;
   line-height: 20px;
-  color: #6E7487;
+  color: #6e7487;
   background: transparent;
   flex: none;
   order: 0;
@@ -480,7 +480,7 @@ ul {
   font-weight: 500;
   font-size: 15px;
   line-height: 20px;
-  color: #6E7487;
+  color: #6e7487;
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -922,12 +922,11 @@ span.error {
   color: red;
 }
 
-.line2{
+.line2 {
   width: 100%;
   height: 1px;
   background: white;
   display: flex;
-
   flex-direction: column;
   margin-top: 21em;
 }
@@ -1204,7 +1203,7 @@ span.error {
 
   .lay-on-top {
     position: absolute;
-    background-image: linear-gradient( to bottom, hsl(0deg 0% 0% / 77%) 10%, hsl(0deg 0% 12.97%) );
+    background-image: linear-gradient(to bottom, hsl(0deg 0% 0% / 77%) 10%, hsl(0deg 0% 12.97%));
     inset: 0;
     padding: 16px;
     padding-top: 5em;
@@ -1214,7 +1213,7 @@ span.error {
     font-size: 32px;
     font-weight: 400;
     font-family: "Crete Round", sans-serif;
-    color: #DA7510;
+    color: #da7510;
     margin: 0 !important;
   }
 
@@ -1480,8 +1479,7 @@ span.error {
     width: 46%;
   }
 
-
-  .styleResume{
+  .styleResume {
     display: flex;
     margin-top: 5em;
   }
@@ -1523,7 +1521,7 @@ span.error {
 
 .lay-on-top {
   position: absolute;
-  background-image: linear-gradient( to bottom, hsl(0deg 0% 0% / 77%) 10%, hsl(0deg 0% 12.97%) );
+  background-image: linear-gradient(to bottom, hsl(0deg 0% 0% / 77%) 10%, hsl(0deg 0% 12.97%));
   inset: 0;
   padding: 16px;
   padding-top: 5em;
@@ -1533,7 +1531,7 @@ span.error {
   font-size: 32px;
   font-weight: 400;
   font-family: "Crete Round", sans-serif;
-  color: #DA7510;
+  color: #da7510;
   background: transparent;
   margin: 0 !important;
 }
@@ -1541,7 +1539,7 @@ span.error {
 .description {
   font-size: 17px;
   font-weight: 400;
-  color: #6E7487;
+  color: #6e7487;
   max-width: 32ch;
   background: transparent;
   height: min-content !important;
@@ -1595,7 +1593,7 @@ span.error {
   border-color: #ff3860;
 }
 
-.styleResume{
+.styleResume {
   display: flex;
   margin-top: 9em;
 }
