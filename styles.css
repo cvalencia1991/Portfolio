@@ -1203,10 +1203,10 @@ span.error {
 
   .lay-on-top {
     position: absolute;
-    background-image: linear-gradient( to bottom, hsl(0deg 0% 0% / 64%) 10%, hsl(0, 1%, 15%) );
+    background-image: linear-gradient( to bottom, hsl(0deg 0% 0% / 74%) 10%, hsl(0, 1%, 15%) );
     inset: 0;
     padding: 16px;
-    padding-top: 120px;
+    padding-top: 5em;
   }
 
   .card-header {
@@ -1478,6 +1478,12 @@ span.error {
   .aboutme p {
     width: 46%;
   }
+
+
+  .styleResume{
+    display: flex;
+    margin-top: 5em;
+  }
 }
 
 .grid2 {
@@ -1516,10 +1522,10 @@ span.error {
 
 .lay-on-top {
   position: absolute;
-  background-image: linear-gradient( to bottom, hsl(0deg 0% 0% / 64%) 10%, hsl(0, 1%, 15%) );
+  background-image: linear-gradient( to bottom, hsl(0deg 0% 0% / 74%) 10%, hsl(0, 1%, 15%) );
   inset: 0;
   padding: 16px;
-  padding-top: 120px;
+  padding-top: 5em;
 }
 
 .card-header {
@@ -1534,7 +1540,7 @@ span.error {
 .description {
   font-size: 17px;
   font-weight: 400;
-  color: hsl(0, 0%, 100%);
+  color: #6E7487;
   max-width: 32ch;
   background: transparent;
   height: min-content !important;
@@ -1590,5 +1596,5 @@ span.error {
 
 .styleResume{
   display: flex;
-  margin-top: 5%;
+  margin-top: 9em;
 }
