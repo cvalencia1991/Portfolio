@@ -517,17 +517,22 @@ ul {
   align-items: center;
   width: 134px;
   height: 48px;
-  background: #E05E00;
   flex: none;
   order: 3;
   flex-grow: 0;
-  color: white;
+  background: #673E26;
+  color:white;
   border: 1px solid transparent;
   cursor: pointer;
   justify-content: center;
   flex-wrap: nowrap;
   border-radius: 5px;
 }
+
+.seeProject{
+  color: white;
+}
+
 
 .btnseeproyect:hover {
   background: hsl(0, 0%, 100%);
@@ -538,7 +543,7 @@ ul {
 
 .btnseeproyect:focus {
   background-color: hsl(0, 0%, 100%);
-  border: 1px solid #ff6905;
+  border: 1px solid #673E26;
 }
 
 .btnseeproyect2 {
@@ -551,7 +556,7 @@ ul {
   align-items: center;
   width: 369px;
   height: 58px;
-  background-color: #E05E00;
+  background-color: #673E26;
   flex: none;
   order: 3;
   flex-grow: 0;
@@ -566,11 +571,11 @@ ul {
   background-color: hsl(0, 0%, 100%);
   display: none;
   color: #673E26;
-  border: 1px solid #E05E00;
+  border: 1px solid #673E26;
 }
 
 .btnseeproyect2:focus {
-  background-color: #E05E00;
+  background-color: #673E26;
 }
 
 .grid {
@@ -1144,7 +1149,8 @@ span.error {
     flex: none;
     justify-content: center;
     border: transparent;
-    background-color: #673E26;
+    background: #673E26;
+    color:white
   }
 
   .grid {
