@@ -1252,7 +1252,6 @@ span.error {
     font-size: 17px;
     font-weight: 400;
     color: hsl(0, 0%, 100%);
-    max-width: 32ch;
     height: min-content !important;
   }
 
@@ -1572,7 +1571,6 @@ span.error {
   font-size: 17px;
   font-weight: 400;
   color: #6e7487;
-  max-width: 32ch;
   background: transparent;
   height: min-content !important;
 }
