@@ -183,6 +183,7 @@ h2:not([class]) {
   background-color: white;
   margin: auto;
   padding: 16px;
+  width: 95%;
   margin-bottom: 80px;
   -webkit-animation-name: animarsuperior;
   -webkit-animation-duration: 0.5s;
@@ -234,7 +235,7 @@ ul {
 
 .imgprincipal {
   display: flex;
-  width: 327px;
+  width: 100%;
   height: 179px;
   background-image: url('./imgs/doctorsReservation.jpg');
   background-repeat: no-repeat;
@@ -252,7 +253,6 @@ ul {
 
 .grid4 {
   display: flex;
-  align-items: flex-start;
   flex-direction: column;
   gap: 24px;
 }
@@ -477,7 +477,7 @@ ul {
 }
 
 .ruby {
-  width: 5em;
+  width: 6em;
   height: 40px;
   font-family: "Inter", sans-serif;
   font-style: normal;
@@ -1251,6 +1251,7 @@ span.error {
   .description {
     font-size: 17px;
     font-weight: 400;
+    width: 100%;
     color: hsl(0, 0%, 100%);
     height: min-content !important;
   }
@@ -1556,6 +1557,9 @@ span.error {
   inset: 0;
   padding: 16px;
   padding-top: 5em;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
 }
 
 .card-header {
@@ -1570,6 +1574,7 @@ span.error {
 .description {
   font-size: 17px;
   font-weight: 400;
+  width: 100%;
   color: #6e7487;
   background: transparent;
   height: min-content !important;
