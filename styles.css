@@ -60,7 +60,7 @@ a:hover {
   flex-direction: column;
   align-items: flex-start;
   height: 45em;
-  width: 98%;
+  width: 100%;
   background-color: #1c1a19;
   background-image: url("./imgs/backgimage.png");
   background-repeat: no-repeat;
@@ -71,6 +71,7 @@ a:hover {
 
 .content {
   margin-top: 5em;
+  width: 100%;
 }
 
 .links {
@@ -206,7 +207,7 @@ h2:not([class]) {
 }
 
 .popupimage {
-  width: 93%;
+  width: 100%;
 }
 
 ul {
@@ -287,8 +288,8 @@ ul {
 }
 
 .intro1 {
-  width: 327px;
   height: 147px;
+  width: 90vw;
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -351,6 +352,7 @@ ul {
   justify-content: space-evenly;
   margin-top: 80px;
   margin-bottom: 24px;
+  flex-direction: column;
 }
 
 .letter2 {
@@ -1033,7 +1035,6 @@ span.error {
   }
 
   h2:not([class]) {
-    width: 566px;
     height: 24px;
     font-family: "Inter", sans-serif;
     font-style: normal;
@@ -1122,7 +1123,7 @@ span.error {
     gap: 24px;
     justify-content: center;
     align-items: flex-start;
-    margin: 20px;
+    width:100%;
   }
 
   .grid4 {
@@ -1151,7 +1152,7 @@ span.error {
   }
 
   .intro1 {
-    width: 456px;
+    width: 400px;
     height: 140px;
     font-family: "Inter", sans-serif;
     font-style: normal;
@@ -1423,7 +1424,7 @@ span.error {
     justify-content: center;
     padding-inline: 1em;
     margin-bottom: 7em;
-    width: 684px;
+    width: 50%;
     left: 50px;
     opacity: 0;
     transition: top 1.5s ease-in-out, opacity 0.5s ease-in-out;
@@ -1432,6 +1433,7 @@ span.error {
   .secondary-header.slide-in {
     left: 50px;
     opacity: 1;
+    width: 35%;
   }
 
   .contact-form.slide-in {
@@ -1464,7 +1466,7 @@ span.error {
     -webkit-animation-duration: 0.5s;
     animation-name: animarsuperior;
     animation-duration: 0.5s;
-    width: 80%;
+    width: 90%;
     height: 66%;
     margin-bottom: 100px;
     margin-top: 5em;
