@@ -213,6 +213,7 @@ h2:not([class]) {
 ul {
   align-items: center;
   display: flex;
+  justify-content: flex-start;
   padding: 1px;
   flex-wrap: nowrap;
   justify-content: center;
@@ -1273,6 +1274,8 @@ span.error {
 
   .technology {
     float: left;
+    display: flex;
+    justify-content: flex-start;
   }
 
   .card-btn {
