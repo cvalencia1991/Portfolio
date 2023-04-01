@@ -151,7 +151,6 @@ h4 {
 }
 
 h2:not([class]) {
-  width: 327px;
   height: 27px;
   font-family: "Roboto", sans-serif;
   font-style: normal;
@@ -253,7 +252,7 @@ ul {
 
 .grid4 {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   flex-direction: column;
   gap: 24px;
 }
@@ -331,7 +330,7 @@ ul {
 }
 
 .line {
-  width: 327px;
+  width: 90%;
   line-height: 52px;
   border: 1px solid hsl(0, 0%, 13%);
   background: hsl(0, 0%, 0%);
@@ -353,6 +352,7 @@ ul {
   margin-top: 80px;
   margin-bottom: 24px;
   flex-direction: column;
+  align-items: center;
 }
 
 .letter2 {
@@ -583,7 +583,6 @@ ul {
   display: flex;
   justify-content: space-between;
   flex-direction: column;
-  margin-left: 1em;
 }
 
 .links1 {
@@ -1201,10 +1200,10 @@ span.error {
 
   .grid2 {
     position: relative;
-    width: 369px;
     height: 450px;
     overflow: hidden;
     cursor: pointer;
+    width: 30vw;
   }
 
   .grid2 ul {
@@ -1521,15 +1520,14 @@ span.error {
 
 .grid2 {
   position: relative;
-  width: 369px;
   height: 450px;
   overflow: hidden;
   cursor: pointer;
 }
 
 .grid2 img {
-  width: 100%;
   height: 100%;
+  width: 100%;
 }
 
 .grid2 ul {
