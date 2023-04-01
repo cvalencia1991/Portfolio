@@ -207,7 +207,7 @@ h2:not([class]) {
 }
 
 .popupimage {
-  width: 100%;
+
 }
 
 ul {
@@ -1343,6 +1343,10 @@ span.error {
     align-items: flex-start;
   }
 
+  .popupimage {
+    width: 30%;
+  }
+
   .aboutme3 {
     width: 566px;
     height: 148px;
@@ -1508,9 +1512,7 @@ span.error {
     justify-content: space-between;
   }.grid2
 
-  .popupimage {
-    width: 38%;
-  }
+
 
   .aboutme p {
     width: 46%;
