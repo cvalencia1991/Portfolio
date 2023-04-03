@@ -1596,6 +1596,7 @@ span.error {
   padding: 0.9em;
   font-size: 17px;
   font-weight: 700;
+  width: 100%;
   cursor: pointer;
 }
 
