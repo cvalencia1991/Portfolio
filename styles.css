@@ -206,14 +206,9 @@ h2:not([class]) {
   flex-direction: column;
 }
 
-.popupimage {
-
-}
-
 ul {
   align-items: center;
   display: flex;
-  justify-content: flex-start;
   padding: 1px;
   flex-wrap: nowrap;
   justify-content: center;
@@ -275,7 +270,7 @@ ul {
 .letter {
   font-style: normal;
   font-weight: 400;
-  font-size: 32px;
+  font-size: 1.5em;
   line-height: 44px;
   display: flex;
   align-items: center;
@@ -352,7 +347,6 @@ ul {
   justify-content: space-evenly;
   margin-top: 80px;
   margin-bottom: 24px;
-  flex-direction: column;
   align-items: center;
 }
 
@@ -604,7 +598,7 @@ ul {
   flex-direction: column;
   align-items: flex-start;
   padding: 24px;
-  width:100%;
+  width: 100%;
   background-color: #1c1a19;
 }
 
@@ -1124,7 +1118,7 @@ span.error {
     gap: 24px;
     justify-content: center;
     align-items: flex-start;
-    width:100%;
+    width: 100%;
   }
 
   .grid4 {
@@ -1205,7 +1199,7 @@ span.error {
     height: 450px;
     overflow: hidden;
     cursor: pointer;
-    width: 30vw;
+    width: 23em;
   }
 
   .grid2 ul {
@@ -1518,7 +1512,7 @@ span.error {
 
   .styleResume {
     display: flex;
-    margin-top: 5em;
+    margin-top: 9em;
   }
 }
 
@@ -1635,5 +1629,5 @@ span.error {
 
 .styleResume {
   display: flex;
-  margin-top: 9em;
+  margin-top: 10%;
 }
