@@ -189,6 +189,7 @@ h2:not([class]) {
   -webkit-animation-duration: 0.5s;
   animation-name: animarsuperior;
   animation-duration: 0.5s;
+  overflow: auto;
 }
 
 .textoModal {
