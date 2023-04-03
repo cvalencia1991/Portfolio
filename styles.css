@@ -949,7 +949,7 @@ span.error {
 
 .styleResume {
   display: flex;
-  margin-top: 15%;
+  margin-top: 5%;
 }
 
 @media screen and (min-width: 768px) {
