@@ -947,6 +947,11 @@ span.error {
   border: 2px solid #673e26;
 }
 
+.styleResume {
+  display: flex;
+  margin-top: 15%;
+}
+
 @media screen and (min-width: 768px) {
   .logo {
     transition: 0.3s ease-in-out;
@@ -1361,6 +1366,11 @@ span.error {
     width: 100%;
   }
 
+  .styleResume {
+    display: flex;
+    margin-top: 5%;
+  }
+
   .btnseeproyect3 {
     font-family: "Inter", sans-serif;
     font-style: normal;
@@ -1509,12 +1519,10 @@ span.error {
 
   .aboutme p {
     width: 46%;
+    height: 30%;
   }
 
-  .styleResume {
-    display: flex;
-    margin-top: 5em;
-  }
+
 }
 
 .grid2 {
@@ -1629,7 +1637,4 @@ span.error {
   border-color: #ff3860;
 }
 
-.styleResume {
-  display: flex;
-  margin-top: 15%;
-}
+
