@@ -1510,9 +1510,7 @@ span.error {
     display: flex;
     align-items: center;
     justify-content: space-between;
-  }.grid2
-
-
+  }
 
   .aboutme p {
     width: 46%;
@@ -1529,6 +1527,7 @@ span.error {
   height: 480px;
   overflow: hidden;
   cursor: pointer;
+  margin: 7%;
 }
 
 .grid2 img {
