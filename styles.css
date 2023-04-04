@@ -30,7 +30,7 @@ a {
 }
 
 a:hover {
-  color: #6f6c6b;
+  color: black;
 }
 
 #Deploy_menu {
@@ -60,6 +60,7 @@ a:hover {
   flex-direction: column;
   align-items: flex-start;
   height: 45em;
+  width: 100%;
   background-color: #1c1a19;
   background-image: url("./imgs/backgimage.png");
   background-repeat: no-repeat;
@@ -70,6 +71,7 @@ a:hover {
 
 .content {
   margin-top: 5em;
+  width: 100%;
 }
 
 .links {
@@ -127,6 +129,7 @@ a:hover {
   background: #3c3a39;
   color: hsl(0, 0%, 100%);
   padding: 1em;
+  width: 100%;
 }
 
 h1,
@@ -148,7 +151,6 @@ h4 {
 }
 
 h2:not([class]) {
-  width: 327px;
   height: 27px;
   font-family: "Roboto", sans-serif;
   font-style: normal;
@@ -181,11 +183,13 @@ h2:not([class]) {
   background-color: white;
   margin: auto;
   padding: 16px;
+  width: 95%;
   margin-bottom: 80px;
   -webkit-animation-name: animarsuperior;
   -webkit-animation-duration: 0.5s;
   animation-name: animarsuperior;
   animation-duration: 0.5s;
+  overflow: auto;
 }
 
 .textoModal {
@@ -201,10 +205,6 @@ h2:not([class]) {
   display: flex;
   margin-top: 1em;
   flex-direction: column;
-}
-
-.popupimage {
-  width: 21em;
 }
 
 ul {
@@ -232,7 +232,7 @@ ul {
 
 .imgprincipal {
   display: flex;
-  width: 327px;
+  width: 100%;
   height: 179px;
   background-image: url('./imgs/doctorsReservation.jpg');
   background-repeat: no-repeat;
@@ -250,7 +250,6 @@ ul {
 
 .grid4 {
   display: flex;
-  align-items: center;
   flex-direction: column;
   gap: 24px;
 }
@@ -272,7 +271,7 @@ ul {
 .letter {
   font-style: normal;
   font-weight: 400;
-  font-size: 32px;
+  font-size: 1.5em;
   line-height: 44px;
   display: flex;
   align-items: center;
@@ -285,8 +284,8 @@ ul {
 }
 
 .intro1 {
-  width: 327px;
   height: 147px;
+  width: 90vw;
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -328,7 +327,7 @@ ul {
 }
 
 .line {
-  width: 327px;
+  width: 90%;
   line-height: 52px;
   border: 1px solid hsl(0, 0%, 13%);
   background: hsl(0, 0%, 0%);
@@ -349,6 +348,7 @@ ul {
   justify-content: space-evenly;
   margin-top: 80px;
   margin-bottom: 24px;
+  align-items: center;
 }
 
 .letter2 {
@@ -473,7 +473,7 @@ ul {
 }
 
 .ruby {
-  width: 5em;
+  width: 6em;
   height: 40px;
   font-family: "Inter", sans-serif;
   font-style: normal;
@@ -579,7 +579,6 @@ ul {
   display: flex;
   justify-content: space-between;
   flex-direction: column;
-  margin-left: 1em;
 }
 
 .links1 {
@@ -600,6 +599,7 @@ ul {
   flex-direction: column;
   align-items: flex-start;
   padding: 24px;
+  width: 100%;
   background-color: #1c1a19;
 }
 
@@ -931,9 +931,41 @@ span.error {
   margin-top: 21em;
 }
 
+.recentProject {
+  background: #673e26;
+  width: 7em;
+  border-radius: 4px;
+  display: flex;
+  height: 3em;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.recentProject:hover {
+  background: white;
+  border: 2px solid #673e26;
+}
+
+.styleResume {
+  display: flex;
+  margin-top: 5%;
+}
+
 @media screen and (min-width: 768px) {
   .logo {
     transition: 0.3s ease-in-out;
+  }
+
+  .recentProject {
+    background: #673e26;
+    width: 7em;
+    border-radius: 4px;
+    display: flex;
+    height: 3em;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
   }
 
   .logo:hover {
@@ -977,7 +1009,8 @@ span.error {
     height: 72px;
     display: flex;
     align-items: center;
-    padding: 1px 151px;
+    padding-left: 150px;
+    padding-right: 150px;
   }
 
   .navbardesktop {
@@ -1003,7 +1036,6 @@ span.error {
   }
 
   h2:not([class]) {
-    width: 566px;
     height: 24px;
     font-family: "Inter", sans-serif;
     font-style: normal;
@@ -1045,6 +1077,7 @@ span.error {
 
   .proyects {
     display: flex;
+    width: 100%;
     gap: 24px;
   }
 
@@ -1091,7 +1124,7 @@ span.error {
     gap: 24px;
     justify-content: center;
     align-items: flex-start;
-    margin: 20px;
+    width: 100%;
   }
 
   .grid4 {
@@ -1120,7 +1153,7 @@ span.error {
   }
 
   .intro1 {
-    width: 456px;
+    width: 400px;
     height: 140px;
     font-family: "Inter", sans-serif;
     font-style: normal;
@@ -1169,10 +1202,10 @@ span.error {
 
   .grid2 {
     position: relative;
-    width: 369px;
     height: 450px;
     overflow: hidden;
     cursor: pointer;
+    width: 23em;
   }
 
   .grid2 ul {
@@ -1220,8 +1253,8 @@ span.error {
   .description {
     font-size: 17px;
     font-weight: 400;
+    width: 100%;
     color: hsl(0, 0%, 100%);
-    max-width: 32ch;
     height: min-content !important;
   }
 
@@ -1242,6 +1275,8 @@ span.error {
 
   .technology {
     float: left;
+    display: flex;
+    justify-content: flex-start;
   }
 
   .card-btn {
@@ -1308,6 +1343,10 @@ span.error {
     align-items: flex-start;
   }
 
+  .popupimage {
+    width: 30%;
+  }
+
   .aboutme3 {
     width: 566px;
     height: 148px;
@@ -1325,6 +1364,11 @@ span.error {
     background: hsl(0, 0%, 100%);
     margin-top: 139px;
     width: 100%;
+  }
+
+  .styleResume {
+    display: flex;
+    margin-top: 5%;
   }
 
   .btnseeproyect3 {
@@ -1392,7 +1436,7 @@ span.error {
     justify-content: center;
     padding-inline: 1em;
     margin-bottom: 7em;
-    width: 684px;
+    width: 50%;
     left: 50px;
     opacity: 0;
     transition: top 1.5s ease-in-out, opacity 0.5s ease-in-out;
@@ -1401,6 +1445,7 @@ span.error {
   .secondary-header.slide-in {
     left: 50px;
     opacity: 1;
+    width: 35%;
   }
 
   .contact-form.slide-in {
@@ -1433,7 +1478,7 @@ span.error {
     -webkit-animation-duration: 0.5s;
     animation-name: animarsuperior;
     animation-duration: 0.5s;
-    width: 80%;
+    width: 90%;
     height: 66%;
     margin-bottom: 100px;
     margin-top: 5em;
@@ -1449,6 +1494,7 @@ span.error {
     font-size: 16px;
     line-height: 30px;
     margin-top: 50px;
+    width: 90%;
   }
 
   .popupdesktop {
@@ -1471,31 +1517,23 @@ span.error {
     justify-content: space-between;
   }
 
-  .popupimage {
-    width: 21em;
-  }
-
   .aboutme p {
     width: 46%;
-  }
-
-  .styleResume {
-    display: flex;
-    margin-top: 5em;
+    height: 30%;
   }
 }
 
 .grid2 {
   position: relative;
-  width: 369px;
-  height: 450px;
+  height: 520px;
   overflow: hidden;
   cursor: pointer;
+  margin: 3%;
 }
 
 .grid2 img {
-  width: 100%;
   height: 100%;
+  width: 100%;
 }
 
 .grid2 ul {
@@ -1525,6 +1563,9 @@ span.error {
   inset: 0;
   padding: 16px;
   padding-top: 5em;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
 }
 
 .card-header {
@@ -1539,8 +1580,8 @@ span.error {
 .description {
   font-size: 17px;
   font-weight: 400;
+  width: 100%;
   color: #6e7487;
-  max-width: 32ch;
   background: transparent;
   height: min-content !important;
 }
@@ -1561,6 +1602,7 @@ span.error {
   padding: 0.9em;
   font-size: 17px;
   font-weight: 700;
+  width: 100%;
   cursor: pointer;
 }
 
@@ -1591,9 +1633,4 @@ span.error {
 
 .email.error input {
   border-color: #ff3860;
-}
-
-.styleResume {
-  display: flex;
-  margin-top: 9em;
 }
